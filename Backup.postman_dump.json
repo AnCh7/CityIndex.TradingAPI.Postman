@@ -4,7 +4,7 @@
 		{
 			"id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
 			"name": "CityIndex.TradingAPI",
-			"description": "",
+			"description": "The first part of the CIAPI uses the software architecture style of Representational State Transfer (REST). This is one of the standard web service methods to communicate over the internet with remote servers.\r\n\r\nThe CIAPI RESTful implementation uses the Secure Hypertext Transfer Protocol (HTTPS) for communication between our back-end and your trading solution (client UI application). Request / response calls initiated by the client UI application must follow a simplified RESTful pattern supporting GET and POST, and encoding data in JavaScript object notation (JSON).\r\n\r\nTypically, requests for information such as: available markets, historical prices, and account history are exposed via HTTPS GET requests. Requests that change state such as: placing a trade or logging on are performed using HTTPS POST.",
 			"order": [],
 			"folders": [
 				{
@@ -30,6 +30,30 @@
 					"collection": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
 					"owner": "444687",
 					"collection_id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4"
+				},
+				{
+					"id": "76d1e111-4939-28be-3e97-194b22859d37",
+					"name": "Client Application",
+					"description": "",
+					"write": true,
+					"order": [
+						"b2064942-eca9-9dc2-7b3d-5ee263dbeee7"
+					],
+					"collection": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"owner": "444687",
+					"collection_id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4"
+				},
+				{
+					"id": "b0afc1df-b926-aab5-6518-0e79d6134721",
+					"name": "Market",
+					"description": "",
+					"write": true,
+					"order": [
+						"261366df-1263-b16b-1eea-19f9352f63d4"
+					],
+					"collection": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"owner": "444687",
+					"collection_id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4"
 				}
 			],
 			"timestamp": 1463475826996,
@@ -41,9 +65,141 @@
 			"remoteLink": "",
 			"public": false,
 			"createdAt": 1463475826996,
-			"updatedAt": 1463476294712,
+			"updatedAt": 1463481066132,
 			"write": true,
 			"requests": [
+				{
+					"id": "261366df-1263-b16b-1eea-19f9352f63d4",
+					"headers": "",
+					"url": "https://ciapi.cityindex.com/TradingAPI/session",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463482475003,
+					"name": "GetMarketInformation",
+					"description": "Get Market Information for the single specified market supplied in the parameter.\n\nThe following request to the Live CIAPI environment retrieves the market information for Gold DFT, which has the ID 400616377. HTTP GET does not use the body. Parameters should be added in the query string.\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the market information for the requested market in JSON format (AccountInformationResponseDTO).",
+					"collectionId": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 249,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "3227",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 17 May 2016 10:46:10 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "ETag",
+									"key": "ETag",
+									"value": "W/\"e0cd134d6abb4204b0ad133374b3daa9\"",
+									"description": "An identifier for a specific version of a resource, often a message digest"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "User-Cache-Control",
+									"key": "User-Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s2005.p0-mow ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"MarketInformation\":{\"MarketId\":99500,\"Name\":\"UK 100 CFD\",\"ExchangeId\":400000063,\"ExchangeName\":\"ICE Futures Europe - Financial\",\"MarginFactor\":1.00000000,\"MinMarginFactor\":null,\"MaxMarginFactor\":null,\"ClientMarginFactor\":null,\"MarginFactorUnits\":26,\"MinDistance\":0.00000,\"MinDistanceUnits\":27,\"WebMinSize\":1.00000000,\"MaxSize\":2000.00000000,\"MarketSizesCurrencyCode\":\"GBP\",\"MaxLongSize\":500.000000000,\"MaxShortSize\":500.000000000,\"Market24H\":true,\"PriceDecimalPlaces\":1,\"DefaultQuoteLength\":180,\"TradeOnWeb\":true,\"LimitUp\":false,\"LimitDown\":false,\"LongPositionOnly\":false,\"CloseOnly\":false,\"MarketEod\":[],\"PriceTolerance\":2.0,\"ConvertPriceToPipsMultiplier\":10000,\"MarketSettingsTypeId\":2,\"MarketSettingsType\":\"CFD\",\"MobileShortName\":\"UK 100\",\"CentralClearingType\":\"No\",\"CentralClearingTypeDescription\":\"None\",\"MarketCurrencyId\":6,\"PhoneMinSize\":2.00000000,\"DailyFinancingAppliedAtUtc\":\"\\/Date(1463432400000)\\/\",\"NextMarketEodTimeUtc\":\"\\/Date(1463432400000)\\/\",\"TradingStartTimeUtc\":null,\"TradingEndTimeUtc\":null,\"MarketPricingTimes\":[{\"DayOfWeek\":1,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":2,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":3,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":4,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":5,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}}],\"MarketBreakTimes\":[],\"MarketSpreads\":[{\"SpreadTimeUtc\":\"\\/Date(1463515140000)\\/\",\"Spread\":6.000000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463468340000)\\/\",\"Spread\":1.000000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463499000000)\\/\",\"Spread\":1.500000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463464800000)\\/\",\"Spread\":1.500000000,\"SpreadUnits\":27}],\"GuaranteedOrderPremium\":3.00,\"GuaranteedOrderPremiumUnits\":1,\"GuaranteedOrderMinDistance\":5.00000,\"GuaranteedOrderMinDistanceUnits\":26,\"PriceToleranceUnits\":1.000000000,\"MarketTimeZoneOffsetMinutes\":60,\"QuantityConversionFactor\":1.00000000,\"PointFactorDivisor\":100,\"BetPer\":1.00000,\"MarketUnderlyingTypeId\":2,\"MarketUnderlyingType\":\"Index\",\"AllowGuaranteedOrders\":true,\"OrdersAwareMargining\":true,\"OrdersAwareMarginingMinimum\":75.00,\"CommissionChargeMinimum\":null,\"CommissionRate\":null,\"CommissionRateUnits\":null,\"ExpiryUtc\":null,\"FutureRolloverUTC\":null,\"AllowRollover\":false,\"ExpiryBasisId\":1,\"ExpiryBasisText\":\"\",\"StepMargin\":{\"EligibleForStepMargin\":false,\"StepMarginConfigured\":false,\"InheritedFromParentAccountOperator\":false,\"Bands\":null},\"OptionTypeId\":null,\"OptionType\":null,\"StrikePrice\":null,\"MarketTypeId\":2,\"MarketType\":\"Ordinary Market\",\"Weighting\":300,\"FxFinancing\":null,\"UnderlyingRicCode\":\"FFI\",\"NewsUnderlyingOverrideType\":\"Companies\",\"NewsUnderlyingOverrideCode\":\".FTSE\"}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "75198442-18a2-10a0-cad7-bd13fd3cf497",
+							"name": "GetMarketInformationResponseDTO",
+							"request": {
+								"url": "https://ciapi.cityindex.com/TradingAPI/market/99500/information",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"type": "text",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"type": "text",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
 				{
 					"id": "54273684-cb06-3221-446c-0d5947cf6925",
 					"headers": "Content-Type: application/json\n",
@@ -56,15 +212,248 @@
 					"tests": "var data = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"Session\", data.Session);",
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463477628273,
+					"time": 1463481929145,
 					"name": "LogOn",
-					"description": "",
+					"description": "Create a new session. This is how you \"log on\" to the CIAPI.\n\nThe following request to the Live CIAPI environment logs in to your account using the example credentials of Username as \"DM123456\" and password as \"openthedoor\".\n\nThe AppKey required to use the CIAPI is sent to you once you have returned the signed terms and conditions of the CIAPI to our Partnerships team:\n\n(PartnershipServices[at]cityindex.com).\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiLogOnResponseDTO in JSON format.",
 					"collectionId": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
-					"responses": []
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 493,
+							"headers": [
+								{
+									"name": "Access-Control-Allow-Origin",
+									"key": "Access-Control-Allow-Origin",
+									"value": "*",
+									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+								},
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "112",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 17 May 2016 09:52:39 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "nc h0-s1035.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"Session\":\"509b20d2-e05d-4df1-964f-615ba11d1b7f\",\"PasswordChangeRequired\":false,\"AllowedAccountOperator\":false}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "58bc8a63-0b8c-d6c9-80f7-344e97de597c",
+							"name": "ApiLogOnResponseDTO",
+							"request": {
+								"url": "https://ciapi.cityindex.com/TradingAPI/session",
+								"headers": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"enabled": true,
+										"description": "The mime type of this content"
+									}
+								],
+								"data": "{\n\t\"AppComments\": \"Windows 10\",\n\t\"AppKey\": \"None\",\n\t\"AppVersion\": \"1.0.0.0\",\n\t\"Password\": \"password\",\n\t\"UserName\": \"10263668\"\n}",
+								"method": "POST",
+								"dataMode": "raw"
+							}
+						}
+					]
+				},
+				{
+					"id": "b2064942-eca9-9dc2-7b3d-5ee263dbeee7",
+					"headers": "",
+					"url": "https://ciapi.cityindex.com/TradingAPI/clientapplication/versioninformation?AppKey=ATC-CI&AccountOperatorId=0",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463481019706,
+					"name": "GetVersionInformation",
+					"description": "Gets version information for a specific client application and (optionally) account operator.",
+					"collectionId": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 149,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "145",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 17 May 2016 10:46:54 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s2005.p0-mow ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"MinimumRequiredVersion\":\"258\",\"LatestVersion\":\"327\",\"UpgradeUrl\":\"https://ciapi.cityindex.com/Download/AdvantageTrader/ATPro/ATProCISetup.exe\"}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "b2ffcb38-feab-5fc3-292e-60293410409f",
+							"name": "GetVersionInformationResponseDTO",
+							"request": {
+								"url": "https://ciapi.cityindex.com/TradingAPI/clientapplication/versioninformation?AppKey=ATC-CI&AccountOperatorId=0",
+								"headers": [],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
 				},
 				{
 					"id": "b5147300-24d4-549d-01ed-b1f22bb1052f",
-					"headers": "UserName: 10263668\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
 					"url": "https://ciapi.cityindex.com/TradingAPI/UserAccount/ClientAndTradingAccount",
 					"preRequestScript": null,
 					"pathVariables": {},
@@ -75,11 +464,123 @@
 					"tests": "",
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463477625727,
+					"time": 1463482473082,
 					"name": "GetClientAndTradingAccount",
-					"description": "",
+					"description": "Returns the User's ClientAccountId and a list of their TradingAccounts. There are no parameters for this call.\n\nThe following request to the Live CIAPI environment retrieves the client and account information after LogOn has been performed.\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the client and trading account information in JSON format (AccountInformationResponseDTO).\n",
 					"collectionId": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
-					"responses": []
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 221,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "499",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 17 May 2016 09:50:17 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s2005.p0-mow ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"LogonUserName\":\"様 Japan Test\",\"ClientAccountId\":400428567,\"CultureId\":16,\"ClientAccountCurrency\":\"JPY\",\"AccountOperatorId\":400784260,\"TradingAccounts\":[{\"TradingAccountId\":400594476,\"TradingAccountCode\":\"10263668\",\"TradingAccountStatus\":\"Open\",\"TradingAccountType\":\"CFD\"}],\"PersonalEmailAddress\":\"FObata@GAINCapital.com\",\"HasMultipleEmailAddresses\":false,\"AccountHolders\":[{\"LegalPartyId\":400861288,\"Name\":\"様 Japan Test\"}],\"ClientTypeId\":1,\"LinkedClientAccounts\":[],\"IsNfaEnabledClient\":false}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "a93f093e-1cfd-132b-a20c-9ed87241273f",
+							"name": "AccountInformationResponseDTO",
+							"request": {
+								"url": "https://ciapi.cityindex.com/TradingAPI/UserAccount/ClientAndTradingAccount",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "10263668",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
 				}
 			]
 		}
@@ -90,17 +591,44 @@
 			"name": "CityIndex.TradingAPI.Environment",
 			"values": [
 				{
+					"key": "UserName",
+					"value": "10263668",
+					"type": "text",
+					"enabled": true,
+					"hovered": false
+				},
+				{
 					"key": "Session",
-					"value": "643bf81e-fe05-4aab-9e0e-993ff82213a7",
+					"value": "c8f9f736-f350-4d0f-a7da-88fb89753656",
 					"type": "text",
 					"enabled": true,
 					"hovered": false
 				}
 			],
 			"team": null,
-			"timestamp": 1463477614999
+			"timestamp": 1463481861067
 		}
 	],
-	"headerPresets": [],
+	"headerPresets": [
+		{
+			"id": "a0b56fe4-f94f-63d2-daa1-b4d52b813744",
+			"name": "UserName_Session",
+			"headers": [
+				{
+					"key": "UserName",
+					"value": "{{UserName}}",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Session",
+					"value": "{{Session}}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"timestamp": 1463481354139
+		}
+	],
 	"globals": []
 }
