@@ -1,0 +1,106 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+			"name": "CityIndex.TradingAPI",
+			"description": "",
+			"order": [],
+			"folders": [
+				{
+					"id": "b7123327-2c59-a150-f13d-e0146dcd3b44",
+					"name": "Authentication",
+					"description": "",
+					"write": true,
+					"order": [
+						"54273684-cb06-3221-446c-0d5947cf6925"
+					],
+					"collection": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"owner": "444687",
+					"collection_id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4"
+				},
+				{
+					"id": "cce7486d-a0cd-7430-5620-b800d2c27f30",
+					"name": "Account Information",
+					"description": "",
+					"write": true,
+					"order": [
+						"b5147300-24d4-549d-01ed-b1f22bb1052f"
+					],
+					"collection": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"owner": "444687",
+					"collection_id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4"
+				}
+			],
+			"timestamp": 1463475826996,
+			"synced": false,
+			"remote_id": 0,
+			"owner": "444687",
+			"sharedWithTeam": false,
+			"subscribed": false,
+			"remoteLink": "",
+			"public": false,
+			"createdAt": 1463475826996,
+			"updatedAt": 1463476294712,
+			"write": true,
+			"requests": [
+				{
+					"id": "54273684-cb06-3221-446c-0d5947cf6925",
+					"headers": "Content-Type: application/json\n",
+					"url": "https://ciapi.cityindex.com/TradingAPI/session",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\n\t\"AppComments\": \"Windows 10\",\n\t\"AppKey\": \"None\",\n\t\"AppVersion\": \"1.0.0.0\",\n\t\"Password\": \"password\",\n\t\"UserName\": \"10263668\"\n}",
+					"dataMode": "raw",
+					"tests": "var data = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"Session\", data.Session);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463477628273,
+					"name": "LogOn",
+					"description": "",
+					"collectionId": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"responses": []
+				},
+				{
+					"id": "b5147300-24d4-549d-01ed-b1f22bb1052f",
+					"headers": "UserName: 10263668\nSession: {{Session}}\n",
+					"url": "https://ciapi.cityindex.com/TradingAPI/UserAccount/ClientAndTradingAccount",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463477625727,
+					"name": "GetClientAndTradingAccount",
+					"description": "",
+					"collectionId": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"responses": []
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "6033ddc7-4f8c-547d-1905-6469e1eed521",
+			"name": "CityIndex.TradingAPI.Environment",
+			"values": [
+				{
+					"key": "Session",
+					"value": "643bf81e-fe05-4aab-9e0e-993ff82213a7",
+					"type": "text",
+					"enabled": true,
+					"hovered": false
+				}
+			],
+			"team": null,
+			"timestamp": 1463477614999
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}
