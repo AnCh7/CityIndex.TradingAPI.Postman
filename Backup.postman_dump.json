@@ -2,88 +2,354 @@
 	"version": 1,
 	"collections": [
 		{
-			"id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+			"id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
 			"name": "CityIndex.TradingAPI",
 			"description": "The first part of the CIAPI uses the software architecture style of Representational State Transfer (REST). This is one of the standard web service methods to communicate over the internet with remote servers.\r\n\r\nThe CIAPI RESTful implementation uses the Secure Hypertext Transfer Protocol (HTTPS) for communication between our back-end and your trading solution (client UI application). Request / response calls initiated by the client UI application must follow a simplified RESTful pattern supporting GET and POST, and encoding data in JavaScript object notation (JSON).\r\n\r\nTypically, requests for information such as: available markets, historical prices, and account history are exposed via HTTPS GET requests. Requests that change state such as: placing a trade or logging on are performed using HTTPS POST.",
 			"order": [],
 			"folders": [
 				{
-					"id": "b7123327-2c59-a150-f13d-e0146dcd3b44",
+					"id": "63317a26-723d-e2fc-c3e5-c1d4ad3dcbd4",
 					"name": "Authentication",
 					"description": "",
 					"write": true,
 					"order": [
-						"54273684-cb06-3221-446c-0d5947cf6925"
+						"4f8ba6d1-47f9-cc85-3689-a1796b73c3de"
 					],
-					"collection": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
 					"owner": "444687",
-					"collection_id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4"
+					"collection_id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
 				},
 				{
-					"id": "cce7486d-a0cd-7430-5620-b800d2c27f30",
+					"id": "88024f6c-c9c4-913d-8733-7c43197a07df",
 					"name": "Account Information",
 					"description": "",
 					"write": true,
 					"order": [
-						"b5147300-24d4-549d-01ed-b1f22bb1052f"
+						"e1fc933e-7e34-9dba-9373-bc1ae8d4cd78"
 					],
-					"collection": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
 					"owner": "444687",
-					"collection_id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4"
+					"collection_id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
 				},
 				{
-					"id": "76d1e111-4939-28be-3e97-194b22859d37",
+					"id": "570a82f9-e1a0-43c5-1a91-d27bd260aefb",
 					"name": "Client Application",
 					"description": "",
 					"write": true,
 					"order": [
-						"b2064942-eca9-9dc2-7b3d-5ee263dbeee7"
+						"efafe86b-f46f-dbfc-671a-24a350c488f7"
 					],
-					"collection": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
 					"owner": "444687",
-					"collection_id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4"
+					"collection_id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
 				},
 				{
-					"id": "b0afc1df-b926-aab5-6518-0e79d6134721",
+					"id": "305c38f6-68e6-4c21-22ea-8cdc4cb46453",
 					"name": "Market",
 					"description": "",
 					"write": true,
 					"order": [
-						"261366df-1263-b16b-1eea-19f9352f63d4"
+						"941dcda5-d8e7-7795-ec05-1bbea1d37c65"
 					],
-					"collection": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
 					"owner": "444687",
-					"collection_id": "6a365b3f-639a-b625-4df5-a3c0923c1cb4"
+					"collection_id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
+				},
+				{
+					"id": "1d9b0045-5391-4e20-cad7-ca825e618398",
+					"name": "Price History",
+					"description": "",
+					"write": true,
+					"order": [
+						"50075d74-4efd-c981-e94b-2eb1c4d9de4f"
+					],
+					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+					"owner": "444687",
+					"collection_id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
 				}
 			],
 			"timestamp": 1463475826996,
-			"synced": false,
+			"synced": true,
 			"remote_id": 0,
 			"owner": "444687",
 			"sharedWithTeam": false,
 			"subscribed": false,
 			"remoteLink": "",
 			"public": false,
-			"createdAt": 1463475826996,
-			"updatedAt": 1463481066132,
+			"createdAt": 1463484773236,
+			"updatedAt": 1463485114720,
 			"write": true,
 			"requests": [
 				{
-					"id": "261366df-1263-b16b-1eea-19f9352f63d4",
-					"headers": "",
-					"url": "https://ciapi.cityindex.com/TradingAPI/session",
+					"id": "4f8ba6d1-47f9-cc85-3689-a1796b73c3de",
+					"owner": "444687",
+					"headers": "Content-Type: application/json\n",
+					"url": "{{Url}}/session",
 					"preRequestScript": null,
 					"pathVariables": {},
+					"method": "POST",
+					"data": "{\n\t\"AppComments\": \"Windows 10\",\n\t\"AppKey\": \"None\",\n\t\"AppVersion\": \"1.0.0.0\",\n\t\"Password\": \"password\",\n\t\"UserName\": \"10263668\"\n}",
+					"dataMode": "raw",
+					"tests": "var data = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"Session\", data.Session);",
+					"currentHelper": "normal",
+					"helperAttributes": "{}",
+					"time": 1463485160705,
+					"name": "LogOn",
+					"description": "Create a new session. This is how you \"log on\" to the CIAPI.\n\nThe following request to the Live CIAPI environment logs in to your account using the example credentials of Username as \"DM123456\" and password as \"openthedoor\".\n\nThe AppKey required to use the CIAPI is sent to you once you have returned the signed terms and conditions of the CIAPI to our Partnerships team:\n\n    (PartnershipServices[at]cityindex.com).\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiLogOnResponseDTO in JSON format.",
+					"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK"
+							},
+							"time": 493,
+							"headers": [
+								{
+									"name": "Access-Control-Allow-Origin",
+									"key": "Access-Control-Allow-Origin",
+									"value": "*",
+									"description": ""
+								},
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": ""
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": ""
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "112",
+									"description": ""
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": ""
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 17 May 2016 09:52:39 GMT",
+									"description": ""
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": ""
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": ""
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": ""
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": ""
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": ""
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "nc h0-s1035.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
+									"description": ""
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"Session\":\"509b20d2-e05d-4df1-964f-615ba11d1b7f\",\"PasswordChangeRequired\":false,\"AllowedAccountOperator\":false}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "8e5d5703-6ac8-a616-3778-cdaacf3b32cc",
+							"name": "ApiLogOnResponseDTO",
+							"request": "4f8ba6d1-47f9-cc85-3689-a1796b73c3de",
+							"owner": "444687",
+							"requestObject": "\"4f8ba6d1-47f9-cc85-3689-a1796b73c3de\"",
+							"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+							"requestId": "4f8ba6d1-47f9-cc85-3689-a1796b73c3de",
+							"folder": "63317a26-723d-e2fc-c3e5-c1d4ad3dcbd4"
+						}
+					],
+					"synced": true,
+					"folder": "63317a26-723d-e2fc-c3e5-c1d4ad3dcbd4",
+					"timestamp": null,
+					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
+				},
+				{
+					"id": "50075d74-4efd-c981-e94b-2eb1c4d9de4f",
+					"owner": "444687",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/market/:MarketId/barhistory?interval=HOUR&span=1&PriceBars=100",
+					"preRequestScript": null,
+					"pathVariables": {
+						"MarketId": "99500"
+					},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": "{}",
+					"time": 1463485473580,
+					"name": "GetPriceBars",
+					"description": "Get historic price bars for the specified market in OHLC (open, high, low, close) format, suitable for plotting in candlestick charts. Returns price bars in ascending order up to the current time. When there are no prices for a particular time period, no price bar is returned. Thus, it can appear that the array of price bars has \"gaps\", i.e. the gap between the date & time of each price bar might not be equal to interval x span.\r\n\r\nSample Urls:\r\n\r\n    /market/1234/history?interval=MINUTE&span=15&PriceBars=180\r\n    /market/735/history?interval=HOUR&span=1&PriceBars=240\r\n    /market/1577/history?interval=DAY&span=1&PriceBars=10\r\n    \r\nParameters\r\n\r\n        MarketId \tstring \tThe ID of the market.\r\n        interval \tstring \tThe pricebar interval.\r\n        span \t    integer The number of each interval per pricebar.\r\n        PriceBars \tinteger The total number of price bars to return. \r\n        priceType \tstring \tThe price type being requested. If left blank then the default setting returns the MID price. Possible values are: ASK, MID, BID.\r\n        \r\nThe following request to the Live CIAPI environment retrieves the 20 most recent 15 minute Bid price bars for the Wall Street CFD market (Market ID = 99498). HTTP GET does not use the body. Parameters should be added in the query string.\r\n\r\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.",
+					"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK"
+							},
+							"time": 195,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": ""
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": ""
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "9527",
+									"description": ""
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": ""
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 17 May 2016 11:42:58 GMT",
+									"description": ""
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": ""
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": ""
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": ""
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": ""
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": ""
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s2005.p0-mow ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": ""
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"PriceBars\":[{\"BarDate\":\"\\/Date(1462946400000)\\/\",\"Open\":6150.0,\"High\":6153.3,\"Low\":6141.7,\"Close\":6146.0},{\"BarDate\":\"\\/Date(1462950000000)\\/\",\"Open\":6146.3,\"High\":6163.0,\"Low\":6133.1,\"Close\":6145.5},{\"BarDate\":\"\\/Date(1462953600000)\\/\",\"Open\":6145.0,\"High\":6146.3,\"Low\":6130.8,\"Close\":6145.0},{\"BarDate\":\"\\/Date(1462957200000)\\/\",\"Open\":6144.5,\"High\":6149.1,\"Low\":6138.4,\"Close\":6144.0},{\"BarDate\":\"\\/Date(1462960800000)\\/\",\"Open\":6143.9,\"High\":6153.3,\"Low\":6139.0,\"Close\":6153.3},{\"BarDate\":\"\\/Date(1462964400000)\\/\",\"Open\":6154.0,\"High\":6154.0,\"Low\":6141.4,\"Close\":6145.5},{\"BarDate\":\"\\/Date(1462968000000)\\/\",\"Open\":6145.4,\"High\":6153.5,\"Low\":6142.5,\"Close\":6153.5},{\"BarDate\":\"\\/Date(1462971600000)\\/\",\"Open\":6153.3,\"High\":6159.5,\"Low\":6141.2,\"Close\":6142.5},{\"BarDate\":\"\\/Date(1462975200000)\\/\",\"Open\":6142.0,\"High\":6173.9,\"Low\":6132.5,\"Close\":6160.0},{\"BarDate\":\"\\/Date(1462978800000)\\/\",\"Open\":6159.5,\"High\":6169.3,\"Low\":6144.9,\"Close\":6164.6},{\"BarDate\":\"\\/Date(1462982400000)\\/\",\"Open\":6164.5,\"High\":6171.0,\"Low\":6162.0,\"Close\":6165.8},{\"BarDate\":\"\\/Date(1462986000000)\\/\",\"Open\":6166.0,\"High\":6167.3,\"Low\":6155.4,\"Close\":6155.5},{\"BarDate\":\"\\/Date(1462989600000)\\/\",\"Open\":6154.3,\"High\":6154.8,\"Low\":6139.8,\"Close\":6142.0},{\"BarDate\":\"\\/Date(1462993200000)\\/\",\"Open\":6142.3,\"High\":6150.8,\"Low\":6140.2,\"Close\":6140.9},{\"BarDate\":\"\\/Date(1462996800000)\\/\",\"Open\":6140.8,\"High\":6140.8,\"Low\":6129.3,\"Close\":6134.0},{\"BarDate\":\"\\/Date(1463000400000)\\/\",\"Open\":6133.5,\"High\":6133.5,\"Low\":6133.5,\"Close\":6133.5},{\"BarDate\":\"\\/Date(1463004000000)\\/\",\"Open\":6125.6,\"High\":6138.2,\"Low\":6125.1,\"Close\":6137.4},{\"BarDate\":\"\\/Date(1463007600000)\\/\",\"Open\":6138.1,\"High\":6139.8,\"Low\":6133.2,\"Close\":6133.3},{\"BarDate\":\"\\/Date(1463011200000)\\/\",\"Open\":6135.3,\"High\":6136.6,\"Low\":6130.8,\"Close\":6136.0},{\"BarDate\":\"\\/Date(1463014800000)\\/\",\"Open\":6135.8,\"High\":6141.5,\"Low\":6126.8,\"Close\":6128.2},{\"BarDate\":\"\\/Date(1463018400000)\\/\",\"Open\":6128.9,\"High\":6137.1,\"Low\":6128.5,\"Close\":6136.8},{\"BarDate\":\"\\/Date(1463022000000)\\/\",\"Open\":6136.6,\"High\":6139.1,\"Low\":6135.6,\"Close\":6138.4},{\"BarDate\":\"\\/Date(1463025600000)\\/\",\"Open\":6138.6,\"High\":6140.8,\"Low\":6138.3,\"Close\":6140.6},{\"BarDate\":\"\\/Date(1463029200000)\\/\",\"Open\":6140.4,\"High\":6144.8,\"Low\":6139.8,\"Close\":6144.6},{\"BarDate\":\"\\/Date(1463032800000)\\/\",\"Open\":6144.8,\"High\":6147.8,\"Low\":6123.3,\"Close\":6128.2},{\"BarDate\":\"\\/Date(1463036400000)\\/\",\"Open\":6127.9,\"High\":6128.6,\"Low\":6092.8,\"Close\":6124.5},{\"BarDate\":\"\\/Date(1463040000000)\\/\",\"Open\":6125.0,\"High\":6158.3,\"Low\":6110.9,\"Close\":6153.3},{\"BarDate\":\"\\/Date(1463043600000)\\/\",\"Open\":6153.8,\"High\":6176.5,\"Low\":6150.4,\"Close\":6176.0},{\"BarDate\":\"\\/Date(1463047200000)\\/\",\"Open\":6175.0,\"High\":6193.4,\"Low\":6167.6,\"Close\":6189.9},{\"BarDate\":\"\\/Date(1463050800000)\\/\",\"Open\":6190.0,\"High\":6195.1,\"Low\":6181.5,\"Close\":6189.8},{\"BarDate\":\"\\/Date(1463054400000)\\/\",\"Open\":6189.7,\"High\":6194.0,\"Low\":6173.5,\"Close\":6175.5},{\"BarDate\":\"\\/Date(1463058000000)\\/\",\"Open\":6175.4,\"High\":6178.0,\"Low\":6141.0,\"Close\":6141.0},{\"BarDate\":\"\\/Date(1463061600000)\\/\",\"Open\":6140.5,\"High\":6145.6,\"Low\":6106.5,\"Close\":6107.3},{\"BarDate\":\"\\/Date(1463065200000)\\/\",\"Open\":6106.5,\"High\":6109.3,\"Low\":6093.0,\"Close\":6095.5},{\"BarDate\":\"\\/Date(1463068800000)\\/\",\"Open\":6095.9,\"High\":6113.2,\"Low\":6089.0,\"Close\":6112.8},{\"BarDate\":\"\\/Date(1463072400000)\\/\",\"Open\":6113.0,\"High\":6118.5,\"Low\":6103.0,\"Close\":6117.8},{\"BarDate\":\"\\/Date(1463076000000)\\/\",\"Open\":6118.0,\"High\":6137.5,\"Low\":6118.0,\"Close\":6132.8},{\"BarDate\":\"\\/Date(1463079600000)\\/\",\"Open\":6133.0,\"High\":6133.4,\"Low\":6114.0,\"Close\":6120.8},{\"BarDate\":\"\\/Date(1463083200000)\\/\",\"Open\":6121.0,\"High\":6121.4,\"Low\":6113.2,\"Close\":6119.1},{\"BarDate\":\"\\/Date(1463086800000)\\/\",\"Open\":6118.6,\"High\":6118.6,\"Low\":6118.6,\"Close\":6118.6},{\"BarDate\":\"\\/Date(1463090400000)\\/\",\"Open\":6116.9,\"High\":6117.1,\"Low\":6112.9,\"Close\":6113.8},{\"BarDate\":\"\\/Date(1463094000000)\\/\",\"Open\":6114.7,\"High\":6120.6,\"Low\":6114.7,\"Close\":6119.7},{\"BarDate\":\"\\/Date(1463097600000)\\/\",\"Open\":6124.3,\"High\":6127.1,\"Low\":6109.4,\"Close\":6109.8},{\"BarDate\":\"\\/Date(1463101200000)\\/\",\"Open\":6110.0,\"High\":6110.3,\"Low\":6099.1,\"Close\":6100.9},{\"BarDate\":\"\\/Date(1463104800000)\\/\",\"Open\":6100.4,\"High\":6101.4,\"Low\":6091.4,\"Close\":6093.2},{\"BarDate\":\"\\/Date(1463108400000)\\/\",\"Open\":6092.9,\"High\":6096.5,\"Low\":6091.1,\"Close\":6092.3},{\"BarDate\":\"\\/Date(1463112000000)\\/\",\"Open\":6091.8,\"High\":6094.0,\"Low\":6091.4,\"Close\":6094.0},{\"BarDate\":\"\\/Date(1463115600000)\\/\",\"Open\":6094.3,\"High\":6095.2,\"Low\":6091.4,\"Close\":6092.2},{\"BarDate\":\"\\/Date(1463119200000)\\/\",\"Open\":6091.5,\"High\":6096.8,\"Low\":6083.4,\"Close\":6083.4},{\"BarDate\":\"\\/Date(1463122800000)\\/\",\"Open\":6082.8,\"High\":6095.6,\"Low\":6061.0,\"Close\":6081.0},{\"BarDate\":\"\\/Date(1463126400000)\\/\",\"Open\":6080.7,\"High\":6085.0,\"Low\":6061.9,\"Close\":6062.6},{\"BarDate\":\"\\/Date(1463130000000)\\/\",\"Open\":6062.5,\"High\":6076.0,\"Low\":6059.4,\"Close\":6066.5},{\"BarDate\":\"\\/Date(1463133600000)\\/\",\"Open\":6066.0,\"High\":6083.0,\"Low\":6064.8,\"Close\":6081.3},{\"BarDate\":\"\\/Date(1463137200000)\\/\",\"Open\":6081.0,\"High\":6086.4,\"Low\":6074.0,\"Close\":6074.0},{\"BarDate\":\"\\/Date(1463140800000)\\/\",\"Open\":6073.6,\"High\":6104.6,\"Low\":6073.0,\"Close\":6087.5},{\"BarDate\":\"\\/Date(1463144400000)\\/\",\"Open\":6087.2,\"High\":6128.8,\"Low\":6082.0,\"Close\":6114.0},{\"BarDate\":\"\\/Date(1463148000000)\\/\",\"Open\":6115.1,\"High\":6122.9,\"Low\":6101.5,\"Close\":6121.5},{\"BarDate\":\"\\/Date(1463151600000)\\/\",\"Open\":6121.0,\"High\":6143.6,\"Low\":6119.0,\"Close\":6125.5},{\"BarDate\":\"\\/Date(1463155200000)\\/\",\"Open\":6126.6,\"High\":6132.0,\"Low\":6114.3,\"Close\":6115.7},{\"BarDate\":\"\\/Date(1463158800000)\\/\",\"Open\":6115.6,\"High\":6122.0,\"Low\":6098.5,\"Close\":6102.3},{\"BarDate\":\"\\/Date(1463162400000)\\/\",\"Open\":6101.7,\"High\":6107.1,\"Low\":6085.5,\"Close\":6090.0},{\"BarDate\":\"\\/Date(1463166000000)\\/\",\"Open\":6090.0,\"High\":6100.4,\"Low\":6087.0,\"Close\":6098.0},{\"BarDate\":\"\\/Date(1463169600000)\\/\",\"Open\":6097.8,\"High\":6103.1,\"Low\":6097.4,\"Close\":6101.6},{\"BarDate\":\"\\/Date(1463349600000)\\/\",\"Open\":6077.5,\"High\":6082.5,\"Low\":6077.5,\"Close\":6082.5},{\"BarDate\":\"\\/Date(1463353200000)\\/\",\"Open\":6083.3,\"High\":6094.6,\"Low\":6083.3,\"Close\":6091.5},{\"BarDate\":\"\\/Date(1463356800000)\\/\",\"Open\":6089.3,\"High\":6106.0,\"Low\":6087.8,\"Close\":6104.8},{\"BarDate\":\"\\/Date(1463360400000)\\/\",\"Open\":6104.9,\"High\":6107.8,\"Low\":6098.1,\"Close\":6102.7},{\"BarDate\":\"\\/Date(1463364000000)\\/\",\"Open\":6102.5,\"High\":6123.3,\"Low\":6100.7,\"Close\":6123.0},{\"BarDate\":\"\\/Date(1463367600000)\\/\",\"Open\":6123.3,\"High\":6128.5,\"Low\":6123.0,\"Close\":6127.1},{\"BarDate\":\"\\/Date(1463371200000)\\/\",\"Open\":6127.6,\"High\":6127.8,\"Low\":6117.5,\"Close\":6118.3},{\"BarDate\":\"\\/Date(1463374800000)\\/\",\"Open\":6118.1,\"High\":6121.4,\"Low\":6115.3,\"Close\":6121.3},{\"BarDate\":\"\\/Date(1463378400000)\\/\",\"Open\":6120.5,\"High\":6128.3,\"Low\":6106.8,\"Close\":6107.3},{\"BarDate\":\"\\/Date(1463382000000)\\/\",\"Open\":6107.9,\"High\":6124.3,\"Low\":6089.9,\"Close\":6123.0},{\"BarDate\":\"\\/Date(1463385600000)\\/\",\"Open\":6122.9,\"High\":6127.6,\"Low\":6112.0,\"Close\":6126.5},{\"BarDate\":\"\\/Date(1463389200000)\\/\",\"Open\":6126.0,\"High\":6127.1,\"Low\":6121.3,\"Close\":6122.5},{\"BarDate\":\"\\/Date(1463392800000)\\/\",\"Open\":6122.8,\"High\":6123.5,\"Low\":6106.0,\"Close\":6114.8},{\"BarDate\":\"\\/Date(1463396400000)\\/\",\"Open\":6115.0,\"High\":6124.6,\"Low\":6113.4,\"Close\":6119.7},{\"BarDate\":\"\\/Date(1463400000000)\\/\",\"Open\":6120.0,\"High\":6123.5,\"Low\":6102.9,\"Close\":6111.0},{\"BarDate\":\"\\/Date(1463403600000)\\/\",\"Open\":6111.1,\"High\":6146.0,\"Low\":6109.5,\"Close\":6135.6},{\"BarDate\":\"\\/Date(1463407200000)\\/\",\"Open\":6135.7,\"High\":6154.0,\"Low\":6132.0,\"Close\":6148.5},{\"BarDate\":\"\\/Date(1463410800000)\\/\",\"Open\":6149.0,\"High\":6159.3,\"Low\":6146.9,\"Close\":6159.0},{\"BarDate\":\"\\/Date(1463414400000)\\/\",\"Open\":6159.0,\"High\":6162.7,\"Low\":6152.2,\"Close\":6162.7},{\"BarDate\":\"\\/Date(1463418000000)\\/\",\"Open\":6162.5,\"High\":6165.8,\"Low\":6159.7,\"Close\":6164.8},{\"BarDate\":\"\\/Date(1463421600000)\\/\",\"Open\":6165.0,\"High\":6178.1,\"Low\":6165.0,\"Close\":6176.8},{\"BarDate\":\"\\/Date(1463425200000)\\/\",\"Open\":6176.5,\"High\":6178.1,\"Low\":6168.0,\"Close\":6174.8},{\"BarDate\":\"\\/Date(1463428800000)\\/\",\"Open\":6174.3,\"High\":6178.0,\"Low\":6169.7,\"Close\":6171.2},{\"BarDate\":\"\\/Date(1463432400000)\\/\",\"Open\":6171.5,\"High\":6171.5,\"Low\":6171.5,\"Close\":6171.5},{\"BarDate\":\"\\/Date(1463436000000)\\/\",\"Open\":6171.8,\"High\":6172.0,\"Low\":6164.8,\"Close\":6169.1},{\"BarDate\":\"\\/Date(1463439600000)\\/\",\"Open\":6169.3,\"High\":6173.0,\"Low\":6168.9,\"Close\":6169.8},{\"BarDate\":\"\\/Date(1463443200000)\\/\",\"Open\":6170.1,\"High\":6170.1,\"Low\":6158.8,\"Close\":6162.1},{\"BarDate\":\"\\/Date(1463446800000)\\/\",\"Open\":6162.2,\"High\":6166.8,\"Low\":6158.0,\"Close\":6163.0},{\"BarDate\":\"\\/Date(1463450400000)\\/\",\"Open\":6162.5,\"High\":6168.1,\"Low\":6161.5,\"Close\":6165.0},{\"BarDate\":\"\\/Date(1463454000000)\\/\",\"Open\":6164.5,\"High\":6169.7,\"Low\":6162.1,\"Close\":6167.8},{\"BarDate\":\"\\/Date(1463457600000)\\/\",\"Open\":6168.0,\"High\":6169.8,\"Low\":6166.4,\"Close\":6168.6},{\"BarDate\":\"\\/Date(1463461200000)\\/\",\"Open\":6168.5,\"High\":6173.2,\"Low\":6167.3,\"Close\":6173.2},{\"BarDate\":\"\\/Date(1463464800000)\\/\",\"Open\":6173.5,\"High\":6185.8,\"Low\":6170.8,\"Close\":6185.0},{\"BarDate\":\"\\/Date(1463468400000)\\/\",\"Open\":6184.8,\"High\":6213.3,\"Low\":6173.5,\"Close\":6206.3},{\"BarDate\":\"\\/Date(1463472000000)\\/\",\"Open\":6206.0,\"High\":6217.3,\"Low\":6201.5,\"Close\":6210.5},{\"BarDate\":\"\\/Date(1463475600000)\\/\",\"Open\":6210.2,\"High\":6210.3,\"Low\":6186.0,\"Close\":6200.6},{\"BarDate\":\"\\/Date(1463479200000)\\/\",\"Open\":6200.4,\"High\":6208.5,\"Low\":6179.9,\"Close\":6182.3}],\"PartialPriceBar\":{\"BarDate\":\"\\/Date(1463482800000)\\/\",\"Open\":6182.2,\"High\":6187.1,\"Low\":6172.4,\"Close\":6175.5}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "b87e8bab-ad4d-97bb-eb27-5c75f220b99d",
+							"name": "GetPriceBarResponseDTO",
+							"request": "50075d74-4efd-c981-e94b-2eb1c4d9de4f",
+							"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+							"requestId": "50075d74-4efd-c981-e94b-2eb1c4d9de4f",
+							"owner": "444687",
+							"requestObject": "\"50075d74-4efd-c981-e94b-2eb1c4d9de4f\"",
+							"folder": "1d9b0045-5391-4e20-cad7-ca825e618398"
+						}
+					],
+					"synced": true,
+					"folder": "1d9b0045-5391-4e20-cad7-ca825e618398",
+					"timestamp": null,
+					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
+				},
+				{
+					"id": "941dcda5-d8e7-7795-ec05-1bbea1d37c65",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/market/:MarketId/information",
+					"preRequestScript": null,
+					"pathVariables": {
+						"MarketId": "99500"
+					},
 					"method": "GET",
 					"data": null,
 					"dataMode": "params",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463482475003,
+					"time": 1463485169246,
 					"name": "GetMarketInformation",
 					"description": "Get Market Information for the single specified market supplied in the parameter.\n\nThe following request to the Live CIAPI environment retrieves the market information for Gold DFT, which has the ID 400616377. HTTP GET does not use the body. Parameters should be added in the query string.\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the market information for the requested market in JSON format (AccountInformationResponseDTO).",
-					"collectionId": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
 					"responses": [
 						{
 							"status": "",
@@ -175,7 +441,7 @@
 							"state": {
 								"size": "normal"
 							},
-							"id": "75198442-18a2-10a0-cad7-bd13fd3cf497",
+							"id": "32c34ba3-1fe0-0c3c-5640-3d5ec72109b0",
 							"name": "GetMarketInformationResponseDTO",
 							"request": {
 								"url": "https://ciapi.cityindex.com/TradingAPI/market/99500/information",
@@ -196,265 +462,15 @@
 								"data": null,
 								"method": "GET",
 								"dataMode": "params"
-							}
+							},
+							"owner": "444687"
 						}
 					]
 				},
 				{
-					"id": "54273684-cb06-3221-446c-0d5947cf6925",
-					"headers": "Content-Type: application/json\n",
-					"url": "https://ciapi.cityindex.com/TradingAPI/session",
-					"preRequestScript": null,
-					"pathVariables": {},
-					"method": "POST",
-					"data": "{\n\t\"AppComments\": \"Windows 10\",\n\t\"AppKey\": \"None\",\n\t\"AppVersion\": \"1.0.0.0\",\n\t\"Password\": \"password\",\n\t\"UserName\": \"10263668\"\n}",
-					"dataMode": "raw",
-					"tests": "var data = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"Session\", data.Session);",
-					"currentHelper": "normal",
-					"helperAttributes": {},
-					"time": 1463481929145,
-					"name": "LogOn",
-					"description": "Create a new session. This is how you \"log on\" to the CIAPI.\n\nThe following request to the Live CIAPI environment logs in to your account using the example credentials of Username as \"DM123456\" and password as \"openthedoor\".\n\nThe AppKey required to use the CIAPI is sent to you once you have returned the signed terms and conditions of the CIAPI to our Partnerships team:\n\n(PartnershipServices[at]cityindex.com).\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiLogOnResponseDTO in JSON format.",
-					"collectionId": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
-					"responses": [
-						{
-							"status": "",
-							"responseCode": {
-								"code": 200,
-								"name": "OK",
-								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
-							},
-							"time": 493,
-							"headers": [
-								{
-									"name": "Access-Control-Allow-Origin",
-									"key": "Access-Control-Allow-Origin",
-									"value": "*",
-									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-								},
-								{
-									"name": "Cache-Control",
-									"key": "Cache-Control",
-									"value": "no-cache",
-									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
-								},
-								{
-									"name": "Connection",
-									"key": "Connection",
-									"value": "keep-alive",
-									"description": "Options that are desired for the connection"
-								},
-								{
-									"name": "Content-Length",
-									"key": "Content-Length",
-									"value": "112",
-									"description": "The length of the response body in octets (8-bit bytes)"
-								},
-								{
-									"name": "Content-Type",
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8",
-									"description": "The mime type of this content"
-								},
-								{
-									"name": "Date",
-									"key": "Date",
-									"value": "Tue, 17 May 2016 09:52:39 GMT",
-									"description": "The date and time that the message was sent"
-								},
-								{
-									"name": "Expires",
-									"key": "Expires",
-									"value": "-1",
-									"description": "Gives the date/time after which the response is considered stale"
-								},
-								{
-									"name": "Pragma",
-									"key": "Pragma",
-									"value": "no-cache",
-									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
-								},
-								{
-									"name": "Server",
-									"key": "Server",
-									"value": "PWS/8.1.36",
-									"description": "A name for the server"
-								},
-								{
-									"name": "X-AspNet-Version",
-									"key": "X-AspNet-Version",
-									"value": "4.0.30319",
-									"description": "Custom header"
-								},
-								{
-									"name": "X-Powered-By",
-									"key": "X-Powered-By",
-									"value": "ASP.NET",
-									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-								},
-								{
-									"name": "X-Px",
-									"key": "X-Px",
-									"value": "nc h0-s1035.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
-									"description": "Custom header"
-								}
-							],
-							"cookies": [],
-							"mime": "",
-							"text": "{\"Session\":\"509b20d2-e05d-4df1-964f-615ba11d1b7f\",\"PasswordChangeRequired\":false,\"AllowedAccountOperator\":false}",
-							"language": "javascript",
-							"rawDataType": "text",
-							"previewType": "html",
-							"searchResultScrolledTo": -1,
-							"forceNoPretty": false,
-							"write": true,
-							"empty": false,
-							"failed": false,
-							"state": {
-								"size": "normal"
-							},
-							"id": "58bc8a63-0b8c-d6c9-80f7-344e97de597c",
-							"name": "ApiLogOnResponseDTO",
-							"request": {
-								"url": "https://ciapi.cityindex.com/TradingAPI/session",
-								"headers": [
-									{
-										"key": "Content-Type",
-										"value": "application/json",
-										"enabled": true,
-										"description": "The mime type of this content"
-									}
-								],
-								"data": "{\n\t\"AppComments\": \"Windows 10\",\n\t\"AppKey\": \"None\",\n\t\"AppVersion\": \"1.0.0.0\",\n\t\"Password\": \"password\",\n\t\"UserName\": \"10263668\"\n}",
-								"method": "POST",
-								"dataMode": "raw"
-							}
-						}
-					]
-				},
-				{
-					"id": "b2064942-eca9-9dc2-7b3d-5ee263dbeee7",
-					"headers": "",
-					"url": "https://ciapi.cityindex.com/TradingAPI/clientapplication/versioninformation?AppKey=ATC-CI&AccountOperatorId=0",
-					"preRequestScript": null,
-					"pathVariables": {},
-					"method": "GET",
-					"data": null,
-					"dataMode": "params",
-					"tests": null,
-					"currentHelper": "normal",
-					"helperAttributes": {},
-					"time": 1463481019706,
-					"name": "GetVersionInformation",
-					"description": "Gets version information for a specific client application and (optionally) account operator.",
-					"collectionId": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
-					"responses": [
-						{
-							"status": "",
-							"responseCode": {
-								"code": 200,
-								"name": "OK",
-								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
-							},
-							"time": 149,
-							"headers": [
-								{
-									"name": "Cache-Control",
-									"key": "Cache-Control",
-									"value": "no-cache",
-									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
-								},
-								{
-									"name": "Connection",
-									"key": "Connection",
-									"value": "keep-alive",
-									"description": "Options that are desired for the connection"
-								},
-								{
-									"name": "Content-Length",
-									"key": "Content-Length",
-									"value": "145",
-									"description": "The length of the response body in octets (8-bit bytes)"
-								},
-								{
-									"name": "Content-Type",
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8",
-									"description": "The mime type of this content"
-								},
-								{
-									"name": "Date",
-									"key": "Date",
-									"value": "Tue, 17 May 2016 10:46:54 GMT",
-									"description": "The date and time that the message was sent"
-								},
-								{
-									"name": "Expires",
-									"key": "Expires",
-									"value": "-1",
-									"description": "Gives the date/time after which the response is considered stale"
-								},
-								{
-									"name": "Pragma",
-									"key": "Pragma",
-									"value": "no-cache",
-									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
-								},
-								{
-									"name": "Server",
-									"key": "Server",
-									"value": "PWS/8.1.36",
-									"description": "A name for the server"
-								},
-								{
-									"name": "X-AspNet-Version",
-									"key": "X-AspNet-Version",
-									"value": "4.0.30319",
-									"description": "Custom header"
-								},
-								{
-									"name": "X-Powered-By",
-									"key": "X-Powered-By",
-									"value": "ASP.NET",
-									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-								},
-								{
-									"name": "X-Px",
-									"key": "X-Px",
-									"value": "ms h0-s2005.p0-mow ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
-									"description": "Custom header"
-								}
-							],
-							"cookies": [],
-							"mime": "",
-							"text": "{\"MinimumRequiredVersion\":\"258\",\"LatestVersion\":\"327\",\"UpgradeUrl\":\"https://ciapi.cityindex.com/Download/AdvantageTrader/ATPro/ATProCISetup.exe\"}",
-							"language": "javascript",
-							"rawDataType": "text",
-							"previewType": "html",
-							"searchResultScrolledTo": -1,
-							"forceNoPretty": false,
-							"write": true,
-							"empty": false,
-							"failed": false,
-							"state": {
-								"size": "normal"
-							},
-							"id": "b2ffcb38-feab-5fc3-292e-60293410409f",
-							"name": "GetVersionInformationResponseDTO",
-							"request": {
-								"url": "https://ciapi.cityindex.com/TradingAPI/clientapplication/versioninformation?AppKey=ATC-CI&AccountOperatorId=0",
-								"headers": [],
-								"data": null,
-								"method": "GET",
-								"dataMode": "params"
-							}
-						}
-					]
-				},
-				{
-					"id": "b5147300-24d4-549d-01ed-b1f22bb1052f",
+					"id": "e1fc933e-7e34-9dba-9373-bc1ae8d4cd78",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "https://ciapi.cityindex.com/TradingAPI/UserAccount/ClientAndTradingAccount",
+					"url": "{{Url}}/UserAccount/ClientAndTradingAccount",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -464,10 +480,10 @@
 					"tests": "",
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463482473082,
+					"time": 1463485163260,
 					"name": "GetClientAndTradingAccount",
 					"description": "Returns the User's ClientAccountId and a list of their TradingAccounts. There are no parameters for this call.\n\nThe following request to the Live CIAPI environment retrieves the client and account information after LogOn has been performed.\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the client and trading account information in JSON format (AccountInformationResponseDTO).\n",
-					"collectionId": "6a365b3f-639a-b625-4df5-a3c0923c1cb4",
+					"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
 					"responses": [
 						{
 							"status": "",
@@ -559,7 +575,7 @@
 							"state": {
 								"size": "normal"
 							},
-							"id": "a93f093e-1cfd-132b-a20c-9ed87241273f",
+							"id": "8b4eda57-09b5-4dd0-114d-befaa340c802",
 							"name": "AccountInformationResponseDTO",
 							"request": {
 								"url": "https://ciapi.cityindex.com/TradingAPI/UserAccount/ClientAndTradingAccount",
@@ -578,7 +594,128 @@
 								"data": null,
 								"method": "GET",
 								"dataMode": "params"
-							}
+							},
+							"owner": "444687"
+						}
+					]
+				},
+				{
+					"id": "efafe86b-f46f-dbfc-671a-24a350c488f7",
+					"headers": "",
+					"url": "{{Url}}/clientapplication/versioninformation?AppKey=ATC-CI&AccountOperatorId=0",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463485166948,
+					"name": "GetVersionInformation",
+					"description": "Gets version information for a specific client application and (optionally) account operator.",
+					"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 149,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "145",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 17 May 2016 10:46:54 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s2005.p0-mow ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"MinimumRequiredVersion\":\"258\",\"LatestVersion\":\"327\",\"UpgradeUrl\":\"https://ciapi.cityindex.com/Download/AdvantageTrader/ATPro/ATProCISetup.exe\"}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "1c5019e7-089a-fe8f-dca9-0104b62c4f15",
+							"name": "GetVersionInformationResponseDTO",
+							"request": {
+								"url": "https://ciapi.cityindex.com/TradingAPI/clientapplication/versioninformation?AppKey=ATC-CI&AccountOperatorId=0",
+								"headers": [],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							},
+							"owner": "444687"
 						}
 					]
 				}
@@ -588,7 +725,7 @@
 	"environments": [
 		{
 			"id": "6033ddc7-4f8c-547d-1905-6469e1eed521",
-			"name": "CityIndex.TradingAPI.Environment",
+			"name": "CityIndex.TradingAPI.Environment.PROD",
 			"values": [
 				{
 					"key": "UserName",
@@ -603,10 +740,17 @@
 					"type": "text",
 					"enabled": true,
 					"hovered": false
+				},
+				{
+					"key": "Url",
+					"value": "https://ciapi.cityindex.com/TradingAPI",
+					"type": "text",
+					"enabled": true,
+					"hovered": false
 				}
 			],
 			"team": null,
-			"timestamp": 1463481861067
+			"timestamp": 1463484908752
 		}
 	],
 	"headerPresets": [
