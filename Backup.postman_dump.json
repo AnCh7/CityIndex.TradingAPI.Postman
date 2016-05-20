@@ -2,87 +2,416 @@
 	"version": 1,
 	"collections": [
 		{
-			"id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+			"id": "9dd10856-0eea-5aea-0373-188a2d40fda0",
 			"name": "CityIndex.TradingAPI",
 			"description": "The first part of the CIAPI uses the software architecture style of Representational State Transfer (REST). This is one of the standard web service methods to communicate over the internet with remote servers.\r\n\r\nThe CIAPI RESTful implementation uses the Secure Hypertext Transfer Protocol (HTTPS) for communication between our back-end and your trading solution (client UI application). Request / response calls initiated by the client UI application must follow a simplified RESTful pattern supporting GET and POST, and encoding data in JavaScript object notation (JSON).\r\n\r\nTypically, requests for information such as: available markets, historical prices, and account history are exposed via HTTPS GET requests. Requests that change state such as: placing a trade or logging on are performed using HTTPS POST.",
 			"order": [],
 			"folders": [
 				{
-					"id": "63317a26-723d-e2fc-c3e5-c1d4ad3dcbd4",
+					"id": "bb044c75-441f-1552-3d96-944225e2a6ca",
 					"name": "Authentication",
 					"description": "",
 					"write": true,
 					"order": [
-						"4f8ba6d1-47f9-cc85-3689-a1796b73c3de"
+						"29f7c9f0-7241-7eac-a1a7-f98bb33db3b5",
+						"d37275d9-6783-45fd-f141-fec0a9f41174",
+						"c1ecf0ed-23c2-b161-8545-ce5aac3ddfb3"
 					],
-					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
-					"owner": "444687",
-					"collection_id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
+					"collection": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"owner": "601052",
+					"collection_id": "9dd10856-0eea-5aea-0373-188a2d40fda0"
 				},
 				{
-					"id": "88024f6c-c9c4-913d-8733-7c43197a07df",
+					"id": "b31344e4-28dc-8b72-2259-b13205cfa94c",
 					"name": "Account Information",
 					"description": "",
 					"write": true,
 					"order": [
-						"e1fc933e-7e34-9dba-9373-bc1ae8d4cd78"
+						"64424955-803d-0e1d-20f9-873d411a7858",
+						"e557959b-3ff5-e41b-ccdf-6192675aa2a8",
+						"707f40db-f52e-87c6-6bdf-f82ef20853a8",
+						"09cfd973-d190-c43f-133b-641cb3e52aac",
+						"a7740913-0005-c3a1-e4c7-784ef9a73b46",
+						"972acdaa-cf96-55eb-1587-1fb09afdd3a3",
+						"c1dcf84e-8934-324f-f1a7-486c0b0a3434",
+						"a7ed1fc2-be9a-0b5e-4540-86b5f4b45dc9",
+						"fd7d7c57-f0cb-4925-2587-ac7e44572e91"
 					],
-					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
-					"owner": "444687",
-					"collection_id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
+					"collection": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"owner": "601052",
+					"collection_id": "9dd10856-0eea-5aea-0373-188a2d40fda0"
 				},
 				{
-					"id": "570a82f9-e1a0-43c5-1a91-d27bd260aefb",
+					"id": "9e6f4b52-0d12-560e-17a1-e126a0cd2716",
 					"name": "Client Application",
 					"description": "",
 					"write": true,
 					"order": [
-						"efafe86b-f46f-dbfc-671a-24a350c488f7"
+						"52538fae-7475-6918-9979-aecdf91d227e"
 					],
-					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
-					"owner": "444687",
-					"collection_id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
+					"collection": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"owner": "601052",
+					"collection_id": "9dd10856-0eea-5aea-0373-188a2d40fda0"
 				},
 				{
-					"id": "305c38f6-68e6-4c21-22ea-8cdc4cb46453",
+					"id": "9addcc56-f891-8b2a-47d9-55bc46a4a8da",
 					"name": "Market",
 					"description": "",
 					"write": true,
 					"order": [
-						"941dcda5-d8e7-7795-ec05-1bbea1d37c65"
+						"1a721acc-61bb-42ca-668a-3c3c77fa530f",
+						"bff9124c-34ea-48ff-b143-90cf2c8e7af0",
+						"b2104cba-f558-23b1-1119-789560ea2c1b",
+						"d90b3f61-fcf6-3ecc-55f4-1760904ff134",
+						"1e4d70ea-6b88-2a16-b008-091b8279c724",
+						"4318ab88-14b9-4ad9-2d28-00bdc1a70d72",
+						"bedbac1a-5bca-32ca-d630-82ac1902f6f8",
+						"5b714ed2-7907-0b88-fa0e-64ef23527507",
+						"52947224-2a2e-87c1-507d-7483d41c77db",
+						"407ab782-7761-6e01-d9c6-ae5959a9c49c"
 					],
-					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
-					"owner": "444687",
-					"collection_id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
+					"collection": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"owner": "601052",
+					"collection_id": "9dd10856-0eea-5aea-0373-188a2d40fda0"
 				},
 				{
-					"id": "1d9b0045-5391-4e20-cad7-ca825e618398",
+					"id": "a224c6fa-3f0f-9c49-8406-90fc3916e3fd",
 					"name": "Price History",
 					"description": "",
 					"write": true,
 					"order": [
-						"50075d74-4efd-c981-e94b-2eb1c4d9de4f"
+						"39980a36-c335-f703-f58e-944ef6aab73e"
 					],
-					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
-					"owner": "444687",
-					"collection_id": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
+					"collection": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"owner": "601052",
+					"collection_id": "9dd10856-0eea-5aea-0373-188a2d40fda0"
+				},
+				{
+					"id": "7a1c657c-2a41-4f96-2629-f2fa2ab41711",
+					"name": "CFD Markets",
+					"description": "",
+					"write": true,
+					"order": [
+						"886b1622-201c-06b4-055d-997765bb71aa"
+					],
+					"collection": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"owner": "601052",
+					"collection_id": "9dd10856-0eea-5aea-0373-188a2d40fda0"
+				},
+				{
+					"id": "162fe635-ccb4-2c73-4466-b5a7d83ae7d3",
+					"name": "Margin",
+					"description": "",
+					"write": true,
+					"order": [
+						"88d8fb4e-a549-8503-0469-9013e72e5214",
+						"2d23eec2-819b-a239-e30a-936d8df96834"
+					],
+					"collection": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"owner": "601052",
+					"collection_id": "9dd10856-0eea-5aea-0373-188a2d40fda0"
 				}
 			],
 			"timestamp": 1463475826996,
 			"synced": true,
 			"remote_id": 0,
-			"owner": "444687",
+			"owner": "601052",
 			"sharedWithTeam": false,
 			"subscribed": false,
 			"remoteLink": "",
 			"public": false,
-			"createdAt": 1463484773236,
-			"updatedAt": 1463485114720,
+			"createdAt": 1463553342967,
+			"updatedAt": 1463571452907,
 			"write": true,
 			"requests": [
 				{
-					"id": "4f8ba6d1-47f9-cc85-3689-a1796b73c3de",
-					"owner": "444687",
+					"id": "09cfd973-d190-c43f-133b-641cb3e52aac",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}useraccount/getwallitemsforusers",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463565868739,
+					"name": "GetWallItemsForUsers",
+					"description": "Fetches the wall items for the specified screen names. (Service call used by the CI Connect social trading platform.)\r\nNote: this requires an existence of the respective CI Connect user record in the CI Connect database.\r\n\r\nReturn Value\r\nApiGetWallItemsForUsersResponseDTO",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": []
+				},
+				{
+					"id": "1a721acc-61bb-42ca-668a-3c3c77fa530f",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/market/:MarketId/information",
+					"preRequestScript": null,
+					"pathVariables": {
+						"MarketId": "99500"
+					},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463485169246,
+					"name": "GetMarketInformation",
+					"description": "Get Market Information for the single specified market supplied in the parameter.\n\nThe following request to the Live CIAPI environment retrieves the market information for Gold DFT, which has the ID 400616377. HTTP GET does not use the body. Parameters should be added in the query string.\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the market information for the requested market in JSON format (AccountInformationResponseDTO).",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 249,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "3227",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 17 May 2016 10:46:10 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "ETag",
+									"key": "ETag",
+									"value": "W/\"e0cd134d6abb4204b0ad133374b3daa9\"",
+									"description": "An identifier for a specific version of a resource, often a message digest"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "User-Cache-Control",
+									"key": "User-Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s2005.p0-mow ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"MarketInformation\":{\"MarketId\":99500,\"Name\":\"UK 100 CFD\",\"ExchangeId\":400000063,\"ExchangeName\":\"ICE Futures Europe - Financial\",\"MarginFactor\":1.00000000,\"MinMarginFactor\":null,\"MaxMarginFactor\":null,\"ClientMarginFactor\":null,\"MarginFactorUnits\":26,\"MinDistance\":0.00000,\"MinDistanceUnits\":27,\"WebMinSize\":1.00000000,\"MaxSize\":2000.00000000,\"MarketSizesCurrencyCode\":\"GBP\",\"MaxLongSize\":500.000000000,\"MaxShortSize\":500.000000000,\"Market24H\":true,\"PriceDecimalPlaces\":1,\"DefaultQuoteLength\":180,\"TradeOnWeb\":true,\"LimitUp\":false,\"LimitDown\":false,\"LongPositionOnly\":false,\"CloseOnly\":false,\"MarketEod\":[],\"PriceTolerance\":2.0,\"ConvertPriceToPipsMultiplier\":10000,\"MarketSettingsTypeId\":2,\"MarketSettingsType\":\"CFD\",\"MobileShortName\":\"UK 100\",\"CentralClearingType\":\"No\",\"CentralClearingTypeDescription\":\"None\",\"MarketCurrencyId\":6,\"PhoneMinSize\":2.00000000,\"DailyFinancingAppliedAtUtc\":\"\\/Date(1463432400000)\\/\",\"NextMarketEodTimeUtc\":\"\\/Date(1463432400000)\\/\",\"TradingStartTimeUtc\":null,\"TradingEndTimeUtc\":null,\"MarketPricingTimes\":[{\"DayOfWeek\":1,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":2,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":3,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":4,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":5,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}}],\"MarketBreakTimes\":[],\"MarketSpreads\":[{\"SpreadTimeUtc\":\"\\/Date(1463515140000)\\/\",\"Spread\":6.000000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463468340000)\\/\",\"Spread\":1.000000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463499000000)\\/\",\"Spread\":1.500000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463464800000)\\/\",\"Spread\":1.500000000,\"SpreadUnits\":27}],\"GuaranteedOrderPremium\":3.00,\"GuaranteedOrderPremiumUnits\":1,\"GuaranteedOrderMinDistance\":5.00000,\"GuaranteedOrderMinDistanceUnits\":26,\"PriceToleranceUnits\":1.000000000,\"MarketTimeZoneOffsetMinutes\":60,\"QuantityConversionFactor\":1.00000000,\"PointFactorDivisor\":100,\"BetPer\":1.00000,\"MarketUnderlyingTypeId\":2,\"MarketUnderlyingType\":\"Index\",\"AllowGuaranteedOrders\":true,\"OrdersAwareMargining\":true,\"OrdersAwareMarginingMinimum\":75.00,\"CommissionChargeMinimum\":null,\"CommissionRate\":null,\"CommissionRateUnits\":null,\"ExpiryUtc\":null,\"FutureRolloverUTC\":null,\"AllowRollover\":false,\"ExpiryBasisId\":1,\"ExpiryBasisText\":\"\",\"StepMargin\":{\"EligibleForStepMargin\":false,\"StepMarginConfigured\":false,\"InheritedFromParentAccountOperator\":false,\"Bands\":null},\"OptionTypeId\":null,\"OptionType\":null,\"StrikePrice\":null,\"MarketTypeId\":2,\"MarketType\":\"Ordinary Market\",\"Weighting\":300,\"FxFinancing\":null,\"UnderlyingRicCode\":\"FFI\",\"NewsUnderlyingOverrideType\":\"Companies\",\"NewsUnderlyingOverrideCode\":\".FTSE\"}}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "6c2d9d7c-2241-bf0e-cd36-fc45b79ebf6f",
+							"name": "GetMarketInformationResponseDTO",
+							"request": {
+								"url": "https://ciapi.cityindex.com/TradingAPI/market/99500/information",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"type": "text",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"type": "text",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							},
+							"owner": "601052"
+						}
+					],
+					"owner": "601052",
+					"folder": "9addcc56-f891-8b2a-47d9-55bc46a4a8da"
+				},
+				{
+					"id": "1e4d70ea-6b88-2a16-b008-091b8279c724",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/market/searchpages?query=Gold&searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&page=1&pageSize=10&orderBy=Name&ascendingOrder=true&useMobileShortName=false&includeOptions=false&TradingAccountId=400784260&MaxResults=10",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463569905381,
+					"name": "ListMarketSearchPaginated",
+					"description": "Returns a markets page containing a list of markets that meet the search criteria. The search can be performed by market code and/or market name, and can include CFDs and Spread Bet markets. This method differs from ListMarketSearch in that the returned results are paginated.\r\nNote: when searching for currency markets by name enter the format as \"USD JPY\" or \"GBP USD\". Do not use the \"/\" in the name of the currency pair.\r\n\r\nReturn Value\r\nListMarketSearchPaginatedResponseDTO\r\n \r\nExample\r\n\r\nThe following request to the Live CIAPI environment searches for markets with names matching the query string \"Gold\" and returns the first 20 results. The results are shown as 5 markets per page starting from page 1.\r\nHTTP GET does not use the body. Parameters should be added in the query string.\r\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\r\n\r\nA successful request results in an HTTP 200 code in the response header, and the response body containing the paginated search results in JSON format (ListMarketSearchPaginatedResponseDTO).",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 165,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "39",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 11:10:53 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "ETag",
+									"key": "ETag",
+									"value": "W/\"d648263ca028456bb31f108e4fc06e62\"",
+									"description": "An identifier for a specific version of a resource, often a message digest"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "User-Cache-Control",
+									"key": "User-Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1035.p11-fra ( h0-s1146.p11-fra), ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"TotalNumberOfResults\":0,\"Markets\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "4019844e-7d91-0507-b268-182395872ee5",
+							"name": "ListMarketSearchPaginatedResponseDTO",
+							"request": {
+								"url": "{{Url}}/market/searchpages?query=Gold&searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&page=1&pageSize=10&orderBy=Name&ascendingOrder=true&useMobileShortName=false&includeOptions=false&TradingAccountId=400784260&MaxResults=10",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "29f7c9f0-7241-7eac-a1a7-f98bb33db3b5",
+					"owner": "601052",
 					"headers": "Content-Type: application/json\n",
 					"url": "{{Url}}/session",
 					"preRequestScript": null,
@@ -96,7 +425,7 @@
 					"time": 1463485160705,
 					"name": "LogOn",
 					"description": "Create a new session. This is how you \"log on\" to the CIAPI.\n\nThe following request to the Live CIAPI environment logs in to your account using the example credentials of Username as \"DM123456\" and password as \"openthedoor\".\n\nThe AppKey required to use the CIAPI is sent to you once you have returned the signed terms and conditions of the CIAPI to our Partnerships team:\n\n    (PartnershipServices[at]cityindex.com).\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiLogOnResponseDTO in JSON format.",
-					"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
 					"responses": [
 						{
 							"status": "",
@@ -193,10 +522,10 @@
 							"state": {
 								"size": "normal"
 							},
-							"id": "8e5d5703-6ac8-a616-3778-cdaacf3b32cc",
+							"id": "846b31bb-e4a9-ac04-4a22-ad83e00ac08b",
 							"name": "ApiLogOnResponseDTO",
 							"request": "4f8ba6d1-47f9-cc85-3689-a1796b73c3de",
-							"owner": "444687",
+							"owner": "601052",
 							"requestObject": "\"4f8ba6d1-47f9-cc85-3689-a1796b73c3de\"",
 							"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
 							"requestId": "4f8ba6d1-47f9-cc85-3689-a1796b73c3de",
@@ -204,13 +533,30 @@
 						}
 					],
 					"synced": true,
-					"folder": "63317a26-723d-e2fc-c3e5-c1d4ad3dcbd4",
-					"timestamp": null,
-					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
+					"folder": "bb044c75-441f-1552-3d96-944225e2a6ca",
+					"timestamp": null
 				},
 				{
-					"id": "50075d74-4efd-c981-e94b-2eb1c4d9de4f",
-					"owner": "444687",
+					"id": "2d23eec2-819b-a239-e30a-936d8df96834",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/margin/ManagedClientAccountMargin",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463568067266,
+					"name": "ListManagedClientAccountsMargin",
+					"description": "Retrieves the current margin levels for each managed client assigned to a Trading Advisor.\n\nReturn Value\nApiManagedClientAccountsMarginResponseDTO",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": []
+				},
+				{
+					"id": "39980a36-c335-f703-f58e-944ef6aab73e",
+					"owner": "601052",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
 					"url": "{{Url}}/market/:MarketId/barhistory?interval=HOUR&span=1&PriceBars=100",
 					"preRequestScript": null,
@@ -226,7 +572,7 @@
 					"time": 1463485473580,
 					"name": "GetPriceBars",
 					"description": "Get historic price bars for the specified market in OHLC (open, high, low, close) format, suitable for plotting in candlestick charts. Returns price bars in ascending order up to the current time. When there are no prices for a particular time period, no price bar is returned. Thus, it can appear that the array of price bars has \"gaps\", i.e. the gap between the date & time of each price bar might not be equal to interval x span.\r\n\r\nSample Urls:\r\n\r\n    /market/1234/history?interval=MINUTE&span=15&PriceBars=180\r\n    /market/735/history?interval=HOUR&span=1&PriceBars=240\r\n    /market/1577/history?interval=DAY&span=1&PriceBars=10\r\n    \r\nParameters\r\n\r\n        MarketId \tstring \tThe ID of the market.\r\n        interval \tstring \tThe pricebar interval.\r\n        span \t    integer The number of each interval per pricebar.\r\n        PriceBars \tinteger The total number of price bars to return. \r\n        priceType \tstring \tThe price type being requested. If left blank then the default setting returns the MID price. Possible values are: ASK, MID, BID.\r\n        \r\nThe following request to the Live CIAPI environment retrieves the 20 most recent 15 minute Bid price bars for the Wall Street CFD market (Market ID = 99498). HTTP GET does not use the body. Parameters should be added in the query string.\r\n\r\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.",
-					"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
 					"responses": [
 						{
 							"status": "",
@@ -317,39 +663,36 @@
 							"state": {
 								"size": "normal"
 							},
-							"id": "b87e8bab-ad4d-97bb-eb27-5c75f220b99d",
+							"id": "78e21737-46b8-e2d8-958b-eeee88ff8461",
 							"name": "GetPriceBarResponseDTO",
 							"request": "50075d74-4efd-c981-e94b-2eb1c4d9de4f",
 							"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
 							"requestId": "50075d74-4efd-c981-e94b-2eb1c4d9de4f",
-							"owner": "444687",
+							"owner": "601052",
 							"requestObject": "\"50075d74-4efd-c981-e94b-2eb1c4d9de4f\"",
 							"folder": "1d9b0045-5391-4e20-cad7-ca825e618398"
 						}
 					],
 					"synced": true,
-					"folder": "1d9b0045-5391-4e20-cad7-ca825e618398",
-					"timestamp": null,
-					"collection": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff"
+					"folder": "a224c6fa-3f0f-9c49-8406-90fc3916e3fd",
+					"timestamp": null
 				},
 				{
-					"id": "941dcda5-d8e7-7795-ec05-1bbea1d37c65",
+					"id": "407ab782-7761-6e01-d9c6-ae5959a9c49c",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/market/:MarketId/information",
+					"url": "{{Url}}/market/taglookup",
 					"preRequestScript": null,
-					"pathVariables": {
-						"MarketId": "99500"
-					},
+					"pathVariables": {},
 					"method": "GET",
 					"data": null,
 					"dataMode": "params",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463485169246,
-					"name": "GetMarketInformation",
-					"description": "Get Market Information for the single specified market supplied in the parameter.\n\nThe following request to the Live CIAPI environment retrieves the market information for Gold DFT, which has the ID 400616377. HTTP GET does not use the body. Parameters should be added in the query string.\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the market information for the requested market in JSON format (AccountInformationResponseDTO).",
-					"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+					"time": 1463571496535,
+					"name": "TagLookup",
+					"description": "Gets all of the tags that the requesting user is allowed to see. Tags are returned in a primary / secondary hierarchy. There are no parameters in this call.\n\nReturn Value\nMarketInformationTagLookupResponseDTO",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
 					"responses": [
 						{
 							"status": "",
@@ -358,7 +701,7 @@
 								"name": "OK",
 								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
 							},
-							"time": 249,
+							"time": 5830,
 							"headers": [
 								{
 									"name": "Cache-Control",
@@ -375,7 +718,7 @@
 								{
 									"name": "Content-Length",
 									"key": "Content-Length",
-									"value": "3227",
+									"value": "813",
 									"description": "The length of the response body in octets (8-bit bytes)"
 								},
 								{
@@ -387,13 +730,13 @@
 								{
 									"name": "Date",
 									"key": "Date",
-									"value": "Tue, 17 May 2016 10:46:10 GMT",
+									"value": "Wed, 18 May 2016 11:37:50 GMT",
 									"description": "The date and time that the message was sent"
 								},
 								{
 									"name": "ETag",
 									"key": "ETag",
-									"value": "W/\"e0cd134d6abb4204b0ad133374b3daa9\"",
+									"value": "W/\"a8b6c67f45674b55babb8dfa466025d2\"",
 									"description": "An identifier for a specific version of a resource, often a message digest"
 								},
 								{
@@ -423,13 +766,13 @@
 								{
 									"name": "X-Px",
 									"key": "X-Px",
-									"value": "ms h0-s2005.p0-mow ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"value": "ms h0-s1201.p11-fra ( h0-s1146.p11-fra), ms h0-s1146.p11-fra ( h0-s56.p6-lhr), rf-ms h0-s56.p6-lhr ( origin)",
 									"description": "Custom header"
 								}
 							],
 							"cookies": [],
 							"mime": "",
-							"text": "{\"MarketInformation\":{\"MarketId\":99500,\"Name\":\"UK 100 CFD\",\"ExchangeId\":400000063,\"ExchangeName\":\"ICE Futures Europe - Financial\",\"MarginFactor\":1.00000000,\"MinMarginFactor\":null,\"MaxMarginFactor\":null,\"ClientMarginFactor\":null,\"MarginFactorUnits\":26,\"MinDistance\":0.00000,\"MinDistanceUnits\":27,\"WebMinSize\":1.00000000,\"MaxSize\":2000.00000000,\"MarketSizesCurrencyCode\":\"GBP\",\"MaxLongSize\":500.000000000,\"MaxShortSize\":500.000000000,\"Market24H\":true,\"PriceDecimalPlaces\":1,\"DefaultQuoteLength\":180,\"TradeOnWeb\":true,\"LimitUp\":false,\"LimitDown\":false,\"LongPositionOnly\":false,\"CloseOnly\":false,\"MarketEod\":[],\"PriceTolerance\":2.0,\"ConvertPriceToPipsMultiplier\":10000,\"MarketSettingsTypeId\":2,\"MarketSettingsType\":\"CFD\",\"MobileShortName\":\"UK 100\",\"CentralClearingType\":\"No\",\"CentralClearingTypeDescription\":\"None\",\"MarketCurrencyId\":6,\"PhoneMinSize\":2.00000000,\"DailyFinancingAppliedAtUtc\":\"\\/Date(1463432400000)\\/\",\"NextMarketEodTimeUtc\":\"\\/Date(1463432400000)\\/\",\"TradingStartTimeUtc\":null,\"TradingEndTimeUtc\":null,\"MarketPricingTimes\":[{\"DayOfWeek\":1,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":2,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":3,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":4,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":5,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463442300000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463515200000)\\/\",\"OffsetMinutes\":60}}],\"MarketBreakTimes\":[],\"MarketSpreads\":[{\"SpreadTimeUtc\":\"\\/Date(1463515140000)\\/\",\"Spread\":6.000000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463468340000)\\/\",\"Spread\":1.000000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463499000000)\\/\",\"Spread\":1.500000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463464800000)\\/\",\"Spread\":1.500000000,\"SpreadUnits\":27}],\"GuaranteedOrderPremium\":3.00,\"GuaranteedOrderPremiumUnits\":1,\"GuaranteedOrderMinDistance\":5.00000,\"GuaranteedOrderMinDistanceUnits\":26,\"PriceToleranceUnits\":1.000000000,\"MarketTimeZoneOffsetMinutes\":60,\"QuantityConversionFactor\":1.00000000,\"PointFactorDivisor\":100,\"BetPer\":1.00000,\"MarketUnderlyingTypeId\":2,\"MarketUnderlyingType\":\"Index\",\"AllowGuaranteedOrders\":true,\"OrdersAwareMargining\":true,\"OrdersAwareMarginingMinimum\":75.00,\"CommissionChargeMinimum\":null,\"CommissionRate\":null,\"CommissionRateUnits\":null,\"ExpiryUtc\":null,\"FutureRolloverUTC\":null,\"AllowRollover\":false,\"ExpiryBasisId\":1,\"ExpiryBasisText\":\"\",\"StepMargin\":{\"EligibleForStepMargin\":false,\"StepMarginConfigured\":false,\"InheritedFromParentAccountOperator\":false,\"Bands\":null},\"OptionTypeId\":null,\"OptionType\":null,\"StrikePrice\":null,\"MarketTypeId\":2,\"MarketType\":\"Ordinary Market\",\"Weighting\":300,\"FxFinancing\":null,\"UnderlyingRicCode\":\"FFI\",\"NewsUnderlyingOverrideType\":\"Companies\",\"NewsUnderlyingOverrideCode\":\".FTSE\"}}",
+							"text": "{\"Tags\":[{\"Children\":[{\"MarketTagId\":81,\"Name\":\"FX FX-Major\",\"Type\":2,\"Weighting\":7},{\"MarketTagId\":82,\"Name\":\"FX AUD-Crosses\",\"Type\":2,\"Weighting\":13},{\"MarketTagId\":83,\"Name\":\"FX CHF-Crosses\",\"Type\":2,\"Weighting\":11},{\"MarketTagId\":84,\"Name\":\"FX EUR-Crosses\",\"Type\":2,\"Weighting\":8},{\"MarketTagId\":85,\"Name\":\"FX GBP-Crosses\",\"Type\":2,\"Weighting\":6},{\"MarketTagId\":86,\"Name\":\"FX Scandies-Crosses\",\"Type\":2,\"Weighting\":2},{\"MarketTagId\":87,\"Name\":\"FX JPY-Crosses\",\"Type\":2,\"Weighting\":4},{\"MarketTagId\":88,\"Name\":\"FX EM-Europe\",\"Type\":2,\"Weighting\":9},{\"MarketTagId\":89,\"Name\":\"FX EM-Asia\",\"Type\":2,\"Weighting\":10},{\"MarketTagId\":171,\"Name\":\"FX ALL-Markets\",\"Type\":2,\"Weighting\":14}],\"MarketTagId\":80,\"Name\":\"FX\",\"Type\":1,\"Weighting\":9},{\"Children\":[],\"MarketTagId\":146,\"Name\":\"Popular\",\"Type\":1,\"Weighting\":14}]}",
 							"language": "javascript",
 							"rawDataType": "text",
 							"previewType": "html",
@@ -441,10 +784,10 @@
 							"state": {
 								"size": "normal"
 							},
-							"id": "32c34ba3-1fe0-0c3c-5640-3d5ec72109b0",
-							"name": "GetMarketInformationResponseDTO",
+							"id": "cf5f90f2-2061-b3ae-f58b-56d148817606",
+							"name": "MarketInformationTagLookupResponseDTO",
 							"request": {
-								"url": "https://ciapi.cityindex.com/TradingAPI/market/99500/information",
+								"url": "{{Url}}/market/taglookup",
 								"headers": [
 									{
 										"key": "UserName",
@@ -462,28 +805,26 @@
 								"data": null,
 								"method": "GET",
 								"dataMode": "params"
-							},
-							"owner": "444687"
+							}
 						}
 					]
 				},
 				{
-					"id": "e1fc933e-7e34-9dba-9373-bc1ae8d4cd78",
+					"id": "4318ab88-14b9-4ad9-2d28-00bdc1a70d72",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/UserAccount/ClientAndTradingAccount",
+					"url": "{{Url}}/market/sentiments?marketIDs[]=99500&marketIDs[]=400616113&marketIDs[]=400616150&marketIDs[]=154290",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
 					"data": null,
 					"dataMode": "params",
-					"version": 2,
-					"tests": "",
+					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463485163260,
-					"name": "GetClientAndTradingAccount",
-					"description": "Returns the User's ClientAccountId and a list of their TradingAccounts. There are no parameters for this call.\n\nThe following request to the Live CIAPI environment retrieves the client and account information after LogOn has been performed.\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the client and trading account information in JSON format (AccountInformationResponseDTO).\n",
-					"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+					"time": 1463570533987,
+					"name": "ListMarketSentiments",
+					"description": "Gets a list of market sentiments for the specified market IDs. The sentiment for each market is derived from registered CI Connect members only.\r\n(Service call used by the CI Connect social trading platform.)\r\n\r\nReturn Value\r\nApiListMarketSentimentsResponseDTO",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
 					"responses": [
 						{
 							"status": "",
@@ -492,7 +833,7 @@
 								"name": "OK",
 								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
 							},
-							"time": 221,
+							"time": 441,
 							"headers": [
 								{
 									"name": "Cache-Control",
@@ -509,7 +850,7 @@
 								{
 									"name": "Content-Length",
 									"key": "Content-Length",
-									"value": "499",
+									"value": "955",
 									"description": "The length of the response body in octets (8-bit bytes)"
 								},
 								{
@@ -521,7 +862,7 @@
 								{
 									"name": "Date",
 									"key": "Date",
-									"value": "Tue, 17 May 2016 09:50:17 GMT",
+									"value": "Wed, 18 May 2016 11:21:52 GMT",
 									"description": "The date and time that the message was sent"
 								},
 								{
@@ -557,13 +898,13 @@
 								{
 									"name": "X-Px",
 									"key": "X-Px",
-									"value": "ms h0-s2005.p0-mow ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"value": "ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
 									"description": "Custom header"
 								}
 							],
 							"cookies": [],
 							"mime": "",
-							"text": "{\"LogonUserName\":\"様 Japan Test\",\"ClientAccountId\":400428567,\"CultureId\":16,\"ClientAccountCurrency\":\"JPY\",\"AccountOperatorId\":400784260,\"TradingAccounts\":[{\"TradingAccountId\":400594476,\"TradingAccountCode\":\"10263668\",\"TradingAccountStatus\":\"Open\",\"TradingAccountType\":\"CFD\"}],\"PersonalEmailAddress\":\"FObata@GAINCapital.com\",\"HasMultipleEmailAddresses\":false,\"AccountHolders\":[{\"LegalPartyId\":400861288,\"Name\":\"様 Japan Test\"}],\"ClientTypeId\":1,\"LinkedClientAccounts\":[],\"IsNfaEnabledClient\":false}",
+							"text": "{\"MarketSentiments\":[{\"MarketId\":99500,\"MarketName\":\"UK 100 CFD\",\"OpenBuySellDetails\":{\"Buys\":585,\"Sells\":329},\"DayBuySellDetails\":{\"Buys\":114,\"Sells\":84},\"WeekBuySellDetails\":{\"Buys\":158,\"Sells\":148},\"MonthBuySellDetails\":{\"Buys\":356,\"Sells\":185}},{\"MarketId\":400616113,\"MarketName\":\"UK 100 DFT\",\"OpenBuySellDetails\":{\"Buys\":1509,\"Sells\":832},\"DayBuySellDetails\":{\"Buys\":328,\"Sells\":169},\"WeekBuySellDetails\":{\"Buys\":458,\"Sells\":394},\"MonthBuySellDetails\":{\"Buys\":985,\"Sells\":462}},{\"MarketId\":400616150,\"MarketName\":\"GBP/USD DFT\",\"OpenBuySellDetails\":{\"Buys\":296,\"Sells\":270},\"DayBuySellDetails\":{\"Buys\":66,\"Sells\":84},\"WeekBuySellDetails\":{\"Buys\":106,\"Sells\":150},\"MonthBuySellDetails\":{\"Buys\":184,\"Sells\":220}},{\"MarketId\":154290,\"MarketName\":\"EUR/USD (per 0.0001) CFD\",\"OpenBuySellDetails\":{\"Buys\":171,\"Sells\":162},\"DayBuySellDetails\":{\"Buys\":51,\"Sells\":42},\"WeekBuySellDetails\":{\"Buys\":86,\"Sells\":57},\"MonthBuySellDetails\":{\"Buys\":157,\"Sells\":93}}]}",
 							"language": "javascript",
 							"rawDataType": "text",
 							"previewType": "html",
@@ -575,32 +916,33 @@
 							"state": {
 								"size": "normal"
 							},
-							"id": "8b4eda57-09b5-4dd0-114d-befaa340c802",
-							"name": "AccountInformationResponseDTO",
+							"id": "af58e56c-0c7d-c957-d2b7-11bff2949f05",
+							"name": "ApiListMarketSentimentsResponseDTO",
 							"request": {
-								"url": "https://ciapi.cityindex.com/TradingAPI/UserAccount/ClientAndTradingAccount",
+								"url": "{{Url}}/market/sentiments?marketIDs[]=99500&marketIDs[]=400616113&marketIDs[]=400616150&marketIDs[]=154290",
 								"headers": [
 									{
 										"key": "UserName",
-										"value": "10263668",
+										"value": "{{UserName}}",
+										"type": "text",
 										"enabled": true
 									},
 									{
 										"key": "Session",
 										"value": "{{Session}}",
+										"type": "text",
 										"enabled": true
 									}
 								],
 								"data": null,
 								"method": "GET",
 								"dataMode": "params"
-							},
-							"owner": "444687"
+							}
 						}
 					]
 				},
 				{
-					"id": "efafe86b-f46f-dbfc-671a-24a350c488f7",
+					"id": "52538fae-7475-6918-9979-aecdf91d227e",
 					"headers": "",
 					"url": "{{Url}}/clientapplication/versioninformation?AppKey=ATC-CI&AccountOperatorId=0",
 					"preRequestScript": null,
@@ -614,7 +956,7 @@
 					"time": 1463485166948,
 					"name": "GetVersionInformation",
 					"description": "Gets version information for a specific client application and (optionally) account operator.",
-					"collectionId": "f072ef02-7c29-a2d2-4a7e-27e4f57fb8ff",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
 					"responses": [
 						{
 							"status": "",
@@ -706,7 +1048,7 @@
 							"state": {
 								"size": "normal"
 							},
-							"id": "1c5019e7-089a-fe8f-dca9-0104b62c4f15",
+							"id": "bb029902-182a-a9ef-a7be-bd345b545909",
 							"name": "GetVersionInformationResponseDTO",
 							"request": {
 								"url": "https://ciapi.cityindex.com/TradingAPI/clientapplication/versioninformation?AppKey=ATC-CI&AccountOperatorId=0",
@@ -715,9 +1057,2378 @@
 								"method": "GET",
 								"dataMode": "params"
 							},
-							"owner": "444687"
+							"owner": "601052"
+						}
+					],
+					"owner": "601052",
+					"folder": "9e6f4b52-0d12-560e-17a1-e126a0cd2716"
+				},
+				{
+					"id": "52947224-2a2e-87c1-507d-7483d41c77db",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/market/fullsearchwithtags?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false&tagId=96",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463571410461,
+					"name": "FullSearchWithTags",
+					"description": "Returns a list of markets that meet the search criteria. This search extends ListMarketInformationSearch by optionally searching within a specified market tag and only returning matching markets from the specified tag. Leave the query string empty to return all markets available to the user. The results contain the full ApiMarketInformationDTO.\r\nThe market tag is optional and if not used, then this service call will behave the same as ListMarketInformationSearch. The list of market tag IDs are provided in the table at Market Tag IDs.\r\nNote: when searching for currency markets by name enter the format as \"USD JPY\" or \"GBP USD\". Do not use the \"/\" in the name of the currency pair.\r\n\r\nReturn Value\r\nFullMarketInformationSearchWithTagsResponseDTO\r\n \r\nExample\r\n\r\nThe following request to the Live CIAPI environment searches for markets with names matching the query string \"Gold\" within the \"Commodities\" market tag (96), and returns the first ten results. The full market information is returned for all search results.\r\nHTTP GET does not use the body. Parameters should be added in the query string.\r\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\r\n\r\nA successful request results in an HTTP 200 code in the response header, and the response body containing market information for the search results in JSON format (FullMarketInformationSearchWithTagsResponseDTO).",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK"
+							},
+							"time": 297,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": ""
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": ""
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "14",
+									"description": ""
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": ""
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 11:04:51 GMT",
+									"description": ""
+								},
+								{
+									"name": "ETag",
+									"key": "ETag",
+									"value": "W/\"0869506a36894c61a98735e70a102799\"",
+									"description": ""
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": ""
+								},
+								{
+									"name": "User-Cache-Control",
+									"key": "User-Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": ""
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": ""
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": ""
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1201.p11-fra ( h0-s1035.p11-fra), ms h0-s1035.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": ""
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"Markets\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "4eb4a865-0788-3c31-fcb4-fec1a204893d",
+							"name": "ListMarketSearchResponseDTO",
+							"request": {
+								"url": "{{Url}}/market/search?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"type": "text",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"type": "text",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						},
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK"
+							},
+							"time": 280,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": ""
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": ""
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "24",
+									"description": ""
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": ""
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 11:35:00 GMT",
+									"description": ""
+								},
+								{
+									"name": "ETag",
+									"key": "ETag",
+									"value": "W/\"5c18e22e38844254818e6ba987318415\"",
+									"description": ""
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": ""
+								},
+								{
+									"name": "User-Cache-Control",
+									"key": "User-Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": ""
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": ""
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": ""
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1035.p11-fra ( h0-s1146.p11-fra), ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": ""
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"Markets\":[],\"Tags\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "ef25b7c7-fd9b-1480-6e4d-ef3309aa73de",
+							"name": "MarketInformationSearchWithTagsResponseDTO",
+							"request": {
+								"url": "{{Url}}/market/searchwithtags?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false&tagId=96",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						},
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 300,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "34",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 11:36:43 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "ETag",
+									"key": "ETag",
+									"value": "W/\"d4081eab9b734dea83b2a5c81c2449b2\"",
+									"description": "An identifier for a specific version of a resource, often a message digest"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "User-Cache-Control",
+									"key": "User-Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1035.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"MarketInformation\":[],\"Tags\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "b633bde0-6bc0-1d0a-0857-a388b916466c",
+							"name": "FullMarketInformationSearchWithTagsResponseDTO",
+							"request": {
+								"url": "{{Url}}/market/fullsearchwithtags?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false&tagId=96",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
 						}
 					]
+				},
+				{
+					"id": "5b714ed2-7907-0b88-fa0e-64ef23527507",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/market/searchwithtags?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false&tagId=96",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463571304116,
+					"name": "SearchWithTags",
+					"description": "Returns a list of markets that meet the search criteria. This search extends ListMarketSearch by optionally searching within a specified market tag and only returning matching markets from the specified tag. Leave the query string empty to return all markets available to the user. The results contain the summarised MarketId and MarketName properties.\r\nThe market tag is optional and if not used, then this service call will behave the same as ListMarketSearch. The list of market tag IDs are provided in the table at Market Tag IDs.\r\nNote: when searching for currency markets by name enter the format as \"USD JPY\" or \"GBP USD\". Do not use the \"/\" in the name of the currency pair.\r\n\r\nReturn Value\r\nMarketInformationSearchWithTagsResponseDTO\r\n \r\nExample\r\n\r\nThe following request to the Live CIAPI environment searches for markets with names matching the query string \"Gold\" within the \"Commodities\" market tag (96), and returns the first ten results.\r\nHTTP GET does not use the body. Parameters should be added in the query string.\r\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\r\n\r\nA successful request results in an HTTP 200 code in the response header, and the response body containing the search results in JSON format (MarketInformationSearchWithTagsResponseDTO).",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK"
+							},
+							"time": 297,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": ""
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": ""
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "14",
+									"description": ""
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": ""
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 11:04:51 GMT",
+									"description": ""
+								},
+								{
+									"name": "ETag",
+									"key": "ETag",
+									"value": "W/\"0869506a36894c61a98735e70a102799\"",
+									"description": ""
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": ""
+								},
+								{
+									"name": "User-Cache-Control",
+									"key": "User-Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": ""
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": ""
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": ""
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1201.p11-fra ( h0-s1035.p11-fra), ms h0-s1035.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": ""
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"Markets\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "e4424269-8349-2b45-0344-e849e5c159fb",
+							"name": "ListMarketSearchResponseDTO",
+							"request": {
+								"url": "{{Url}}/market/search?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"type": "text",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"type": "text",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						},
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 280,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "24",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 11:35:00 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "ETag",
+									"key": "ETag",
+									"value": "W/\"5c18e22e38844254818e6ba987318415\"",
+									"description": "An identifier for a specific version of a resource, often a message digest"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "User-Cache-Control",
+									"key": "User-Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1035.p11-fra ( h0-s1146.p11-fra), ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"Markets\":[],\"Tags\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "95899f74-5fd3-6e06-fe15-c33d600ca826",
+							"name": "MarketInformationSearchWithTagsResponseDTO",
+							"request": {
+								"url": "{{Url}}/market/searchwithtags?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false&tagId=96",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "64424955-803d-0e1d-20f9-873d411a7858",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/UserAccount/ClientAndTradingAccount",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"version": 2,
+					"tests": "var data = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"ClientAccountId\", data.ClientAccountId);\npostman.setEnvironmentVariable(\"AccountOperatorId\", data.AccountOperatorId);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463567137508,
+					"name": "GetClientAndTradingAccount",
+					"description": "Returns the User's ClientAccountId and a list of their TradingAccounts. There are no parameters for this call.\n\nThe following request to the Live CIAPI environment retrieves the client and account information after LogOn has been performed.\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the client and trading account information in JSON format (AccountInformationResponseDTO).\n",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 221,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "499",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Tue, 17 May 2016 09:50:17 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s2005.p0-mow ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"LogonUserName\":\"様 Japan Test\",\"ClientAccountId\":400428567,\"CultureId\":16,\"ClientAccountCurrency\":\"JPY\",\"AccountOperatorId\":400784260,\"TradingAccounts\":[{\"TradingAccountId\":400594476,\"TradingAccountCode\":\"10263668\",\"TradingAccountStatus\":\"Open\",\"TradingAccountType\":\"CFD\"}],\"PersonalEmailAddress\":\"FObata@GAINCapital.com\",\"HasMultipleEmailAddresses\":false,\"AccountHolders\":[{\"LegalPartyId\":400861288,\"Name\":\"様 Japan Test\"}],\"ClientTypeId\":1,\"LinkedClientAccounts\":[],\"IsNfaEnabledClient\":false}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "098f29d5-a82e-d7ba-b1f0-334c9405d8e8",
+							"name": "AccountInformationResponseDTO",
+							"request": {
+								"url": "https://ciapi.cityindex.com/TradingAPI/UserAccount/ClientAndTradingAccount",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "10263668",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							},
+							"owner": "601052"
+						}
+					]
+				},
+				{
+					"id": "707f40db-f52e-87c6-6bdf-f82ef20853a8",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/UserAccount/:id/chartingEnabled",
+					"preRequestScript": null,
+					"pathVariables": {
+						"id": "{{ClientAccountId}}"
+					},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463561830784,
+					"name": "GetChartingEnabled",
+					"description": "Checks whether the supplied user account is allowed to see charting data.\n\nReturn Value\nBoolean true/false depending upon the results of the query.",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 142,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "4",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 08:56:43 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1201.p11-fra ( h0-s1146.p11-fra), ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "true",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "92338cc2-3ad9-e3cf-f542-427321d87140",
+							"name": "bool",
+							"request": {
+								"url": "{{Url}}/UserAccount/:id/chartingEnabled",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true,
+										"warning": ""
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true,
+										"warning": ""
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "886b1622-201c-06b4-055d-997765bb71aa",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/cfd/markets?ClientAccountId={{ClientAccountId}}",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"version": 2,
+					"tests": "",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463567008601,
+					"name": "ListCfdMarkets",
+					"description": "Returns a list of CFD markets filtered by market name and/or market code. Leave the market name and code parameters empty to return all markets available to the User.\n\nReturn Value\nListCfdMarketsResponseDTO\n \nExample\n\nThe following request to the Live CIAPI environment retrieves the list of CFD markets matching the following search criteria: market name contains \"Gold\", a maximum of 20 results returned, and use the short form of the market name.\nHTTP GET does not use the body. Parameters should be added in the query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the market list information in JSON format (AccountInformationResponseDTO).",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 1552,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "4575",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 10:06:38 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1035.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"Markets\":[{\"MarketId\":401138114,\"Name\":\"AUD/JPY\",\"Weighting\":1441},{\"MarketId\":401138115,\"Name\":\"EUR/JPY\",\"Weighting\":1097},{\"MarketId\":401138116,\"Name\":\"GBP/JPY\",\"Weighting\":728},{\"MarketId\":401138124,\"Name\":\"EUR/USD\",\"Weighting\":957},{\"MarketId\":401138125,\"Name\":\"USD/JPY\",\"Weighting\":188},{\"MarketId\":401152131,\"Name\":\"AUD/CAD\",\"Weighting\":1478},{\"MarketId\":401152564,\"Name\":\"AUD/CHF\",\"Weighting\":1466},{\"MarketId\":401152565,\"Name\":\"AUD/NZD\",\"Weighting\":1413},{\"MarketId\":401152566,\"Name\":\"CAD/CHF\",\"Weighting\":1352},{\"MarketId\":401152568,\"Name\":\"CAD/JPY\",\"Weighting\":1340},{\"MarketId\":401152569,\"Name\":\"CHF/JPY\",\"Weighting\":1289},{\"MarketId\":401152570,\"Name\":\"CNH/JPY\",\"Weighting\":1251},{\"MarketId\":401152571,\"Name\":\"EUR/AUD\",\"Weighting\":1240},{\"MarketId\":401152573,\"Name\":\"EUR/CAD\",\"Weighting\":1224},{\"MarketId\":401152574,\"Name\":\"EUR/CZK\",\"Weighting\":1174},{\"MarketId\":401152575,\"Name\":\"EUR/DKK\",\"Weighting\":1160},{\"MarketId\":401152576,\"Name\":\"EUR/NOK\",\"Weighting\":1062},{\"MarketId\":401152577,\"Name\":\"EUR/NZD\",\"Weighting\":1048},{\"MarketId\":401152578,\"Name\":\"EUR/SEK\",\"Weighting\":999},{\"MarketId\":401152579,\"Name\":\"GBP/AUD\",\"Weighting\":810},{\"MarketId\":401152580,\"Name\":\"GBP/CAD\",\"Weighting\":793},{\"MarketId\":401152581,\"Name\":\"GBP/CHF\",\"Weighting\":776},{\"MarketId\":401152583,\"Name\":\"GBP/DKK\",\"Weighting\":759},{\"MarketId\":401152584,\"Name\":\"GBP/NOK\",\"Weighting\":700},{\"MarketId\":401152585,\"Name\":\"GBP/NZD\",\"Weighting\":685},{\"MarketId\":401152587,\"Name\":\"GBP/SEK\",\"Weighting\":655},{\"MarketId\":401152588,\"Name\":\"NOK/SEK\",\"Weighting\":432},{\"MarketId\":401152589,\"Name\":\"NZD/CAD\",\"Weighting\":418},{\"MarketId\":401152591,\"Name\":\"NZD/CHF\",\"Weighting\":404},{\"MarketId\":401152592,\"Name\":\"NZD/JPY\",\"Weighting\":389},{\"MarketId\":401152593,\"Name\":\"USD/CNH\",\"Weighting\":265},{\"MarketId\":401152595,\"Name\":\"USD/CZK\",\"Weighting\":254},{\"MarketId\":401152596,\"Name\":\"USD/DKK\",\"Weighting\":241},{\"MarketId\":401152597,\"Name\":\"USD/HKD\",\"Weighting\":227},{\"MarketId\":401152598,\"Name\":\"USD/NOK\",\"Weighting\":152},{\"MarketId\":401152599,\"Name\":\"USD/SEK\",\"Weighting\":104},{\"MarketId\":401152600,\"Name\":\"AUD/SGD\",\"Weighting\":1390},{\"MarketId\":401152601,\"Name\":\"EUR/HKD\",\"Weighting\":1126},{\"MarketId\":401152602,\"Name\":\"EUR/HUF\",\"Weighting\":1111},{\"MarketId\":401152603,\"Name\":\"EUR/MXN\",\"Weighting\":1079},{\"MarketId\":401152604,\"Name\":\"EUR/PLN\",\"Weighting\":1033},{\"MarketId\":401152605,\"Name\":\"EUR/SGD\",\"Weighting\":984},{\"MarketId\":401152606,\"Name\":\"EUR/TRY\",\"Weighting\":971},{\"MarketId\":401152607,\"Name\":\"EUR/ZAR\",\"Weighting\":822},{\"MarketId\":401152608,\"Name\":\"GBP/PLN\",\"Weighting\":669},{\"MarketId\":401152609,\"Name\":\"GBP/SGD\",\"Weighting\":642},{\"MarketId\":401152610,\"Name\":\"GBP/ZAR\",\"Weighting\":481},{\"MarketId\":401152611,\"Name\":\"SGD/HKD\",\"Weighting\":352},{\"MarketId\":401152612,\"Name\":\"SGD/JPY\",\"Weighting\":338},{\"MarketId\":401152613,\"Name\":\"USD/HUF\",\"Weighting\":211},{\"MarketId\":401152614,\"Name\":\"USD/MXN\",\"Weighting\":166},{\"MarketId\":401152615,\"Name\":\"USD/PLN\",\"Weighting\":138},{\"MarketId\":401152616,\"Name\":\"USD/SGD\",\"Weighting\":90},{\"MarketId\":401152617,\"Name\":\"USD/TRY\",\"Weighting\":66},{\"MarketId\":401152618,\"Name\":\"USD/ZAR\",\"Weighting\":54},{\"MarketId\":401152620,\"Name\":\"AUD/USD\",\"Weighting\":1376},{\"MarketId\":401152621,\"Name\":\"EUR/CHF\",\"Weighting\":1205},{\"MarketId\":401152622,\"Name\":\"EUR/GBP\",\"Weighting\":1146},{\"MarketId\":401152623,\"Name\":\"GBP/USD\",\"Weighting\":626},{\"MarketId\":401152624,\"Name\":\"NZD/USD\",\"Weighting\":374},{\"MarketId\":401152625,\"Name\":\"USD/CAD\",\"Weighting\":311},{\"MarketId\":401152626,\"Name\":\"USD/CHF\",\"Weighting\":288},{\"MarketId\":401152627,\"Name\":\"AUD/NOK\",\"Weighting\":1424},{\"MarketId\":401152628,\"Name\":\"CAD/NOK\",\"Weighting\":1323},{\"MarketId\":401152629,\"Name\":\"CHF/NOK\",\"Weighting\":1274},{\"MarketId\":401152630,\"Name\":\"GBP/HKD\",\"Weighting\":738},{\"MarketId\":401152631,\"Name\":\"HKD/JPY\",\"Weighting\":466},{\"MarketId\":401152632,\"Name\":\"NOK/DKK\",\"Weighting\":452},{\"MarketId\":401152633,\"Name\":\"NOK/JPY\",\"Weighting\":442},{\"MarketId\":401152634,\"Name\":\"USD/ILS\",\"Weighting\":201},{\"MarketId\":401152635,\"Name\":\"AUD/PLN\",\"Weighting\":1399},{\"MarketId\":401152636,\"Name\":\"CAD/PLN\",\"Weighting\":1313},{\"MarketId\":401152637,\"Name\":\"CHF/HUF\",\"Weighting\":1299},{\"MarketId\":401152638,\"Name\":\"CHF/PLN\",\"Weighting\":1264},{\"MarketId\":401152640,\"Name\":\"EUR/RON\",\"Weighting\":1020},{\"MarketId\":401152641,\"Name\":\"EUR/RUB\",\"Weighting\":1010},{\"MarketId\":401152643,\"Name\":\"TRY/JPY\",\"Weighting\":322},{\"MarketId\":401152644,\"Name\":\"USD/RON\",\"Weighting\":124},{\"MarketId\":401152645,\"Name\":\"USD/RUB\",\"Weighting\":115},{\"MarketId\":401152646,\"Name\":\"USD/THB\",\"Weighting\":77},{\"MarketId\":401152647,\"Name\":\"ZAR/JPY\",\"Weighting\":5}]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "921753d2-fb6b-662e-e88b-98e830535930",
+							"name": "ListCfdMarketsResponseDTO",
+							"request": {
+								"url": "{{Url}}/cfd/markets?ClientAccountId={{ClientAccountId}}",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "88d8fb4e-a549-8503-0469-9013e72e5214",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/margin/ClientAccountMargin",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463567929459,
+					"name": "GetClientAccountMargin",
+					"description": "Retrieves the current margin values for the logged-in client account.\n\nReturn Value\nApiClientAccountMarginResponseDTO\n \nExample\n\nThe following request to the Live CIAPI environment gets the current margin values for the account.\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the account margin information in JSON format (ApiClientAccountMarginResponseDTO).",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 81,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "265",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 10:38:42 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1035.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"Cash\":15070.0,\"Margin\":12335.0,\"MarginIndicator\":121.88753017085236552192573614,\"NetEquity\":15035.0,\"OpenTradeEquity\":-35.0,\"TradableFunds\":2700.0,\"PendingFunds\":0.0,\"TradingResource\":2700.0,\"TotalMarginRequirement\":12335.0,\"CurrencyId\":8,\"CurrencyIsoCode\":\"JPY\"}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "fc9f0425-d10b-4168-158d-5a1d946b29e0",
+							"name": "ApiClientAccountMarginResponseDTO",
+							"request": {
+								"url": "{{Url}}/margin/ClientAccountMargin",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"type": "text",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"type": "text",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "972acdaa-cf96-55eb-1587-1fb09afdd3a3",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/useraccount/followers",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463565885983,
+					"name": "ListFollowers",
+					"description": "Lists the followers of the specified CI Connect users. (Service call used by the CI Connect social trading platform.)\r\nNote: this requires an existence of the respective CI Connect user record in the CI Connect database.\r\n\r\nReturn Value\r\nApiListFollowingUsersResponseDTO",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": []
+				},
+				{
+					"id": "a7740913-0005-c3a1-e4c7-784ef9a73b46",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/useraccount/followed",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463565871795,
+					"name": "ListFollowed",
+					"description": "Lists the CI Connect users that are followed by the specified users passed in the parameter of the call. (Service call used by the CI Connect social trading platform.)\r\nNote: this requires an existence of the respective CI Connect user record in the CI Connect database.\r\n\r\nReturn Value\r\nApiListFollowedUsersResponseDTO",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": []
+				},
+				{
+					"id": "a7ed1fc2-be9a-0b5e-4540-86b5f4b45dc9",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/useraccount/Save",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\n    PersonalEmailAddress : \"x@x.com\",\n    PersonalEmailAddressIsDirty : true\n}",
+					"dataMode": "raw",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463567500537,
+					"name": "SaveAccountInformation",
+					"description": "Saves changes to the users account information. Currently only the user email address in the account information can be changed and saved.\n\nReturn Value\nApiSaveAccountInformationResponseDTO\n \nExample\n\nThe following request to the Live CIAPI environment saves a change to the user account information (email address change).\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiSaveAccountInformationResponseDTO in JSON format.\n\nAn (empty) response to indicate that the save account information operation has completed.",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 183,
+							"headers": [
+								{
+									"name": "Access-Control-Allow-Origin",
+									"key": "Access-Control-Allow-Origin",
+									"value": "*",
+									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+								},
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "2",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 10:30:35 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "nc h0-s1201.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "59e49ef6-1935-cd61-e5f6-d28f0a2e8eab",
+							"name": "ApiSaveAccountInformationResponseDTO",
+							"request": {
+								"url": "{{Url}}/useraccount/Save",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"type": "text",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"type": "text",
+										"enabled": true
+									}
+								],
+								"data": "{\n    PersonalEmailAddress : \"x@x.com\",\n    PersonalEmailAddressIsDirty : true\n}",
+								"method": "POST",
+								"dataMode": "raw"
+							}
+						}
+					]
+				},
+				{
+					"id": "b2104cba-f558-23b1-1119-789560ea2c1b",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/market/informationsearch?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463568990855,
+					"name": "ListMarketInformationSearch",
+					"description": "Returns market information for the markets that meet the search criteria. The search can be performed by market code and/or market name, and can include CFDs and Spread Bet markets.\r\nNote: when searching for currency markets by name enter the format as \"USD JPY\" or \"GBP USD\". Do not use the \"/\" in the name of the currency pair.\r\n\r\nReturn Value\r\nListMarketInformationSearchResponseDTO\r\n \r\nExample\r\n\r\nThe following request to the Live CIAPI environment searches for markets with names matching the query string \"Gold\" and returns the market information for the first ten.\r\nHTTP GET does not use the body. Parameters should be added in the query string.\r\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\r\n\r\nA successful request results in an HTTP 200 code in the response header, and the response body containing the market information for the search results (ListMarketInformationResponseDTO).",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 118,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "24",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 10:56:20 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "ETag",
+									"key": "ETag",
+									"value": "W/\"1738a5ec8db8417c8002ce7a10965c12\"",
+									"description": "An identifier for a specific version of a resource, often a message digest"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "User-Cache-Control",
+									"key": "User-Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1201.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"MarketInformation\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "fb060dd6-3028-bb43-468c-84c3bfadd316",
+							"name": "ListMarketInformationSearchResponseDTO",
+							"request": {
+								"url": "{{Url}}/market/informationsearch?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "bedbac1a-5bca-32ca-d630-82ac1902f6f8",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/market/information/save",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\n    TradingAccountId : 400784260,\n    MarketInformation : {\n        MarketId : 400616150,\n        PriceTolerance: null,\n        PriceToleranceIsDirty: false,\n        MarginFactor: null,\n        MarginFactorIsDirty: false\n    }\n}",
+					"dataMode": "raw",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463571145632,
+					"name": "SaveMarketInformation",
+					"description": "Save Market Information for the specified list of markets. Currently, this is used to store the per market Price Tolerance setting when changed by the user.\n\nReturn Value\nApiSaveMarketInformationResponseDTO\n \nExample\n\nThe following request to the Live CIAPI environment saves a change to the Wall Street DFT market Price Tolerance setting.\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiSaveMarketInformationResponseDTO in JSON format.",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": []
+				},
+				{
+					"id": "bff9124c-34ea-48ff-b143-90cf2c8e7af0",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/market/information",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\n    MarketIds : [400616113, 99500, 400616150, 154290],\n    TradingAccountId : null\n}",
+					"dataMode": "raw",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463568296730,
+					"name": "ListMarketInformation",
+					"description": "Retrieve the Market Information for the markets in the specified list of market IDs.\n\nReturn Value\nListMarketInformationResponseDTO\n \nExample\n\nThe following request to the Live CIAPI environment requests the market information for the markets in the following list:\nUK 100 DFT (400616113)\nUK 100 CFD (99500)\nGBP/USD DFT (400616150)\nEUR/USD CFD (154290)\n \nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiTradeOrderResponseDTO in JSON format.",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 219,
+							"headers": [
+								{
+									"name": "Access-Control-Allow-Origin",
+									"key": "Access-Control-Allow-Origin",
+									"value": "*",
+									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+								},
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "5825",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 10:44:32 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "nc h0-s1035.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"MarketInformation\":[{\"MarketId\":99500,\"Name\":\"UK 100 CFD\",\"ExchangeId\":400000063,\"ExchangeName\":\"ICE Futures Europe - Financial\",\"MarginFactor\":1.00000000,\"MinMarginFactor\":null,\"MaxMarginFactor\":null,\"ClientMarginFactor\":null,\"MarginFactorUnits\":26,\"MinDistance\":0.00000,\"MinDistanceUnits\":27,\"WebMinSize\":1.00000000,\"MaxSize\":2000.00000000,\"MarketSizesCurrencyCode\":\"GBP\",\"MaxLongSize\":500.000000000,\"MaxShortSize\":500.000000000,\"Market24H\":true,\"PriceDecimalPlaces\":1,\"DefaultQuoteLength\":180,\"TradeOnWeb\":true,\"LimitUp\":false,\"LimitDown\":false,\"LongPositionOnly\":false,\"CloseOnly\":false,\"MarketEod\":[],\"PriceTolerance\":2.0,\"ConvertPriceToPipsMultiplier\":10000,\"MarketSettingsTypeId\":2,\"MarketSettingsType\":\"CFD\",\"MobileShortName\":\"UK 100\",\"CentralClearingType\":\"No\",\"CentralClearingTypeDescription\":\"None\",\"MarketCurrencyId\":6,\"PhoneMinSize\":2.00000000,\"DailyFinancingAppliedAtUtc\":\"\\/Date(1463518800000)\\/\",\"NextMarketEodTimeUtc\":\"\\/Date(1463518800000)\\/\",\"TradingStartTimeUtc\":null,\"TradingEndTimeUtc\":null,\"MarketPricingTimes\":[{\"DayOfWeek\":1,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463528700000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463601600000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":2,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463528700000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463601600000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":3,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463528700000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463601600000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":4,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463528700000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463601600000)\\/\",\"OffsetMinutes\":60}},{\"DayOfWeek\":5,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463528700000)\\/\",\"OffsetMinutes\":60},\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463601600000)\\/\",\"OffsetMinutes\":60}}],\"MarketBreakTimes\":[],\"MarketSpreads\":[{\"SpreadTimeUtc\":\"\\/Date(1463601540000)\\/\",\"Spread\":6.000000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463554740000)\\/\",\"Spread\":1.000000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463585400000)\\/\",\"Spread\":1.500000000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463551200000)\\/\",\"Spread\":1.500000000,\"SpreadUnits\":27}],\"GuaranteedOrderPremium\":3.00,\"GuaranteedOrderPremiumUnits\":1,\"GuaranteedOrderMinDistance\":5.00000,\"GuaranteedOrderMinDistanceUnits\":26,\"PriceToleranceUnits\":1.000000000,\"MarketTimeZoneOffsetMinutes\":60,\"QuantityConversionFactor\":1.00000000,\"PointFactorDivisor\":100,\"BetPer\":1.00000,\"MarketUnderlyingTypeId\":2,\"MarketUnderlyingType\":\"Index\",\"AllowGuaranteedOrders\":true,\"OrdersAwareMargining\":true,\"OrdersAwareMarginingMinimum\":75.00,\"CommissionChargeMinimum\":null,\"CommissionRate\":null,\"CommissionRateUnits\":null,\"ExpiryUtc\":null,\"FutureRolloverUTC\":null,\"AllowRollover\":false,\"ExpiryBasisId\":1,\"ExpiryBasisText\":\"\",\"StepMargin\":{\"EligibleForStepMargin\":false,\"StepMarginConfigured\":false,\"InheritedFromParentAccountOperator\":false,\"Bands\":null},\"OptionTypeId\":null,\"OptionType\":null,\"StrikePrice\":null,\"MarketTypeId\":2,\"MarketType\":\"Ordinary Market\",\"Weighting\":300,\"FxFinancing\":null,\"UnderlyingRicCode\":\"FFI\",\"NewsUnderlyingOverrideType\":\"Companies\",\"NewsUnderlyingOverrideCode\":\".FTSE\"},{\"MarketId\":154290,\"Name\":\"EUR/USD (per 0.0001) CFD\",\"ExchangeId\":56,\"ExchangeName\":\"FX Dummy Exchange\",\"MarginFactor\":1.00000000,\"MinMarginFactor\":null,\"MaxMarginFactor\":null,\"ClientMarginFactor\":null,\"MarginFactorUnits\":26,\"MinDistance\":0.80000,\"MinDistanceUnits\":27,\"WebMinSize\":1.00000000,\"MaxSize\":5000.00000000,\"MarketSizesCurrencyCode\":\"USD\",\"MaxLongSize\":500.00000000,\"MaxShortSize\":500.00000000,\"Market24H\":true,\"PriceDecimalPlaces\":5,\"DefaultQuoteLength\":30,\"TradeOnWeb\":true,\"LimitUp\":false,\"LimitDown\":false,\"LongPositionOnly\":false,\"CloseOnly\":false,\"MarketEod\":[],\"PriceTolerance\":2.0,\"ConvertPriceToPipsMultiplier\":10000,\"MarketSettingsTypeId\":2,\"MarketSettingsType\":\"CFD\",\"MobileShortName\":\"EUR/USD\",\"CentralClearingType\":\"No\",\"CentralClearingTypeDescription\":\"None\",\"MarketCurrencyId\":11,\"PhoneMinSize\":5.00000000,\"DailyFinancingAppliedAtUtc\":\"\\/Date(1463518800000)\\/\",\"NextMarketEodTimeUtc\":\"\\/Date(1463518800000)\\/\",\"TradingStartTimeUtc\":null,\"TradingEndTimeUtc\":null,\"MarketPricingTimes\":[{\"DayOfWeek\":5,\"StartTimeUtc\":null,\"EndTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463605200000)\\/\",\"OffsetMinutes\":-240}},{\"DayOfWeek\":0,\"StartTimeUtc\":{\"UtcDateTime\":\"\\/Date(1463605200000)\\/\",\"OffsetMinutes\":-240},\"EndTimeUtc\":null}],\"MarketBreakTimes\":[],\"MarketSpreads\":[{\"SpreadTimeUtc\":\"\\/Date(1463554800000)\\/\",\"Spread\":0.000100000,\"SpreadUnits\":27},{\"SpreadTimeUtc\":\"\\/Date(1463592600000)\\/\",\"Spread\":0.000080000,\"SpreadUnits\":27}],\"GuaranteedOrderPremium\":4.00,\"GuaranteedOrderPremiumUnits\":1,\"GuaranteedOrderMinDistance\":5.00000,\"GuaranteedOrderMinDistanceUnits\":26,\"PriceToleranceUnits\":0.000100000,\"MarketTimeZoneOffsetMinutes\":-240,\"QuantityConversionFactor\":1.00000000,\"PointFactorDivisor\":100,\"BetPer\":0.00010,\"MarketUnderlyingTypeId\":4,\"MarketUnderlyingType\":\"FX\",\"AllowGuaranteedOrders\":true,\"OrdersAwareMargining\":true,\"OrdersAwareMarginingMinimum\":80.00,\"CommissionChargeMinimum\":null,\"CommissionRate\":null,\"CommissionRateUnits\":null,\"ExpiryUtc\":null,\"FutureRolloverUTC\":null,\"AllowRollover\":false,\"ExpiryBasisId\":1,\"ExpiryBasisText\":\"\",\"StepMargin\":{\"EligibleForStepMargin\":false,\"StepMarginConfigured\":false,\"InheritedFromParentAccountOperator\":false,\"Bands\":null},\"OptionTypeId\":null,\"OptionType\":null,\"StrikePrice\":null,\"MarketTypeId\":2,\"MarketType\":\"Ordinary Market\",\"Weighting\":948,\"FxFinancing\":{\"CaptureDateTime\":\"\\/Date(1463605200000)\\/\",\"LongPoints\":1.36,\"ShortPoints\":0.25,\"LongCharge\":-149.0,\"ShortCharge\":28.0,\"Quantity\":1.00000,\"ChargeCurrencyId\":8,\"DaysToRoll\":3},\"UnderlyingRicCode\":\"41\",\"NewsUnderlyingOverrideType\":\"Topics\",\"NewsUnderlyingOverrideCode\":\"EUR \"}]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "6fb93a69-44a2-12cb-a6bb-5820f38e6d31",
+							"name": "ListMarketInformationResponseDTO",
+							"request": {
+								"url": "{{Url}}/market/information",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"type": "text",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"type": "text",
+										"enabled": true
+									}
+								],
+								"data": "{\n    MarketIds : [400616113, 99500, 400616150, 154290],\n    TradingAccountId : null\n}",
+								"method": "POST",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "c1dcf84e-8934-324f-f1a7-486c0b0a3434",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/useraccount/gettopholdersformarkets?numberOfResults=20&MarketIds[]=400616113&MarketIds[]=99500&MarketIds[]=400616150&MarketIds[]=154290",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463570658684,
+					"name": "ListTopholdersForMarkets",
+					"description": "Lists the top holders for the specified market IDs. (Service call used by the CI Connect social trading platform.)\r\nNote: this requires an existence of the respective CI Connect user record in the CI Connect database. Only top holders who have registered with the CI Connect service are returned.\r\n\r\nReturn Value\r\nApiListTopholdersForMarketsResponseDTO",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 481,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "17",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 10:26:07 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"TopHolders\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "2903dc85-8100-a7d1-ecc3-dae6427b234a",
+							"name": "ApiListTopholdersForMarketsResponseDTO",
+							"request": {
+								"url": "{{Url}}/useraccount/gettopholdersformarkets?marketIDs[]=99500,154290&numberOfResults=20",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						},
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 290,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "5486",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 11:24:11 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1035.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"TopHolders\":[{\"MarketId\":400616113,\"Users\":[{\"ScreenName\":\"rcl1982\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":25.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"gremlin\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":10.0000,\"Direction\":\"Buy\"},{\"ScreenName\":\"gilks\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":10.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"sammy909\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":10.0,\"Direction\":\"Buy\"},{\"ScreenName\":\"maxx\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":10.0,\"Direction\":\"Buy\"},{\"ScreenName\":\"badsha\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":10.0,\"Direction\":\"Buy\"},{\"ScreenName\":\"besajapa\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":8.0000,\"Direction\":\"Buy\"},{\"ScreenName\":\"madmonk\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":5.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"verghese\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":5.0,\"Direction\":\"Buy\"},{\"ScreenName\":\"hx515444\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":3.0,\"Direction\":\"Buy\"},{\"ScreenName\":\"grandmaster\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":3.0,\"Direction\":\"Buy\"},{\"ScreenName\":\"charliem\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0000,\"Direction\":\"Sell\"},{\"ScreenName\":\"roberttilley\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"smokescreen\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0000,\"Direction\":\"Buy\"},{\"ScreenName\":\"empi\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0000,\"Direction\":\"Sell\"},{\"ScreenName\":\"davetheeagle\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0,\"Direction\":\"Buy\"},{\"ScreenName\":\"fwhgreen\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"mrb\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"lombard\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0000,\"Direction\":\"Sell\"},{\"ScreenName\":\"rajeshpathak\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0000,\"Direction\":\"Buy\"}]},{\"MarketId\":99500,\"Users\":[{\"ScreenName\":\"cfdtrading\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":55.0000,\"Direction\":\"Buy\"},{\"ScreenName\":\"matlock\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":10.0000,\"Direction\":\"Buy\"},{\"ScreenName\":\"sg432754\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0000,\"Direction\":\"Buy\"},{\"ScreenName\":\"norm\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0000,\"Direction\":\"Buy\"},{\"ScreenName\":\"m\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0,\"Direction\":\"Buy\"},{\"ScreenName\":\"dc10002\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"tonto\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"andycarmichael\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"yoserain\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"scorpio1146\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0000,\"Direction\":\"Buy\"},{\"ScreenName\":\"stevev\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"cu2\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0,\"Direction\":\"Sell\"}]},{\"MarketId\":400616150,\"Users\":[{\"ScreenName\":\"tzimisce\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":3.5000,\"Direction\":\"Sell\"},{\"ScreenName\":\"gremlin\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":3.0000,\"Direction\":\"Buy\"},{\"ScreenName\":\"kbkb\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.5000,\"Direction\":\"Buy\"},{\"ScreenName\":\"z\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0000,\"Direction\":\"Sell\"},{\"ScreenName\":\"besajapa\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"radekov\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.3000,\"Direction\":\"Buy\"},{\"ScreenName\":\"thairmrc\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0,\"Direction\":\"Buy\"},{\"ScreenName\":\"lindokpm\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"ramatthews\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":0.5,\"Direction\":\"Buy\"},{\"ScreenName\":\"shahed\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":0.4000,\"Direction\":\"Buy\"},{\"ScreenName\":\"whipsawed\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":0.1500,\"Direction\":\"Sell\"},{\"ScreenName\":\"cubby\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":0.1,\"Direction\":\"Sell\"}]},{\"MarketId\":154290,\"Users\":[{\"ScreenName\":\"francishvftheory\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":2.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"psapphire88\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"yoserain\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0,\"Direction\":\"Sell\"},{\"ScreenName\":\"cu2\",\"Avatar\":\"/connect/images/profile-default-pic.jpg\",\"Quantity\":1.0,\"Direction\":\"Sell\"}]}]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "2f60bdaf-5dfa-4273-c316-830e0a96856f",
+							"name": "ApiListTopholdersForMarketsResponseDTO",
+							"request": {
+								"url": "{{Url}}/useraccount/gettopholdersformarkets?numberOfResults=20&MarketIds[]=400616113&MarketIds[]=99500&MarketIds[]=400616150&MarketIds[]=154290",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "c1ecf0ed-23c2-b161-8545-ce5aac3ddfb3",
+					"headers": "Content-Type: application/json\n",
+					"url": "{{Url}}/session/changePassword",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\r\n\"NewPassword\":\"password\",\r\n\"UserName\":\"{{UserName}}\",\r\n\"Password\":\"password1\"\r\n}",
+					"dataMode": "raw",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463554912496,
+					"name": "ChangePassword",
+					"description": "Change a user's password.\n\nThe following request to the Live CIAPI environment changes the DM123456 account password from \"allsystemsgo\" to \"openthedoor\".\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiSaveAccountInformationResponseDTO in JSON format.",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 344,
+							"headers": [
+								{
+									"name": "Access-Control-Allow-Origin",
+									"key": "Access-Control-Allow-Origin",
+									"value": "*",
+									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+								},
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "26",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 06:58:44 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "nc h0-s1146.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"IsPasswordChanged\":true}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "8e14774d-2a99-babd-7ec0-6b73abb69b38",
+							"name": "ApiChangePasswordResponseDTO",
+							"request": {
+								"url": "{{Url}}/session/changePassword",
+								"headers": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"enabled": true,
+										"description": "The mime type of this content"
+									}
+								],
+								"data": "{\r\n\"NewPassword\":\"password\",\r\n\"UserName\":\"10263668\",\r\n\"Password\":\"password1\"\r\n}",
+								"method": "POST",
+								"dataMode": "raw"
+							}
+						}
+					]
+				},
+				{
+					"id": "d37275d9-6783-45fd-f141-fec0a9f41174",
+					"headers": "Content-Type: application/json\n",
+					"url": "{{Url}}/session/deleteSession?UserName={{UserName}}&Session={{Session}}",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "POST",
+					"data": null,
+					"dataMode": "params",
+					"version": 2,
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463554226990,
+					"name": "DeleteSession",
+					"description": "Delete a session. This is how you \"log off\" from the CIAPI.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiLogOnResponseDTO in JSON format.",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 522,
+							"headers": [
+								{
+									"name": "Access-Control-Allow-Origin",
+									"key": "Access-Control-Allow-Origin",
+									"value": "*",
+									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+								},
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "18",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 06:50:07 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "nc h0-s1201.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"LoggedOut\":true}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "61b34a92-651d-71fe-6464-8866e7d03009",
+							"name": "ApiLogOffResponseDTO",
+							"request": {
+								"url": "{{Url}}/session/deleteSession?UserName={{UserName}}&Session={{Session}}",
+								"headers": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text",
+										"enabled": true,
+										"warning": ""
+									}
+								],
+								"data": null,
+								"method": "POST",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "d90b3f61-fcf6-3ecc-55f4-1760904ff134",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/market/search?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463569497691,
+					"name": "ListMarketSearch",
+					"description": "Returns a list of markets that meet the search criteria. The search can be performed by market code and/or market name, and can include CFDs and Spread Bet markets. Leave the query string empty to return all markets available to the user. The results contain the summarised MarketId and MarketName properties.\r\nNote: when searching for currency markets by name enter the format as \"USD JPY\" or \"GBP USD\". Do not use the \"/\" in the name of the currency pair.\r\n\r\nReturn Value\r\nListMarketSearchResponseDTO\r\n \r\nExample\r\n\r\nThe following request to the Live CIAPI environment searches for markets with names matching the query string \"Gold\" and returns the first ten search results.\r\nHTTP GET does not use the body. Parameters should be added in the query string.\r\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\r\n\r\nA successful request results in an HTTP 200 code in the response header, and the response body containing the search results in JSON format (ListMarketSearchResponseDTO).",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 297,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "14",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 11:04:51 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "ETag",
+									"key": "ETag",
+									"value": "W/\"0869506a36894c61a98735e70a102799\"",
+									"description": "An identifier for a specific version of a resource, often a message digest"
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "User-Cache-Control",
+									"key": "User-Cache-Control",
+									"value": "must-revalidate, max-age=0",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1201.p11-fra ( h0-s1035.p11-fra), ms h0-s1035.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"Markets\":[]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "b70f713e-273c-5698-3818-81c95b16b05d",
+							"name": "ListMarketSearchResponseDTO",
+							"request": {
+								"url": "{{Url}}/market/search?searchByMarketCode=false&searchByMarketName=true&spreadProductType=false&cfdProductType=false&binaryProductType=false&includeOptions=false&query=Gold&TradingAccountId=400594476&maxResults=10&useMobileShortName=false",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"type": "text",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"type": "text",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "e557959b-3ff5-e41b-ccdf-6192675aa2a8",
+					"headers": "",
+					"url": "{{Url}}/UserAccount/username?sessionId={{Session}}&clientAccountId={{ClientAccountId}}",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463561816208,
+					"name": "GetUsername",
+					"description": "Retrieves the user's trading account code (username) associated with the account ID passed in the parameter.\n\nReturn Value\nApiUsernameResponseDTO",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 249,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "55",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Wed, 18 May 2016 07:22:00 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1201.p11-fra ( h0-s1146.p11-fra), ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"TradingAccountCode\":\"10263668\",\"Username\":\"10263668\"}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "1f62ae7d-dbcd-d36f-66f1-fbcc5a592159",
+							"name": "ApiUsernameResponseDTO",
+							"request": {
+								"url": "{{Url}}/UserAccount/username?sessionId={{Session}}&clientAccountId={{ClientAccountId}}",
+								"headers": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text",
+										"enabled": true,
+										"warning": ""
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "fd7d7c57-f0cb-4925-2587-ac7e44572e91",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/useraccount/search?pageNumber=0&maxResults=20&screenNameQuery=&activeSinceLessThanMonth=null&excludeNonLiveUsers=null&minimumAverageTradeLength=null&minimumNumberOfFollowers=null&lastTradedUnderlyingTypes&userId=null",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1463568883141,
+					"name": "Search",
+					"description": "Performs a search of CI Connect users based on user specified search criteria. (Service call used by the CI Connect social trading platform.)\r\nNote: this requires an existence of the respective CI Connect user record in the CI Connect database and only users registered with CI Connect are searched.\r\n\r\nReturn Value\r\nApiTraderSearchResponseDTO",
+					"collectionId": "9dd10856-0eea-5aea-0373-188a2d40fda0",
+					"responses": []
 				}
 			]
 		}
@@ -736,7 +3447,7 @@
 				},
 				{
 					"key": "Session",
-					"value": "c8f9f736-f350-4d0f-a7da-88fb89753656",
+					"value": "9905c037-148d-4161-b009-82b0e60b24e5",
 					"type": "text",
 					"enabled": true,
 					"hovered": false
@@ -747,10 +3458,24 @@
 					"type": "text",
 					"enabled": true,
 					"hovered": false
+				},
+				{
+					"key": "ClientAccountId",
+					"type": "text",
+					"value": "400428567",
+					"enabled": true,
+					"hovered": false
+				},
+				{
+					"key": "AccountOperatorId",
+					"type": "text",
+					"value": "400784260",
+					"enabled": true,
+					"hovered": false
 				}
 			],
 			"team": null,
-			"timestamp": 1463484908752
+			"timestamp": 1463570953207
 		}
 	],
 	"headerPresets": [
@@ -772,6 +3497,19 @@
 				}
 			],
 			"timestamp": 1463481354139
+		},
+		{
+			"id": "0ad10f9a-0aef-5d37-82fe-bcbb0309f987",
+			"name": "Content-Type",
+			"headers": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"timestamp": 1463554437848
 		}
 	],
 	"globals": []
