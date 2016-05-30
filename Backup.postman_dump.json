@@ -2339,8 +2339,7 @@
 						"d7a2e9e0-832a-5943-c439-cef186da42a6",
 						"73f3b766-69b8-179b-43c2-8137f07a8cc7",
 						"5dc39dde-7e1c-9e7c-ef04-81db9d4e8691",
-						"abeab28f-569b-417b-4e67-111e61c132da",
-						"7d7e0fd2-5d70-e2fd-4b4b-9b1b0ad73778"
+						"abeab28f-569b-417b-4e67-111e61c132da"
 					],
 					"collection": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
 					"owner": "601052",
@@ -2557,6 +2556,71 @@
 					"collection": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
 					"owner": "601052",
 					"collection_id": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0"
+				},
+				{
+					"id": "c58a40fa-2142-6ce5-492c-cf466dd3d8d3",
+					"name": "Future Option",
+					"description": "",
+					"write": true,
+					"order": [
+						"a2bfc529-2304-8706-7c36-a10fb960d52a"
+					],
+					"collection": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"owner": "601052",
+					"collection_id": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0"
+				},
+				{
+					"id": "533e8323-8212-26bc-a081-3fd0f619d07b",
+					"name": "Hedge",
+					"description": "",
+					"write": true,
+					"order": [
+						"184d72a1-2685-bb9f-4423-b6f4b267eb0e"
+					],
+					"collection": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"owner": "601052",
+					"collection_id": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0"
+				},
+				{
+					"id": "b4500ba4-2643-19d4-c912-6a82cb9ff405",
+					"name": "ITFinance",
+					"description": "",
+					"write": true,
+					"order": [
+						"ec0452c6-0cc2-af10-ad74-4f31bfefcfd1"
+					],
+					"collection": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"owner": "601052",
+					"collection_id": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0"
+				},
+				{
+					"id": "52697aea-518f-d192-eede-197a8f6ace42",
+					"name": "Price alerts",
+					"description": "",
+					"write": true,
+					"order": [
+						"2150d6e1-bef8-973a-fab9-21aa6a1cdab1",
+						"30b1453b-7ea0-a0ff-b22d-01575c71ff37",
+						"c615b0ec-2817-808a-5528-3b4a99ac96bf"
+					],
+					"collection": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"owner": "601052",
+					"collection_id": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0"
+				},
+				{
+					"id": "d4b4ae50-bc26-6e50-0aa2-71de25fcbffc",
+					"name": "Test",
+					"description": "",
+					"write": true,
+					"order": [
+						"c89fa023-d1a3-f3ec-13f0-5c00320f202a",
+						"e1b0871d-aacf-a49b-03eb-2759b9ad19f8",
+						"184fe727-f49e-f47c-8389-0e79053c8728",
+						"7746f815-0d0f-dd1f-8a2c-512cc5b7e95a"
+					],
+					"collection": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"owner": "601052",
+					"collection_id": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0"
 				}
 			],
 			"timestamp": 1463475826996,
@@ -2568,7 +2632,7 @@
 			"remoteLink": "",
 			"public": false,
 			"createdAt": 1464071082861,
-			"updatedAt": 1464602797155,
+			"updatedAt": 1464614857990,
 			"write": true,
 			"requests": [
 				{
@@ -3231,6 +3295,154 @@
 					"folder": "bde9609c-47b9-34a8-0097-0465583c6a40"
 				},
 				{
+					"id": "184d72a1-2685-bb9f-4423-b6f4b267eb0e",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/hedge/newfxhedge",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\n    Reference : ,\n    HarmonyReference : ,\n    Source : ,\n    ExecutingBroker : ,\n    TradedCurrency : ,\n    Direction : ,\n    Quantity : ,\n    CounterCurrency : ,\n    Rate : ,\n    TradeDateTime : ,\n    ValueDate : ,\n    DealerId : ,\n    Book : \n}",
+					"dataMode": "raw",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1464605147893,
+					"name": "Hedge",
+					"description": "Hedge service\n\nReturn value\nNewFxHedgeResponseDTO",
+					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"responses": []
+				},
+				{
+					"id": "184fe727-f49e-f47c-8389-0e79053c8728",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/smoketest/authenticated",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1464606225767,
+					"name": "DoAuthenticatedSmokeTest",
+					"description": "Return value\nSystemStatusDTO",
+					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 141,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "54",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Mon, 30 May 2016 11:03:43 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1201.p11-fra ( h0-s1035.p11-fra), ms h0-s1035.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"StatusMessage\":\"Everything OK When Running locally\"}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "c3d122ee-27ad-bdaa-a50f-efad151d9199",
+							"name": "SystemStatusDTO",
+							"request": {
+								"url": "{{Url}}/smoketest/authenticated",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
 					"id": "209e2eeb-d850-4987-0010-8745da27c0c6",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
 					"url": "{{Url}}/market/:MarketId/barhistorybefore?interval=MINUTE&span=1&toTimestampUTC=1464609600&maxResults=10&priceType=MID",
@@ -3343,6 +3555,136 @@
 							"name": "GetPriceBarResponseDTO",
 							"request": {
 								"url": "{{Url}}/market/:MarketId/barhistorybefore?interval=MINUTE&span=1&toTimestampUTC=1464609600&maxResults=10&priceType=MID",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
+					"id": "2150d6e1-bef8-973a-fab9-21aa6a1cdab1",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/pricealert",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1464605373206,
+					"name": "Get",
+					"description": "Return value\nPriceAlertResponseDTO",
+					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 99,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "239",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Mon, 30 May 2016 10:53:55 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1201.p11-fra ( h0-s1035.p11-fra), ms h0-s1035.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"PriceAlerts\":[{\"AlertId\":41679,\"MarketId\":99500,\"Criterion\":1,\"Direction\":1,\"FillRate\":10.0,\"EmailAddress\":\"test@gmail.com\",\"Expiry\":1,\"ExpiryDate\":null,\"CreateDate\":\"\\/Date(1464605617282)\\/\",\"Comment\":\"comment\",\"NotificationMethod\":2}]}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "beb64194-a223-4396-40e4-619e014934b9",
+							"name": "PriceAlertResponseDTO",
+							"request": {
+								"url": "{{Url}}/pricealert",
 								"headers": [
 									{
 										"key": "UserName",
@@ -4061,6 +4403,142 @@
 					"description": "Return value\nListNewsHeadlinesResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
 					"responses": []
+				},
+				{
+					"id": "30b1453b-7ea0-a0ff-b22d-01575c71ff37",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/pricealert",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\n    AlertId : 0,\n    MarketId : 99500,\n    Criterion : 1,\n    Direction : 1,\n    FillRate : 10.0,\n    EmailAddress : \"test@gmail.com\",\n    Expiry : 1,\n    ExpiryDate : null,\n    Comment : \"comment\",\n    NotificationMethod : 2\n}",
+					"dataMode": "raw",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1464605619587,
+					"name": "Save",
+					"description": "Return value\nint",
+					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 180,
+							"headers": [
+								{
+									"name": "Access-Control-Allow-Origin",
+									"key": "Access-Control-Allow-Origin",
+									"value": "*",
+									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+								},
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "5",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Mon, 30 May 2016 10:53:37 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "nc h0-s1201.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "41679",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "ccc5f812-de94-b20a-abfe-64471b37ff9e",
+							"name": "int",
+							"request": {
+								"url": "{{Url}}/pricealert",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": "{\n    AlertId : 0,\n    MarketId : 99500,\n    Criterion : 1,\n    Direction : 1,\n    FillRate : 10.0,\n    EmailAddress : \"test@gmail.com\",\n    Expiry : 1,\n    ExpiryDate : null,\n    Comment : \"comment\",\n    NotificationMethod : 2\n}",
+								"method": "POST",
+								"dataMode": "params"
+							}
+						}
+					]
 				},
 				{
 					"id": "343891f7-d328-3d7f-7d69-9c77c896b311",
@@ -7271,121 +7749,7 @@
 					"name": "ValidateSession",
 					"description": "Validate a session, check that your session id and username combination are valid\n\nReturn value\nApiValidateSessionResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
-					"responses": [
-						{
-							"status": "",
-							"responseCode": {
-								"code": 200,
-								"name": "OK",
-								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
-							},
-							"time": 79,
-							"headers": [
-								{
-									"name": "Access-Control-Allow-Origin",
-									"key": "Access-Control-Allow-Origin",
-									"value": "*",
-									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-								},
-								{
-									"name": "Cache-Control",
-									"key": "Cache-Control",
-									"value": "no-cache",
-									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
-								},
-								{
-									"name": "Connection",
-									"key": "Connection",
-									"value": "keep-alive",
-									"description": "Options that are desired for the connection"
-								},
-								{
-									"name": "Content-Length",
-									"key": "Content-Length",
-									"value": "25",
-									"description": "The length of the response body in octets (8-bit bytes)"
-								},
-								{
-									"name": "Content-Type",
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8",
-									"description": "The mime type of this content"
-								},
-								{
-									"name": "Date",
-									"key": "Date",
-									"value": "Mon, 30 May 2016 09:44:07 GMT",
-									"description": "The date and time that the message was sent"
-								},
-								{
-									"name": "Expires",
-									"key": "Expires",
-									"value": "-1",
-									"description": "Gives the date/time after which the response is considered stale"
-								},
-								{
-									"name": "Pragma",
-									"key": "Pragma",
-									"value": "no-cache",
-									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
-								},
-								{
-									"name": "Server",
-									"key": "Server",
-									"value": "PWS/8.1.36",
-									"description": "A name for the server"
-								},
-								{
-									"name": "X-AspNet-Version",
-									"key": "X-AspNet-Version",
-									"value": "4.0.30319",
-									"description": "Custom header"
-								},
-								{
-									"name": "X-Powered-By",
-									"key": "X-Powered-By",
-									"value": "ASP.NET",
-									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-								},
-								{
-									"name": "X-Px",
-									"key": "X-Px",
-									"value": "nc h0-s1035.p11-fra ( h0-s43.p6-lhr), nc h0-s43.p6-lhr ( origin)",
-									"description": "Custom header"
-								}
-							],
-							"cookies": [],
-							"mime": "",
-							"text": "{\"IsAuthenticated\":false}",
-							"language": "javascript",
-							"rawDataType": "text",
-							"previewType": "html",
-							"searchResultScrolledTo": -1,
-							"forceNoPretty": false,
-							"write": true,
-							"empty": false,
-							"failed": false,
-							"state": {
-								"size": "normal"
-							},
-							"id": "e4e32ca0-a9e0-0906-8a58-ccbe095d01cf",
-							"name": "ApiValidateSessionResponseDTO",
-							"request": {
-								"url": "{{Url}}/session/validate",
-								"headers": [
-									{
-										"key": "Content-Type",
-										"value": "application/json",
-										"enabled": true,
-										"description": "The mime type of this content"
-									}
-								],
-								"data": "{\r\n    UserName : {{UserName}},\r\n    Session : {{Session}}\r\n}",
-								"method": "POST",
-								"dataMode": "raw"
-							}
-						}
-					]
+					"responses": []
 				},
 				{
 					"id": "770f2870-a0c6-6cd6-4f66-0e2e432656b9",
@@ -7519,8 +7883,137 @@
 					]
 				},
 				{
+					"id": "7746f815-0d0f-dd1f-8a2c-512cc5b7e95a",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/heartbeat",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1464606271906,
+					"name": "DoHeartbeat",
+					"description": "Return value\nSystemStatusDTO",
+					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 231,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "35",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Mon, 30 May 2016 11:04:30 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1201.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"StatusMessage\":\"Heartbeat reply\"}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "c340d671-0d5f-acc4-0678-8cdbd3551e35",
+							"name": "SystemStatusDTO",
+							"request": {
+								"url": "{{Url}}/heartbeat",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
 					"id": "779efe9f-6641-cd25-d1d2-b34ea55df228",
-					"owner": "601052",
 					"headers": "Content-Type: application/json\n",
 					"url": "{{Url}}/session",
 					"preRequestScript": null,
@@ -7528,10 +8021,10 @@
 					"method": "POST",
 					"data": "{\n\t\"AppComments\": \"Windows 10\",\n\t\"AppKey\": \"None\",\n\t\"AppVersion\": \"1.0.0.0\",\n\t\"Password\": \"password\",\n\t\"UserName\": \"10263668\"\n}",
 					"dataMode": "raw",
-					"tests": "postman.clearGlobalVariables();\n\nvar data = JSON.parse(responseBody);\npostman.setGlobalVariable(\"Session\", data.Session);\n\nvar requestData = JSON.parse(request.data);\npostman.setGlobalVariable(\"UserName\", requestData.UserName);",
+					"tests": "postman.clearGlobalVariables();\n\nvar data = JSON.parse(responseBody);\npostman.setGlobalVariable(\"Session\", data.Session);\npostman.setEnvironmentVariable(\"Session\", data.Session);\n\nvar requestData = JSON.parse(request.data);\npostman.setGlobalVariable(\"UserName\", requestData.UserName);",
 					"currentHelper": "normal",
-					"helperAttributes": "{}",
-					"time": 1463747093495,
+					"helperAttributes": {},
+					"time": 1464604025406,
 					"name": "LogOn",
 					"description": "Create a new session. This is how you \"log on\" to the CIAPI.\n\nThe following request to the Live CIAPI environment logs in to your account using the example credentials of Username as \"DM123456\" and password as \"openthedoor\".\n\nThe AppKey required to use the CIAPI is sent to you once you have returned the signed terms and conditions of the CIAPI to our Partnerships team:\n\n    (PartnershipServices[at]cityindex.com).\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiLogOnResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -7639,10 +8132,7 @@
 							"owner": "601052",
 							"collection": "dea0b202-f2bf-aaf7-04ff-a4abca3e39bf"
 						}
-					],
-					"synced": true,
-					"folder": "ddba1d55-6ed9-ac6a-c141-334ac43bc48a",
-					"timestamp": null
+					]
 				},
 				{
 					"id": "77f52bf7-a4ac-690c-9e82-7646cfbc03a7",
@@ -7925,24 +8415,6 @@
 					],
 					"owner": "601052",
 					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
-				},
-				{
-					"id": "7d7e0fd2-5d70-e2fd-4b4b-9b1b0ad73778",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}",
-					"preRequestScript": null,
-					"pathVariables": {},
-					"method": "OPTIONS",
-					"data": null,
-					"dataMode": "params",
-					"tests": null,
-					"currentHelper": "normal",
-					"helperAttributes": {},
-					"time": 1464602681586,
-					"name": "HandlePreflightedCorsRequest",
-					"description": "",
-					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
-					"responses": []
 				},
 				{
 					"id": "7f99513e-b12e-ca5b-a3bf-788cbe47b376",
@@ -10382,6 +10854,24 @@
 					"folder": "b9c66979-e223-2e8f-c5ea-cf9870fc6853"
 				},
 				{
+					"id": "a2bfc529-2304-8706-7c36-a10fb960d52a",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/futureoption/newfutureoption",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "POST",
+					"data": "{\n    Reference : ,\n    HarmonyReference : ,\n    Source : ,\n    Type : ,\n    Direction : ,\n    Quantity : ,\n    Instrument : ,\n    Price : ,\n    TradeDateTime : ,\n    DealerId : ,\n    Book : \n}",
+					"dataMode": "raw",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1464604908541,
+					"name": "Future",
+					"description": "Future or option request\n\nReturn value\nNewFutureOptionResponseDTO",
+					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"responses": []
+				},
+				{
 					"id": "a349635e-e90b-5c79-dd3a-5727b5d0f071",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
 					"url": "{{Url}}/order/updatetradeorder",
@@ -12020,6 +12510,144 @@
 					"responses": []
 				},
 				{
+					"id": "c615b0ec-2817-808a-5528-3b4a99ac96bf",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/pricealert/delete/:alertId",
+					"preRequestScript": null,
+					"pathVariables": {
+						"alertId": "41679"
+					},
+					"method": "POST",
+					"data": "{\n    AlertId : 0,\n    MarketId : 99500,\n    Criterion : 1,\n    Direction : 1,\n    FillRate : 10.0,\n    EmailAddress : \"test@gmail.com\",\n    Expiry : 1,\n    ExpiryDate : null,\n    Comment : \"comment\",\n    NotificationMethod : 2\n}",
+					"dataMode": "raw",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1464605715712,
+					"name": "Delete",
+					"description": "Return value\nbool",
+					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 84,
+							"headers": [
+								{
+									"name": "Access-Control-Allow-Origin",
+									"key": "Access-Control-Allow-Origin",
+									"value": "*",
+									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+								},
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "4",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Mon, 30 May 2016 10:55:13 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "nc h0-s1201.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "true",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "be235228-cd9b-5d77-2bb2-79ddef34c6c2",
+							"name": "bool",
+							"request": {
+								"url": "{{Url}}/pricealert/delete/:alertId",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": "{\n    AlertId : 0,\n    MarketId : 99500,\n    Criterion : 1,\n    Direction : 1,\n    FillRate : 10.0,\n    EmailAddress : \"test@gmail.com\",\n    Expiry : 1,\n    ExpiryDate : null,\n    Comment : \"comment\",\n    NotificationMethod : 2\n}",
+								"method": "POST",
+								"dataMode": "raw"
+							}
+						}
+					]
+				},
+				{
 					"id": "c7af35f3-6e0b-1886-5d1f-b14ffe583730",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
 					"url": "{{Url}}/margin/ClientAccountMargin",
@@ -12286,6 +12914,24 @@
 					],
 					"owner": "601052",
 					"folder": "bde9609c-47b9-34a8-0097-0465583c6a40"
+				},
+				{
+					"id": "c89fa023-d1a3-f3ec-13f0-5c00320f202a",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/readandreturn",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1464606293095,
+					"name": "GetDefaultResponse",
+					"description": "sample Url:\n\nReturn value\nAuthenticationResponseDTO",
+					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"responses": []
 				},
 				{
 					"id": "cc39caa8-3bfe-4721-110f-8fdda351dfb9",
@@ -13618,6 +14264,136 @@
 					]
 				},
 				{
+					"id": "e1b0871d-aacf-a49b-03eb-2759b9ad19f8",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/smoketest",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1464606178669,
+					"name": "DoSmokeTest",
+					"description": "Return value\nSystemStatusDTO",
+					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"responses": [
+						{
+							"status": "",
+							"responseCode": {
+								"code": 200,
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+							},
+							"time": 274,
+							"headers": [
+								{
+									"name": "Cache-Control",
+									"key": "Cache-Control",
+									"value": "no-cache",
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+								},
+								{
+									"name": "Connection",
+									"key": "Connection",
+									"value": "keep-alive",
+									"description": "Options that are desired for the connection"
+								},
+								{
+									"name": "Content-Length",
+									"key": "Content-Length",
+									"value": "54",
+									"description": "The length of the response body in octets (8-bit bytes)"
+								},
+								{
+									"name": "Content-Type",
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"description": "The mime type of this content"
+								},
+								{
+									"name": "Date",
+									"key": "Date",
+									"value": "Mon, 30 May 2016 11:02:56 GMT",
+									"description": "The date and time that the message was sent"
+								},
+								{
+									"name": "Expires",
+									"key": "Expires",
+									"value": "-1",
+									"description": "Gives the date/time after which the response is considered stale"
+								},
+								{
+									"name": "Pragma",
+									"key": "Pragma",
+									"value": "no-cache",
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+								},
+								{
+									"name": "Server",
+									"key": "Server",
+									"value": "PWS/8.1.36",
+									"description": "A name for the server"
+								},
+								{
+									"name": "X-AspNet-Version",
+									"key": "X-AspNet-Version",
+									"value": "4.0.30319",
+									"description": "Custom header"
+								},
+								{
+									"name": "X-Powered-By",
+									"key": "X-Powered-By",
+									"value": "ASP.NET",
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+								},
+								{
+									"name": "X-Px",
+									"key": "X-Px",
+									"value": "ms h0-s1201.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
+								}
+							],
+							"cookies": [],
+							"mime": "",
+							"text": "{\"StatusMessage\":\"Everything OK When Running locally\"}",
+							"language": "javascript",
+							"rawDataType": "text",
+							"previewType": "html",
+							"searchResultScrolledTo": -1,
+							"forceNoPretty": false,
+							"write": true,
+							"empty": false,
+							"failed": false,
+							"state": {
+								"size": "normal"
+							},
+							"id": "f83bbaef-ff50-acc8-8705-ef3a9c01f475",
+							"name": "SystemStatusDTO",
+							"request": {
+								"url": "{{Url}}/smoketest",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									}
+								],
+								"data": null,
+								"method": "GET",
+								"dataMode": "params"
+							}
+						}
+					]
+				},
+				{
 					"id": "e3ef6a67-5823-45e7-1fed-ed5d8edfbbfc",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
 					"url": "{{Url}}/useraccount/search?pageNumber=0&maxResults=5&screenNameQuery=joelipol&activeSinceLessThanMonth=1&excludeNonLiveUsers=false&minimumAverageTradeLength=0&minimumNumberOfFollowers=0&lastTradedUnderlyingTypes=FX&userId=4352",
@@ -14283,6 +15059,24 @@
 							}
 						}
 					]
+				},
+				{
+					"id": "ec0452c6-0cc2-af10-ad74-4f31bfefcfd1",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"url": "{{Url}}/itfinancesession/getitfinancesession",
+					"preRequestScript": null,
+					"pathVariables": {},
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1464605237959,
+					"name": "GetITFinanceSession",
+					"description": "Get IT Finance session key. \n\nReturn value\nGetITFinanceSessionServiceResponseDTO",
+					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
+					"responses": []
 				},
 				{
 					"id": "ef20fdd5-9932-677b-cf19-278f8bf6cd28",
@@ -15635,49 +16429,6 @@
 	],
 	"environments": [
 		{
-			"id": "6033ddc7-4f8c-547d-1905-6469e1eed521",
-			"name": "CityIndex.TradingAPI.Environment.PROD",
-			"values": [
-				{
-					"key": "UserName",
-					"value": "10263668",
-					"type": "text",
-					"enabled": true,
-					"hovered": false
-				},
-				{
-					"key": "Session",
-					"value": "9905c037-148d-4161-b009-82b0e60b24e5",
-					"type": "text",
-					"enabled": true,
-					"hovered": false
-				},
-				{
-					"key": "Url",
-					"value": "https://ciapi.cityindex.com/TradingAPI",
-					"type": "text",
-					"enabled": true,
-					"hovered": false
-				},
-				{
-					"key": "ClientAccountId",
-					"type": "text",
-					"value": "400428567",
-					"enabled": true,
-					"hovered": false
-				},
-				{
-					"key": "AccountOperatorId",
-					"type": "text",
-					"value": "400784260",
-					"enabled": true,
-					"hovered": false
-				}
-			],
-			"team": null,
-			"timestamp": 1464602084935
-		},
-		{
 			"id": "81ce407c-66c0-8c66-f3c7-67dca371a567",
 			"name": "TradingAPI.PPE",
 			"values": [
@@ -15706,6 +16457,49 @@
 			],
 			"team": null,
 			"timestamp": 1464602084999
+		},
+		{
+			"id": "6033ddc7-4f8c-547d-1905-6469e1eed521",
+			"name": "CityIndex.TradingAPI.Environment.PROD",
+			"values": [
+				{
+					"key": "UserName",
+					"value": "10263668",
+					"type": "text",
+					"enabled": true,
+					"hovered": false
+				},
+				{
+					"key": "Session",
+					"value": "5100ae71-d002-40f1-b316-7e9998336c2d",
+					"type": "text",
+					"enabled": true,
+					"hovered": false
+				},
+				{
+					"key": "Url",
+					"value": "https://ciapi.cityindex.com/TradingAPI",
+					"type": "text",
+					"enabled": true,
+					"hovered": false
+				},
+				{
+					"key": "ClientAccountId",
+					"type": "text",
+					"value": "400428567",
+					"enabled": true,
+					"hovered": false
+				},
+				{
+					"key": "AccountOperatorId",
+					"type": "text",
+					"value": "400784260",
+					"enabled": true,
+					"hovered": false
+				}
+			],
+			"team": null,
+			"timestamp": 1464606408486
 		}
 	],
 	"headerPresets": [
@@ -15746,7 +16540,7 @@
 		{
 			"key": "Session",
 			"type": "text",
-			"value": "ec26c7d3-e77f-4198-bd94-7be5e833e5df",
+			"value": "5100ae71-d002-40f1-b316-7e9998336c2d",
 			"enabled": true,
 			"overridden": true,
 			"hovered": false
