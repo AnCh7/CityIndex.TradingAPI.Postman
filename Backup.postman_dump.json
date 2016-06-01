@@ -38,7 +38,7 @@
 				{
 					"id": "0d6de725-7c91-06f7-0000-49506514f6b3",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -47,7 +47,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464158659325,
+					"time": 1464683660352,
 					"name": "GetActiveCultures",
 					"description": "Gets a list of available and active cultures in the system",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -155,7 +155,7 @@
 				{
 					"id": "10945d79-362a-caeb-fc67-8c4382948bb0",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -164,7 +164,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464158566908,
+					"time": 1464683669928,
 					"name": "GetMessageTranslationOverridesByKey",
 					"description": "Returns overridden application message translations for an Account Operator by applicationId and translation key",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -273,7 +273,7 @@
 				{
 					"id": "1dc2a757-5632-a58d-1938-ae9f99525c40",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -282,7 +282,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464157797209,
+					"time": 1464683664769,
 					"name": "GetMessageTranslationsByKey",
 					"description": "Returns default application message translations by clientApplicationId and translation key",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -385,13 +385,12 @@
 								"dataMode": "raw"
 							}
 						}
-					],
-					"synced": true
+					]
 				},
 				{
 					"id": "4298376f-e507-cb7c-60ac-8999bcb555a3",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -400,7 +399,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464160281207,
+					"time": 1464683689010,
 					"name": "UpdateMessageTranslation",
 					"description": "Updates a default application message translation",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -509,7 +508,7 @@
 				{
 					"id": "586c4257-0c14-93ae-6536-bbeebbb1f006",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -518,7 +517,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464158631070,
+					"time": 1464683637544,
 					"name": "AddMessageTranslationOverrides",
 					"description": "Adds multiple overridden application message translations",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -824,7 +823,7 @@
 				{
 					"id": "58a4edf5-190e-ff71-cb21-bf7b81b27187",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -833,7 +832,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464160057363,
+					"time": 1464683679880,
 					"name": "SearchMessageTranslationOverrides",
 					"description": "Get ApplicationMessageTranslationsOverride filtered by Key, Value, Description and Language",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -942,7 +941,7 @@
 				{
 					"id": "66246afb-6b33-1893-983d-e9f6097ff248",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -951,7 +950,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464160475514,
+					"time": 1464683695819,
 					"name": "UpdateMessageTranslationOverride",
 					"description": "Updates an overridden application message translation",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -1059,7 +1058,7 @@
 				{
 					"id": "6b79f430-ff08-1193-d1e0-f9955238fd77",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -1068,7 +1067,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464160402596,
+					"time": 1464683632264,
 					"name": "AddMessageTranslationOverride",
 					"description": "Adds an overridden application message translation",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -1177,7 +1176,7 @@
 				{
 					"id": "787ac3e6-fd45-e46a-35a1-c3f40577d064",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -1186,7 +1185,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464158756207,
+					"time": 1464683674976,
 					"name": "GetMessageTranslations",
 					"description": "Returns default application message translations",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -1295,7 +1294,7 @@
 				{
 					"id": "7e50d371-5522-bd63-4b32-764d2620fc67",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx?wsld",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx?wsld",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -1304,7 +1303,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464160287240,
+					"time": 1464683589774,
 					"name": "AddMessageTranslation",
 					"description": "Adds a default application message translation",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -1413,7 +1412,7 @@
 				{
 					"id": "86c5a476-91b2-1b51-76a0-bb07b870de01",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -1422,7 +1421,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464160158871,
+					"time": 1464683684833,
 					"name": "SearchMessageTranslations",
 					"description": "Search application message translations by key, value, description and language",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -1531,7 +1530,7 @@
 				{
 					"id": "964e3f08-9e9e-e53e-6fb8-10ad73102a71",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -1540,7 +1539,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464158652925,
+					"time": 1464683655608,
 					"name": "DeleteMessageTranslationOverride",
 					"description": "Deletes overridden application message translation",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -1846,7 +1845,7 @@
 				{
 					"id": "973bda97-df2b-dac4-9e7b-35403fa22c30",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -1855,7 +1854,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464158605356,
+					"time": 1464683627705,
 					"name": "GetMessageTranslationOverrides",
 					"description": "Returns overridden application message translations for an Account Operator",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -1963,7 +1962,7 @@
 				{
 					"id": "9ad81b35-fbc4-a98e-26e9-05cb53ea0459",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -1972,7 +1971,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464158648740,
+					"time": 1464683650104,
 					"name": "DeleteMessageTranslation",
 					"description": "Deletes default application message translation",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -2180,7 +2179,7 @@
 				{
 					"id": "df5bf36a-b353-2611-2ad4-6cb9b5714bb8",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-type: text/xml; charset=utf-8\n",
-					"url": "http://localhost:17821/MessageTranslationService.asmx",
+					"url": "{{WsMessageTranslation}}/MessageTranslationService.asmx",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
@@ -2189,7 +2188,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464158643740,
+					"time": 1464683645264,
 					"name": "AddMessageTranslations",
 					"description": "Inserts multiple default application message translations",
 					"collectionId": "20b8a29f-58df-376c-b9e0-68e9b893e025",
@@ -2638,7 +2637,7 @@
 				{
 					"id": "00f5466a-0f26-2269-e812-c7cde39bb155",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/order/stoplimitorderhistory?TradingAccountId=400594476&MaxResults=20",
+					"url": "{{Url}}/order/stoplimitorderhistory?TradingAccountId={{TradingAccountId}}&MaxResults=20",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -2647,7 +2646,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463988519967,
+					"time": 1464683332128,
 					"name": "ListStopLimitOrderHistory",
 					"description": "Queries the stop / limit order history for a specified trading account. The result set includes only orders that were originally stop / limit orders that currently have one of the following statuses (3 - Open, 4 - Cancelled, 5 - Rejected, 9 - Closed, 10 - Red Card). There is currently no corresponding GetStopLimitOrderHistory (as with ListActiveStopLimitOrders).\r\n \r\nNotes on Parameters\r\nClientAccountId - this can be passed in order to retrieve all information on all trading accounts for which it is the parent. TradingAccountId - this can be passed to retrieve information specific to a certain trading account (the child of ClientAccount).\r\nIf neither ClientAccountId nor TradingAccountId is passed, then the information returned by default from the API is ClientAccount.\r\n\r\nReturn Value\r\nListStopLimitOrderHistoryResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -2766,9 +2765,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					]
 				},
 				{
 					"id": "063a9e90-93b2-41cb-71fe-375af162d80a",
@@ -3296,17 +3293,17 @@
 				},
 				{
 					"id": "184d72a1-2685-bb9f-4423-b6f4b267eb0e",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/hedge/newfxhedge",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    Reference : ,\n    HarmonyReference : ,\n    Source : ,\n    ExecutingBroker : ,\n    TradedCurrency : ,\n    Direction : ,\n    Quantity : ,\n    CounterCurrency : ,\n    Rate : ,\n    TradeDateTime : ,\n    ValueDate : ,\n    DealerId : ,\n    Book : \n}",
+					"data": "{\n    \"Reference\" : ,\n    \"HarmonyReference\" : ,\n    \"Source\" : ,\n    \"ExecutingBroker\" : ,\n    \"TradedCurrency\" : ,\n    \"Direction\" : ,\n    \"Quantity\" : ,\n    \"CounterCurrency\" : ,\n    \"Rate\" : ,\n    \"TradeDateTime\" : ,\n    \"ValueDate\" : ,\n    \"DealerId\" : ,\n    \"Book\" : \n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464605147893,
+					"time": 1464681780707,
 					"name": "Hedge",
 					"description": "Hedge service\n\nReturn value\nNewFxHedgeResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -3706,28 +3703,26 @@
 				},
 				{
 					"id": "248285a1-67e0-e4a4-2035-fe16da14c715",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/watchlist/Save",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    Watchlist : {\n        WatchlistId : 728808,\n        WatchlistDescription : \"asfgh\",\n        DisplayOrder : 123546,\n        Items : {\n            WatchlistId : 728808,\n            MarketId : 99500,\n            DisplayOrder : 123456\n        }\n    }\n}",
+					"data": "{\n    \"Watchlist\" : {\n        \"WatchlistId\" : 728808,\n        \"WatchlistDescription\" : \"asfgh\",\n        \"DisplayOrder\" : 123546,\n        \"Items\" : {\n            \"WatchlistId\" : 728808,\n            \"MarketId\" : 99500,\n            \"DisplayOrder\" : 123456\n        }\n    }\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463999044568,
+					"time": 1464682395869,
 					"name": "SaveWatchlist",
 					"description": "Save changes to the specified watchlist.\n\nReturn Value\nApiSaveWatchlistResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
-					"responses": [],
-					"owner": "601052",
-					"folder": "b9c66979-e223-2e8f-c5ea-cf9870fc6853"
+					"responses": []
 				},
 				{
 					"id": "26ad630a-45cf-f7b8-62ad-ec221a9adb46",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/spread/markets?MarketName=gold&MarketCode=null&ClientAccountId=400428567&MaxResults=20&UseMobileShortName=false",
+					"url": "{{Url}}/spread/markets?MarketName=gold&MarketCode=null&ClientAccountId={{ClientAccountId}}&MaxResults=20&UseMobileShortName=false",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -3736,7 +3731,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463986954441,
+					"time": 1464683029472,
 					"name": "ListSpreadMarkets",
 					"description": "Returns a list of Spread Betting markets filtered by market name and/or market code. Leave the market name and code parameters empty to return all markets available to the User.\r\n\r\nReturn Value\r\nListSpreadMarketsResponseDTO\r\n \r\nExample\r\n\r\nThe following request to the Live CIAPI environment retrieves the list of Spread Bet markets matching the following search criteria: market name contains \"Gold\", a maximum of 20 results returned, and use the short form of the market name.\r\nHTTP GET does not use the body. Parameters should be added in the query string.\r\n\r\nA successful request results in an HTTP 200 code in the response header, and the response body containing the market list information in JSON format (ListSpreadMarketsResponseDTO).",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -3748,7 +3743,7 @@
 								"name": "OK",
 								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
 							},
-							"time": 90,
+							"time": 523,
 							"headers": [
 								{
 									"name": "Cache-Control",
@@ -3777,7 +3772,7 @@
 								{
 									"name": "Date",
 									"key": "Date",
-									"value": "Mon, 23 May 2016 07:02:30 GMT",
+									"value": "Tue, 31 May 2016 08:23:43 GMT",
 									"description": "The date and time that the message was sent"
 								},
 								{
@@ -3813,7 +3808,7 @@
 								{
 									"name": "X-Px",
 									"key": "X-Px",
-									"value": "ms h0-s1035.p11-fra ( h0-s1146.p11-fra), ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
+									"value": "ms h0-s1201.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
 									"description": "Custom header"
 								}
 							],
@@ -3831,38 +3826,33 @@
 							"state": {
 								"size": "normal"
 							},
-							"id": "b99ade0c-71ce-bcac-338b-b27cec576661",
+							"id": "90303572-513b-feb5-1821-506e592b5368",
 							"name": "ListSpreadMarketsResponseDTO",
 							"request": {
-								"url": "{{Url}}/spread/markets?MarketName=gold&MarketCode=null&ClientAccountId=400428567&MaxResults=20&UseMobileShortName=false",
+								"url": "{{Url}}/spread/markets?MarketName=gold&MarketCode=null&ClientAccountId={{ClientAccountId}}&MaxResults=20&UseMobileShortName=false",
 								"headers": [
 									{
 										"key": "UserName",
 										"value": "{{UserName}}",
-										"type": "text",
 										"enabled": true
 									},
 									{
 										"key": "Session",
 										"value": "{{Session}}",
-										"type": "text",
 										"enabled": true
 									}
 								],
 								"data": null,
 								"method": "GET",
 								"dataMode": "params"
-							},
-							"owner": "601052"
+							}
 						}
-					],
-					"owner": "601052",
-					"folder": "2a9b91d5-2647-2f24-c7d5-c02887e4fd1b"
+					]
 				},
 				{
 					"id": "276c4bf2-8b26-d889-ed04-3bc51614aa26",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/tradingadvisor/allocationprofiles?tradingAccountId=400594476",
+					"url": "{{Url}}/tradingadvisor/allocationprofiles?tradingAccountId={{TradingAccountId}}",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -3871,7 +3861,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463989711751,
+					"time": 1464683431396,
 					"name": "ListAllocationProfiles",
 					"description": "List the allocation profiles associated with a Trading Advisor's trading account.\n\nReturn Value\nListAllocationProfilesResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -3990,9 +3980,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "e3690661-be40-32b1-11f3-d0712e948730"
+					]
 				},
 				{
 					"id": "2821b515-b476-c7cd-c8b6-e34fae972971",
@@ -4257,7 +4245,7 @@
 				{
 					"id": "2bf91b26-2cf8-0431-1d6f-84b61880c60d",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/order/orders?tradingAccountId=400594476&openOrders=true&acceptedOrders=false",
+					"url": "{{Url}}/order/orders?tradingAccountId={{TradingAccountId}}&openOrders=true&acceptedOrders=false",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -4266,7 +4254,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464601050497,
+					"time": 1464683403721,
 					"name": "ListOrders",
 					"description": "Not Implemented.\n\nReturn Value\nListOrdersResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -4406,17 +4394,17 @@
 				},
 				{
 					"id": "30b1453b-7ea0-a0ff-b22d-01575c71ff37",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/pricealert",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    AlertId : 0,\n    MarketId : 99500,\n    Criterion : 1,\n    Direction : 1,\n    FillRate : 10.0,\n    EmailAddress : \"test@gmail.com\",\n    Expiry : 1,\n    ExpiryDate : null,\n    Comment : \"comment\",\n    NotificationMethod : 2\n}",
+					"data": "{\n    \"AlertId\" : 0,\n    \"MarketId\" : 99500,\n    \"Criterion\" : 1,\n    \"Direction\" : 1,\n    \"FillRate\" : 10.0,\n    \"EmailAddress\" : \"test@gmail.com\",\n    \"Expiry\" : 1,\n    \"ExpiryDate\" : null,\n    \"Comment\" : \"comment\",\n    \"NotificationMethod\" : 2\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464605619587,
+					"time": 1464682067512,
 					"name": "Save",
 					"description": "Return value\nint",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -4558,117 +4546,6 @@
 					"description": "Fetches the Ci Connect user details for each of the client account ids that are passed\n\nreturn value\nApiGetMultipleUsersDetailsResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
 					"responses": [
-						{
-							"status": "",
-							"responseCode": {
-								"code": 200,
-								"name": "OK",
-								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
-							},
-							"time": 436,
-							"headers": [
-								{
-									"name": "Cache-Control",
-									"key": "Cache-Control",
-									"value": "no-cache",
-									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
-								},
-								{
-									"name": "Connection",
-									"key": "Connection",
-									"value": "keep-alive",
-									"description": "Options that are desired for the connection"
-								},
-								{
-									"name": "Content-Length",
-									"key": "Content-Length",
-									"value": "28",
-									"description": "The length of the response body in octets (8-bit bytes)"
-								},
-								{
-									"name": "Content-Type",
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8",
-									"description": "The mime type of this content"
-								},
-								{
-									"name": "Date",
-									"key": "Date",
-									"value": "Mon, 30 May 2016 07:39:21 GMT",
-									"description": "The date and time that the message was sent"
-								},
-								{
-									"name": "Expires",
-									"key": "Expires",
-									"value": "-1",
-									"description": "Gives the date/time after which the response is considered stale"
-								},
-								{
-									"name": "Pragma",
-									"key": "Pragma",
-									"value": "no-cache",
-									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
-								},
-								{
-									"name": "Server",
-									"key": "Server",
-									"value": "PWS/8.1.36",
-									"description": "A name for the server"
-								},
-								{
-									"name": "X-AspNet-Version",
-									"key": "X-AspNet-Version",
-									"value": "4.0.30319",
-									"description": "Custom header"
-								},
-								{
-									"name": "X-Powered-By",
-									"key": "X-Powered-By",
-									"value": "ASP.NET",
-									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-								},
-								{
-									"name": "X-Px",
-									"key": "X-Px",
-									"value": "ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
-									"description": "Custom header"
-								}
-							],
-							"cookies": [],
-							"mime": "",
-							"text": "{\"CiConnectUsersDetails\":[]}",
-							"language": "javascript",
-							"rawDataType": "text",
-							"previewType": "html",
-							"searchResultScrolledTo": -1,
-							"forceNoPretty": false,
-							"write": true,
-							"empty": false,
-							"failed": false,
-							"state": {
-								"size": "normal"
-							},
-							"id": "c82864a4-9614-c77b-2577-1d404eadfaf6",
-							"name": "ApiGetMultipleUsersDetailsResponseDTO",
-							"request": {
-								"url": "{{Url}}/useraccount/getusersbyclientaccountids?clientAccountIds=400428567",
-								"headers": [
-									{
-										"key": "UserName",
-										"value": "{{UserName}}",
-										"enabled": true
-									},
-									{
-										"key": "Session",
-										"value": "{{Session}}",
-										"enabled": true
-									}
-								],
-								"data": null,
-								"method": "GET",
-								"dataMode": "params"
-							}
-						},
 						{
 							"status": "",
 							"responseCode": {
@@ -4922,12 +4799,12 @@
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    \"PersonalEmailAddress\": \"test@test.com\",\n    \"PersonalEmailAddresssDirty\": true\n}",
+					"data": "{\n    \"PersonalEmailAddress\" : \"x@x.com\",\n    \"PersonalEmailAddressIsDirty\" : true\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463748566760,
+					"time": 1464684994332,
 					"name": "SaveAccountInformation",
 					"description": "Saves changes to the users account information. Currently only the user email address in the account information can be changed and saved.\n\nThe following request to the Live CIAPI environment saves a change to the user account information (email address change).\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiSaveAccountInformationResponseDTO in JSON format.\n\nAn (empty) response to indicate that the save account information operation has completed.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -4936,81 +4813,82 @@
 							"status": "",
 							"responseCode": {
 								"code": 200,
-								"name": "OK"
+								"name": "OK",
+								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
 							},
-							"time": 183,
+							"time": 486,
 							"headers": [
 								{
 									"name": "Access-Control-Allow-Origin",
 									"key": "Access-Control-Allow-Origin",
 									"value": "*",
-									"description": ""
+									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
 								},
 								{
 									"name": "Cache-Control",
 									"key": "Cache-Control",
 									"value": "no-cache",
-									"description": ""
+									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
 								},
 								{
 									"name": "Connection",
 									"key": "Connection",
 									"value": "keep-alive",
-									"description": ""
+									"description": "Options that are desired for the connection"
 								},
 								{
 									"name": "Content-Length",
 									"key": "Content-Length",
 									"value": "2",
-									"description": ""
+									"description": "The length of the response body in octets (8-bit bytes)"
 								},
 								{
 									"name": "Content-Type",
 									"key": "Content-Type",
 									"value": "application/json; charset=utf-8",
-									"description": ""
+									"description": "The mime type of this content"
 								},
 								{
 									"name": "Date",
 									"key": "Date",
-									"value": "Wed, 18 May 2016 10:30:35 GMT",
-									"description": ""
+									"value": "Tue, 31 May 2016 08:57:06 GMT",
+									"description": "The date and time that the message was sent"
 								},
 								{
 									"name": "Expires",
 									"key": "Expires",
 									"value": "-1",
-									"description": ""
+									"description": "Gives the date/time after which the response is considered stale"
 								},
 								{
 									"name": "Pragma",
 									"key": "Pragma",
 									"value": "no-cache",
-									"description": ""
+									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
 								},
 								{
 									"name": "Server",
 									"key": "Server",
 									"value": "PWS/8.1.36",
-									"description": ""
+									"description": "A name for the server"
 								},
 								{
 									"name": "X-AspNet-Version",
 									"key": "X-AspNet-Version",
 									"value": "4.0.30319",
-									"description": ""
+									"description": "Custom header"
 								},
 								{
 									"name": "X-Powered-By",
 									"key": "X-Powered-By",
 									"value": "ASP.NET",
-									"description": ""
+									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
 								},
 								{
 									"name": "X-Px",
 									"key": "X-Px",
-									"value": "nc h0-s1201.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
-									"description": ""
+									"value": "nc h0-s1035.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
+									"description": "Custom header"
 								}
 							],
 							"cookies": [],
@@ -5027,18 +4905,34 @@
 							"state": {
 								"size": "normal"
 							},
-							"id": "6877f179-b8a9-3b7b-c416-7efd3a9c141c",
+							"id": "b8cfbd34-05d2-e057-b972-608146c2043c",
 							"name": "ApiSaveAccountInformationResponseDTO",
-							"request": "b9625c6a-faff-449d-e3ef-241aab6e8b7f",
-							"owner": "601052",
-							"requestObject": "{\"url\":\"{{Url}}/useraccount/Save\",\"headers\":[{\"key\":\"UserName\",\"value\":\"{{UserName}}\",\"type\":\"text\",\"enabled\":true},{\"key\":\"Session\",\"value\":\"{{Session}}\",\"type\":\"text\",\"enabled\":true}],\"data\":\"{\\n    PersonalEmailAddress : \\\"x@x.com\\\",\\n    PersonalEmailAddressIsDirty : true\\n}\",\"method\":\"POST\",\"dataMode\":\"raw\"}",
-							"collectionId": "dea0b202-f2bf-aaf7-04ff-a4abca3e39bf",
-							"requestId": "b9625c6a-faff-449d-e3ef-241aab6e8b7f",
-							"collection": "dea0b202-f2bf-aaf7-04ff-a4abca3e39bf"
+							"request": {
+								"url": "{{Url}}/useraccount/Save",
+								"headers": [
+									{
+										"key": "UserName",
+										"value": "{{UserName}}",
+										"enabled": true
+									},
+									{
+										"key": "Session",
+										"value": "{{Session}}",
+										"enabled": true
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"enabled": true,
+										"description": "The mime type of this content"
+									}
+								],
+								"data": "{\n    \"PersonalEmailAddress\" : \"x@x.com\",\n    \"PersonalEmailAddressIsDirty\" : true\n}",
+								"method": "POST",
+								"dataMode": "raw"
+							}
 						}
-					],
-					"owner": "601052",
-					"folder": "af6570da-38aa-5ef0-9799-0731c4697527"
+					]
 				},
 				{
 					"id": "41ccf72b-d538-2bef-5328-614ad87b89f9",
@@ -5180,7 +5074,7 @@
 				{
 					"id": "45bbe1c3-6ac9-f330-1d03-4c45076da0f1",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/message/popupchoice?clientAccountId=400428567&accepted=true",
+					"url": "{{Url}}/message/popupchoice?clientAccountId={{ClientAccountId}}&accepted=true",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -5189,137 +5083,25 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464599557027,
+					"time": 1464682829880,
 					"name": "AcceptOrRejectMessagePopupResponse",
 					"description": "Return value\nvoid",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
-					"responses": [
-						{
-							"status": "",
-							"responseCode": {
-								"code": 200,
-								"name": "OK",
-								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
-							},
-							"time": 175,
-							"headers": [
-								{
-									"name": "Cache-Control",
-									"key": "Cache-Control",
-									"value": "no-cache",
-									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
-								},
-								{
-									"name": "Connection",
-									"key": "Connection",
-									"value": "keep-alive",
-									"description": "Options that are desired for the connection"
-								},
-								{
-									"name": "Content-Length",
-									"key": "Content-Length",
-									"value": "43",
-									"description": "The length of the response body in octets (8-bit bytes)"
-								},
-								{
-									"name": "Content-Type",
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8",
-									"description": "The mime type of this content"
-								},
-								{
-									"name": "Date",
-									"key": "Date",
-									"value": "Mon, 30 May 2016 09:10:47 GMT",
-									"description": "The date and time that the message was sent"
-								},
-								{
-									"name": "Expires",
-									"key": "Expires",
-									"value": "-1",
-									"description": "Gives the date/time after which the response is considered stale"
-								},
-								{
-									"name": "Pragma",
-									"key": "Pragma",
-									"value": "no-cache",
-									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
-								},
-								{
-									"name": "Server",
-									"key": "Server",
-									"value": "PWS/8.1.36",
-									"description": "A name for the server"
-								},
-								{
-									"name": "X-AspNet-Version",
-									"key": "X-AspNet-Version",
-									"value": "4.0.30319",
-									"description": "Custom header"
-								},
-								{
-									"name": "X-Powered-By",
-									"key": "X-Powered-By",
-									"value": "ASP.NET",
-									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-								},
-								{
-									"name": "X-Px",
-									"key": "X-Px",
-									"value": "ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
-									"description": "Custom header"
-								}
-							],
-							"cookies": [],
-							"mime": "",
-							"text": "{\"AskForClientApproval\":false,\"Message\":\"\"}",
-							"language": "javascript",
-							"rawDataType": "text",
-							"previewType": "html",
-							"searchResultScrolledTo": -1,
-							"forceNoPretty": false,
-							"write": true,
-							"empty": false,
-							"failed": false,
-							"state": {
-								"size": "normal"
-							},
-							"id": "1bfc88e1-1dec-b0a8-8196-a473ec405204",
-							"name": "GetMessagePopupResponseDTO",
-							"request": {
-								"url": "{{Url}}/message/popup?language=en-us&clientAccountId=400428567",
-								"headers": [
-									{
-										"key": "UserName",
-										"value": "{{UserName}}",
-										"enabled": true
-									},
-									{
-										"key": "Session",
-										"value": "{{Session}}",
-										"enabled": true
-									}
-								],
-								"data": null,
-								"method": "GET",
-								"dataMode": "params"
-							}
-						}
-					]
+					"responses": []
 				},
 				{
 					"id": "4a57d05f-bd1d-f0c7-549b-e1446c39e82a",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/order/activeorders",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    TradingAccountId : 400594476,\n    MaxResults : 10\n}",
+					"data": "{\n    \"TradingAccountId\" : \"{{TradingAccountId}}\",\n    \"MaxResults\" : 10\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464601246499,
+					"time": 1464683421171,
 					"name": "ListActiveOrders",
 					"description": "Queries for a specified trading account's active orders.\nThis URI returns the set of currently-active orders for the current user, or optionally for a specified trading account belonging to the current user.  Each order in the returned set can be either a stop/limit order or a trade.  Use the TypeId member on ApiActiveOrderDTO to determine whether it is a stop/limit or a trade.\n\nReturn Value\nListActiveOrdersResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -5970,7 +5752,7 @@
 				},
 				{
 					"id": "59e079a1-e6d5-cc57-f189-32eb6b0ceb6f",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/tradingadvisor/allocationprofile/save",
 					"preRequestScript": null,
 					"pathVariables": {},
@@ -5980,7 +5762,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463990233497,
+					"time": 1464682346341,
 					"name": "SaveAllocationProfile",
 					"description": "Create or update a Trading Advisor allocation profile. Do not set any ID fields when creating a new allocation profile, the platform will generate them.\n\nReturn Value\nSaveAllocationProfileResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -6105,9 +5887,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "e3690661-be40-32b1-11f3-d0712e948730"
+					]
 				},
 				{
 					"id": "5ad11302-3577-28f6-0989-8f882f9db392",
@@ -6646,7 +6426,7 @@
 				{
 					"id": "6007c05d-19a3-88a8-f8a2-0859f5dd843b",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/order/activestoplimitorders?TradingAccountId=400594476",
+					"url": "{{Url}}/order/activestoplimitorders?TradingAccountId={{TradingAccountId}}",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -6655,7 +6435,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463988428278,
+					"time": 1464683323485,
 					"name": "ListActiveStopLimitOrders",
 					"description": "Queries for a specified trading account's active stop / limit orders.\r\nThis URI is intended to support a grid in a UI. One usage pattern is to subscribe to streaming orders, call this for the initial data to display in the grid, then call the HTTP service GetActiveStopLimitOrder when you get updates on the order stream to get the updated data in this format.\r\n \r\nNotes on Parameters\r\nClientAccountId - this can be passed in order to retrieve all information on all trading accounts for which it is the parent. TradingAccountId - this can be passed to retrieve information specific to a certain trading account (the child of ClientAccount).\r\nIf neither ClientAccountId nor TradingAccountId is passed, then the information returned by default from the API is ClientAccount.\r\n\r\nReturn Value\r\nListActiveStopLimitOrderResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -6772,9 +6552,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					]
 				},
 				{
 					"id": "606cd319-ee54-2d19-d81a-da26c2810558",
@@ -7183,17 +6961,17 @@
 				},
 				{
 					"id": "6a5e420e-81fd-187e-b824-292b805fb9d2",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/clientpreference/get",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    Key : \"MARKET_QUANTITIES\"\n}",
+					"data": "{\n    \"Key\" : \"MARKET_QUANTITIES\"\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463986101511,
+					"time": 1464681958170,
 					"name": "Get",
 					"description": "Retrieve the specified client preference key/value pair.\r\nClient preference key/value pairs store elements of a trading platform saved by users, for example: \"Chart_Colour_Schemes\".\r\n\r\nReturn Value\r\nGetClientPreferenceResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -7317,24 +7095,21 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"synced": true,
-					"folder": "e8c39456-3581-c176-8f7b-c81f90678960",
-					"owner": "601052"
+					]
 				},
 				{
 					"id": "70439eb1-ca4b-7157-d828-f2c227f241c8",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/order/newtradeorder",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\r\n    \"IfDone\":[],\r\n    \"Direction\":\"buy\",\r\n    \"ExpiryDateTimeUTCDate\":null,\r\n    \"LastChangedDateTimeUTCDate\":null,\r\n    \"OcoOrder\":null,\r\n    \"Type\":null,\r\n    \"ExpiryDateTimeUTC\":null,\r\n    \"Applicability\":null,\r\n    \"TriggerPrice\":null,\r\n    \"BidPrice\":17911.8,\r\n    \"AuditId\":\"8327595-0-0-0-R\",\r\n    \"AutoRollover\":false,\r\n    \"MarketId\":99498,\r\n    \"OfferPrice\":17912.8,\r\n    \"OrderId\":0,\r\n    \"Currency\":null,\r\n    \"Quantity\":1,\r\n    \"QuoteId\":null,\r\n    \"LastChangedDateTimeUTC\":null,\r\n    \"PositionMethodId\":1,\r\n    \"TradingAccountId\":400594476,\r\n    \"MarketName\":\"Wall Street CFD\",\r\n    \"Status\":null,\r\n    \"isTrade\":true\r\n}",
+					"data": "{\r\n    \"IfDone\":[],\r\n    \"Direction\":\"buy\",\r\n    \"ExpiryDateTimeUTCDate\":null,\r\n    \"LastChangedDateTimeUTCDate\":null,\r\n    \"OcoOrder\":null,\r\n    \"Type\":null,\r\n    \"ExpiryDateTimeUTC\":null,\r\n    \"Applicability\":null,\r\n    \"TriggerPrice\":null,\r\n    \"BidPrice\":17911.8,\r\n    \"AuditId\":\"8327595-0-0-0-R\",\r\n    \"AutoRollover\":false,\r\n    \"MarketId\":99498,\r\n    \"OfferPrice\":17912.8,\r\n    \"OrderId\":0,\r\n    \"Currency\":null,\r\n    \"Quantity\":1,\r\n    \"QuoteId\":null,\r\n    \"LastChangedDateTimeUTC\":null,\r\n    \"PositionMethodId\":1,\r\n    \"TradingAccountId\":\"{{TradingAccountId}}\",\r\n    \"MarketName\":\"Wall Street CFD\",\r\n    \"Status\":null,\r\n    \"isTrade\":true\r\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463989111628,
+					"time": 1464683371361,
 					"name": "Trade",
 					"description": "This service is used for two functions:\r\nPlace an opening trade on a particular market. Do not set any order ID fields when requesting a new trade, the platform will generate them. The trade request may contain conditional if/done attached stop loss and limit closing orders.\r\nClose an open position. In this case, set the Close property with the Order ID of the opening trade.\r\n\r\nReturn Value\r\nApiTradeOrderResponseDTO\r\n \r\nExample\r\n\r\nThe following request to the Live CIAPI environment places a trade to buy 1 contract of the Wall Street CFD market at 17912.8.\r\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\r\n\r\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiTradeOrderResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -7459,9 +7234,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					]
 				},
 				{
 					"id": "72229c89-9198-a45e-b550-1a973965b4c9",
@@ -7739,13 +7512,13 @@
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\r\n    UserName : \"{{UserName}}\",\r\n    Session : \"{{Session}}\"\r\n}",
+					"data": "{\r\n    \"UserName\" : \"{{UserName}}\",\r\n    \"Session\" : \"{{Session}}\"\r\n}",
 					"dataMode": "raw",
 					"version": 2,
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464602455513,
+					"time": 1464681362336,
 					"name": "ValidateSession",
 					"description": "Validate a session, check that your session id and username combination are valid\n\nReturn value\nApiValidateSessionResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -8021,10 +7794,10 @@
 					"method": "POST",
 					"data": "{\n\t\"AppComments\": \"Windows 10\",\n\t\"AppKey\": \"None\",\n\t\"AppVersion\": \"1.0.0.0\",\n\t\"Password\": \"password\",\n\t\"UserName\": \"10263668\"\n}",
 					"dataMode": "raw",
-					"tests": "postman.clearGlobalVariables();\n\nvar data = JSON.parse(responseBody);\npostman.setGlobalVariable(\"Session\", data.Session);\npostman.setEnvironmentVariable(\"Session\", data.Session);\n\nvar requestData = JSON.parse(request.data);\npostman.setGlobalVariable(\"UserName\", requestData.UserName);",
+					"tests": "var data = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"Session\", data.Session);\n\nvar requestData = JSON.parse(request.data);\npostman.setEnvironmentVariable(\"UserName\", requestData.UserName);",
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464604025406,
+					"time": 1464681288766,
 					"name": "LogOn",
 					"description": "Create a new session. This is how you \"log on\" to the CIAPI.\n\nThe following request to the Live CIAPI environment logs in to your account using the example credentials of Username as \"DM123456\" and password as \"openthedoor\".\n\nThe AppKey required to use the CIAPI is sent to you once you have returned the signed terms and conditions of the CIAPI to our Partnerships team:\n\n    (PartnershipServices[at]cityindex.com).\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiLogOnResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -8136,17 +7909,17 @@
 				},
 				{
 					"id": "77f52bf7-a4ac-690c-9e82-7646cfbc03a7",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/clientpreference/delete",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    Key : \"MARKET_QUANTITIES\"\n}",
+					"data": "{\n    \"Key\" : \"MARKET_QUANTITIES\"\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463986192478,
+					"time": 1464681947354,
 					"name": "Delete",
 					"description": "Delete a client preference key/value pair.\r\nClient preference key/value pairs store elements of a trading platform saved by users, for example: \"Chart_Colour_Schemes\".\r\n\r\nReturn Value\r\nUpdateDeleteClientPreferenceResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -8270,24 +8043,21 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"synced": true,
-					"folder": "e8c39456-3581-c176-8f7b-c81f90678960",
-					"owner": "601052"
+					]
 				},
 				{
 					"id": "7b56eb6b-ce17-9f60-890f-6022bd50abad",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/order/updatestoplimitorder",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\r\n    \"IfDone\":[\r\n        {\"Stop\":\r\n            {\"ExpiryDateTimeUTC\":null,\r\n            \"Guaranteed\":false,\r\n            \"Direction\":\"buy\",\r\n            \"Quantity\":2,\r\n            \"Applicability\":\"GTC\",\r\n            \"TriggerPrice\":17000,\r\n            \"OrderId\":0\r\n            },\r\n        \"Limit\":null\r\n        }\r\n    ],\r\n    \"Direction\":\"sell\",\r\n    \"ExpiryDateTimeUTCDate\":null,\r\n    \"LastChangedDateTimeUTCDate\":null,\r\n    \"OcoOrder\":null,\r\n    \"Type\":null,\r\n    \"ExpiryDateTimeUTC\":null,\r\n    \"Applicability\":\"GTC\",\r\n    \"TriggerPrice\":16900,\r\n    \"BidPrice\":17883.6,\r\n    \"AuditId\":\"8410399-0-0-0-R\",\r\n    \"AutoRollover\":false,\r\n    \"MarketId\":99498,\r\n    \"OfferPrice\":17884.6,\r\n    \"OrderId\":560435116,\r\n    \"Currency\":null,\r\n    \"Quantity\":2,\r\n    \"QuoteId\":null,\r\n    \"LastChangedDateTimeUTC\":null,\r\n    \"PositionMethodId\":1,\r\n    \"TradingAccountId\":400594476,\r\n    \"MarketName\":\"Wall Street CFD\",\r\n    \"Status\":null,\r\n    \"isTrade\":false\r\n}",
+					"data": "{\r\n    \"IfDone\":[\r\n        {\"Stop\":\r\n            {\"ExpiryDateTimeUTC\":null,\r\n            \"Guaranteed\":false,\r\n            \"Direction\":\"buy\",\r\n            \"Quantity\":2,\r\n            \"Applicability\":\"GTC\",\r\n            \"TriggerPrice\":17000,\r\n            \"OrderId\":0\r\n            },\r\n        \"Limit\":null\r\n        }\r\n    ],\r\n    \"Direction\":\"sell\",\r\n    \"ExpiryDateTimeUTCDate\":null,\r\n    \"LastChangedDateTimeUTCDate\":null,\r\n    \"OcoOrder\":null,\r\n    \"Type\":null,\r\n    \"ExpiryDateTimeUTC\":null,\r\n    \"Applicability\":\"GTC\",\r\n    \"TriggerPrice\":16900,\r\n    \"BidPrice\":17883.6,\r\n    \"AuditId\":\"8410399-0-0-0-R\",\r\n    \"AutoRollover\":false,\r\n    \"MarketId\":99498,\r\n    \"OfferPrice\":17884.6,\r\n    \"OrderId\":560435116,\r\n    \"Currency\":null,\r\n    \"Quantity\":2,\r\n    \"QuoteId\":null,\r\n    \"LastChangedDateTimeUTC\":null,\r\n    \"PositionMethodId\":1,\r\n    \"TradingAccountId\":\"{{TradingAccountId}}\",\r\n    \"MarketName\":\"Wall Street CFD\",\r\n    \"Status\":null,\r\n    \"isTrade\":false\r\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463989404922,
+					"time": 1464683379832,
 					"name": "UpdateOrder",
 					"description": "Update the details of a resting entry order. For example: change the trigger price level or quantity, attach conditional if/done stop/limit orders, or attach an OCO relationship.\n\nReturn Value\nApiTradeOrderResponseDTO\n \nExample\n\nThe following request to the Live CIAPI environment adds an attached if/done stop order to an existing entry order for the Wall Street CFD market. The existing entry order has the Order ID: 530539775\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiTradeOrderResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -8412,9 +8182,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					]
 				},
 				{
 					"id": "7f99513e-b12e-ca5b-a3bf-788cbe47b376",
@@ -8557,17 +8325,17 @@
 				},
 				{
 					"id": "8182407e-ba62-d4dd-34f0-530b9f4f647f",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/order/activeorders",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    TradingAccountId : 400594476,\n    MaxResults : 20\n}",
+					"data": "{\n    \"TradingAccountId\" : \"{{TradingAccountId}}\",\n    \"MaxResults\" : 20\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463987423628,
+					"time": 1464683206139,
 					"name": "ListActiveOrders",
 					"description": "Queries the specified trading account for all open positions and active orders.\r\nThis URI is intended to support a grid in a UI. One usage pattern is to subscribe to streaming orders, call this service for the initial data to display in the grid, then call the HTTP service GetOpenPosition when you receive updates on the order stream to get the updated data in this format.\r\n \r\nNotes on Parameters\r\nClientAccountId - this can be passed in order to retrieve information on all trading accounts for which it is the parent. TradingAccountId - this can be passed to retrieve information specific to a certain trading account (the child of ClientAccount).\r\nIf neither ClientAccountId nor TradingAccountId is passed, then the information returned by default from the API is ClientAccount.\r\n\r\nReturn Value\r\nListActiveOrdersResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -8692,9 +8460,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					]
 				},
 				{
 					"id": "85085257-fee4-2fd8-ebc1-e95d2a312266",
@@ -8828,7 +8594,7 @@
 				},
 				{
 					"id": "8c26fa0d-2656-7042-4c24-6875ca8a4782",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/clientpreference/save",
 					"preRequestScript": null,
 					"pathVariables": {},
@@ -8838,7 +8604,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463986314890,
+					"time": 1464681964217,
 					"name": "Save",
 					"description": "Perform a save operation for client preferences in key/value pairs.\r\nClient preference key/value pairs store elements of a trading platform saved by users, for example: \"Chart_Colour_Schemes\".\r\n\r\nReturn Value\r\nUpdateDeleteClientPreferenceResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -9082,10 +8848,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"synced": true,
-					"folder": "e8c39456-3581-c176-8f7b-c81f90678960",
-					"owner": "601052"
+					]
 				},
 				{
 					"id": "9092af3d-08c9-445f-848c-6f3838d06137",
@@ -9232,10 +8995,10 @@
 					"data": null,
 					"dataMode": "params",
 					"version": 2,
-					"tests": "var data = JSON.parse(responseBody);\npostman.setGlobalVariable(\"ClientAccountId\", data.ClientAccountId);\npostman.setGlobalVariable(\"AccountOperatorId\", data.AccountOperatorId);",
+					"tests": "var data = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"TradingAccountId\", data.TradingAccounts[0].TradingAccountId);",
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463747562473,
+					"time": 1464681498194,
 					"name": "GetClientAndTradingAccount",
 					"description": "Returns the User's ClientAccountId and a list of their TradingAccounts. There are no parameters for this call.\n\nThe following request to the Live CIAPI environment retrieves the client and account information after LogOn has been performed.\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body containing the client and trading account information in JSON format (AccountInformationResponseDTO).\n",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -9352,23 +9115,21 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "af6570da-38aa-5ef0-9799-0731c4697527"
+					]
 				},
 				{
 					"id": "91fa10d7-c9e4-2817-fc5f-65fac67580f6",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/order/newstoplimitorder",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\r\n    \"isTrade\":false,\r\n    \"AutoRollover\":false,\r\n    \"AuditId\":\"xxxx\",\r\n    \"Currency\":null,\r\n    \"Direction\":\"buy\",\r\n    \"LastChangedDateTimeUTC\":null,\r\n    \"MarketName\":\"Wall Street CFD\",\r\n    \"BidPrice\":18300.6,\r\n    \"PositionMethodId\":1,\r\n    \"ExpiryDateTimeUTCDate\":null,\r\n    \"Status\":null,\r\n    \"MarketId\":99498,\r\n    \"LastChangedDateTimeUTCDate\":null,\r\n    \"Reference\":null,\r\n    \"OfferPrice\":18301.6,\r\n    \"TriggerPrice\":19000,\r\n    \"OrderId\":0,\r\n    \"Quantity\":1,\r\n    \"QuoteId\":null,\r\n    \"IfDone\":[],\r\n    \"TradingAccountId\":400594476,\r\n    \"OcoOrder\":null,\r\n    \"Type\":null,\r\n    \"Applicability\":\"GTC\",\r\n    \"ExpiryDateTimeUTC\":null\r\n}",
+					"data": "{\r\n    \"isTrade\" : false,\r\n    \"AutoRollover\" : false,\r\n    \"AuditId\" : \"xxxx\",\r\n    \"Currency\" : null,\r\n    \"Direction\" : \"buy\",\r\n    \"LastChangedDateTimeUTC\" : null,\r\n    \"MarketName\" : \"Wall Street CFD\",\r\n    \"BidPrice\" : 18300.6,\r\n    \"PositionMethodId\" : 1,\r\n    \"ExpiryDateTimeUTCDate\" : null,\r\n    \"Status\" : null,\r\n    \"MarketId\" : 99498,\r\n    \"LastChangedDateTimeUTCDate\" : null,\r\n    \"Reference\" : null,\r\n    \"OfferPrice\" : 18301.6,\r\n    \"TriggerPrice\" : 19000,\r\n    \"OrderId\" : 0,\r\n    \"Quantity\" : 1,\r\n    \"QuoteId\" : null,\r\n    \"IfDone\" : [],\r\n    \"TradingAccountId\" : \"{{TradingAccountId}}\",\r\n    \"OcoOrder\" : null,\r\n    \"Type\" : null,\r\n    \"Applicability\" : \"GTC\",\r\n    \"ExpiryDateTimeUTC\" : null\r\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463988776472,
+					"time": 1464683355502,
 					"name": "Order",
 					"description": "This service is used to place a new resting entry order on a particular market. Do not set any order ID fields when requesting a new order, the platform will generate them.\n\nReturn Value\nApiTradeOrderResponseDTO\n \nExample\n\nThe following request to the Live CIAPI environment places an entry Limit order to buy 1 contract of the Wall Street CFD market at 19,000.\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiTradeOrderResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -9493,23 +9254,21 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					]
 				},
 				{
 					"id": "927d0858-4787-3ec5-09f8-63cebd34c6c9",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/watchlists",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n\tWatchListIds : [\n\t    726399,\n\t    672876\n\t],\n\tIncludeMarketInformation : true,\n\tIncludeItems : true\n}",
+					"data": "{\n\t\"WatchListIds\" : [\n\t    726399,\n\t    672876\n\t],\n\t\"IncludeMarketInformation\" : true,\n\t\"IncludeItems\" : true\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464602956034,
+					"time": 1464682415911,
 					"name": "GetWatchlists",
 					"description": "Gets all watchlists for the user account. There are no parameters for this call.\n\nReturn Value\nListWatchlistResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -9762,12 +9521,12 @@
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    \"MarketInformation\" : [{\n        \"MarketId\" : 99500,\n        \"PriceTolerance\": 100,\n        \"PriceToleranceIsDirty\": true,\n        \"MarginFactor\": 1,\n        \"MarginFactorIsDirty\": false\n    }],\n    \"TradingAccountId\" : 400594476\n}",
+					"data": "{\n    \"MarketInformation\" : [{\n        \"MarketId\" : 99500,\n        \"PriceTolerance\": 100,\n        \"PriceToleranceIsDirty\": true,\n        \"MarginFactor\": 1,\n        \"MarginFactorIsDirty\": false\n    }],\n    \"TradingAccountId\" : \"{{TradingAccountId}}\"\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463756542713,
+					"time": 1464682687362,
 					"name": "SaveMarketInformation",
 					"description": "Save Market Information for the specified list of markets. Currently, this is used to store the per market Price Tolerance setting when changed by the user.\n\nThe following request to the Live CIAPI environment saves a change to the Wall Street DFT market Price Tolerance setting.\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiSaveMarketInformationResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -9896,23 +9655,21 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "bde9609c-47b9-34a8-0097-0465583c6a40"
+					]
 				},
 				{
 					"id": "941e5f28-dc42-5281-84f0-b3b6d3cbd235",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/order/simulate/newtradeorder",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\r\n    \"OcoOrder\":null,\r\n    \"Type\":null,\r\n    \"LastChangedDateTimeUTCDate\":null,\r\n    \"ExpiryDateTimeUTC\":null,\r\n    \"Applicability\":null,\r\n    \"Direction\":\"buy\",\r\n    \"ExpiryDateTimeUTCDate\":null,\r\n    \"TriggerPrice\":null,\r\n    \"BidPrice\":17864.4,\r\n    \"AuditId\":\"8049808-0-0-0-R\",\r\n    \"AutoRollover\":false,\r\n    \"MarketId\":99498,\r\n    \"isTrade\":true,\r\n    \"OfferPrice\":17865.4,\r\n    \"OrderId\":0,\r\n    \"LastChangedDateTimeUTC\":null,\r\n    \"Currency\":null,\r\n    \"Quantity\":1,\r\n    \"QuoteId\":null,\r\n    \"TradingAccountId\":400594476,\r\n    \"MarketName\":\"Wall Street CFD\",\r\n    \"PositionMethodId\":1,\r\n    \"Status\":null,\r\n    \"IfDone\":[]\r\n}",
+					"data": "{\r\n    \"OcoOrder\" : null,\r\n    \"Type\" : null,\r\n    \"LastChangedDateTimeUTCDate\" : null,\r\n    \"ExpiryDateTimeUTC\" : null,\r\n    \"Applicability\" : null,\r\n    \"Direction\" : \"buy\",\r\n    \"ExpiryDateTimeUTCDate\" : null,\r\n    \"TriggerPrice\" : null,\r\n    \"BidPrice\" : 17864.4,\r\n    \"AuditId\" : \"8049808-0-0-0-R\",\r\n    \"AutoRollover\" : false,\r\n    \"MarketId\" : 99498,\r\n    \"isTrade\" : true,\r\n    \"OfferPrice\" : 17865.4,\r\n    \"OrderId\" : 0,\r\n    \"LastChangedDateTimeUTC\" : null,\r\n    \"Currency\" : null,\r\n    \"Quantity\" : 1,\r\n    \"QuoteId\" : null,\r\n    \"TradingAccountId\" : \"{{TradingAccountId}}\",\r\n    \"MarketName\" : \"Wall Street CFD\",\r\n    \"PositionMethodId\" : 1,\r\n    \"Status\" : null,\r\n    \"IfDone\" : []\r\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463988954248,
+					"time": 1464683363617,
 					"name": "SimulateTrade",
 					"description": "API call that places a simulated trade. Use this service in a margin calculator to check how much margin is required to place the trade before the trade is actually executed.\n\nReturn Value\nApiSimulateTradeOrderResponseDTO\n \nExample\n\nThe following request to the Live CIAPI environment places a simulated trade to buy 1 contract of the Wall Street CFD market at 17865.4.\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiSimulateTradeOrderResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -10037,9 +9794,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					]
 				},
 				{
 					"id": "94dd4b93-87e7-cc53-fa18-228879ecdbab",
@@ -10291,17 +10046,17 @@
 				},
 				{
 					"id": "956d4aa8-486c-680c-b4b1-d2757891f205",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/watchlist/delete",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    WatchlistId : 728808\n}",
+					"data": "{\n    \"WatchlistId\" : 728808\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463990377804,
+					"time": 1464682356677,
 					"name": "DeleteWatchlist",
 					"description": "Delete the specified watchlist.\n\nReturn Value\nApiDeleteWatchlistResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -10426,23 +10181,21 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "b9c66979-e223-2e8f-c5ea-cf9870fc6853"
+					]
 				},
 				{
 					"id": "9c154cd2-f81b-8dff-47be-509b431b3117",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/message/ClientCommunicationMessageResponse",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    ClientCommunicationId : 1,\n    Accepted : true,\n    OtherResponse : \"response\"\n}",
+					"data": "{\n    \"ClientCommunicationId\" : 1,\n    \"Accepted\" : true,\n    \"OtherResponse\" : \"response\"\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464599810069,
+					"time": 1464681885777,
 					"name": "ClientCommunicationMessageUpdate",
 					"description": "Responses from clients regarding communication messages\n<example>doPost('/message/ClientCommunicationMessageResponse', {\"ClientCommunicationId\" : 1, \"Accepted\" : true, \"OtherResponse\" : \"Message\"})</example>\n\nReturn value\nApiClientCommunicationUpdateResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -10855,17 +10608,17 @@
 				},
 				{
 					"id": "a2bfc529-2304-8706-7c36-a10fb960d52a",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/futureoption/newfutureoption",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    Reference : ,\n    HarmonyReference : ,\n    Source : ,\n    Type : ,\n    Direction : ,\n    Quantity : ,\n    Instrument : ,\n    Price : ,\n    TradeDateTime : ,\n    DealerId : ,\n    Book : \n}",
+					"data": "{\n    \"Reference\" : ,\n    \"HarmonyReference\" : ,\n    \"Source\" : ,\n    \"Type\" : ,\n    \"Direction\" : ,\n    \"Quantity\" : ,\n    \"Instrument\" : ,\n    \"Price\" : ,\n    \"TradeDateTime\" : ,\n    \"DealerId\" : ,\n    \"Book\" : \n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464604908541,
+					"time": 1464681709680,
 					"name": "Future",
 					"description": "Future or option request\n\nReturn value\nNewFutureOptionResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -10873,17 +10626,17 @@
 				},
 				{
 					"id": "a349635e-e90b-5c79-dd3a-5727b5d0f071",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/order/updatetradeorder",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\r\n    \"IfDone\":[\r\n        {\"Stop\":\r\n            {\"ExpiryDateTimeUTC\":null,\r\n            \"Guaranteed\":false,\r\n            \"Direction\":\"sell\",\r\n            \"Quantity\":1,\r\n            \"Applicability\":\"GTC\",\r\n            \"TriggerPrice\":17800,\r\n            \"OrderId\":0\r\n            },\r\n            \"Limit\":null\r\n        }\r\n    ],\r\n    \"Direction\":\"buy\",\r\n    \"ExpiryDateTimeUTCDate\":null,\r\n    \"LastChangedDateTimeUTCDate\":null,\r\n    \"Reference\":null,\r\n    \"OcoOrder\":null,\r\n    \"Type\":null,\r\n    \"ExpiryDateTimeUTC\":null,\r\n    \"Applicability\":null,\r\n    \"TriggerPrice\":null,\r\n    \"BidPrice\":17882.5,\r\n    \"AuditId\":\"8433420-0-0-0-R\",\r\n    \"AutoRollover\":false,\r\n    \"MarketId\":99498,\r\n    \"OfferPrice\":17883.5,\r\n    \"OrderId\":560435116,\r\n    \"Currency\":null,\r\n    \"Quantity\":1,\r\n    \"QuoteId\":null,\r\n    \"LastChangedDateTimeUTC\":null,\r\n    \"PositionMethodId\":1,\r\n    \"TradingAccountId\":400594476,\r\n    \"MarketName\":\"Wall Street CFD\",\r\n    \"Status\":null,\r\n    \"isTrade\":true\r\n}",
+					"data": "{\r\n    \"IfDone\":[\r\n        {\"Stop\":\r\n            {\"ExpiryDateTimeUTC\":null,\r\n            \"Guaranteed\":false,\r\n            \"Direction\":\"sell\",\r\n            \"Quantity\":1,\r\n            \"Applicability\":\"GTC\",\r\n            \"TriggerPrice\":17800,\r\n            \"OrderId\":0\r\n            },\r\n            \"Limit\":null\r\n        }\r\n    ],\r\n    \"Direction\":\"buy\",\r\n    \"ExpiryDateTimeUTCDate\":null,\r\n    \"LastChangedDateTimeUTCDate\":null,\r\n    \"Reference\":null,\r\n    \"OcoOrder\":null,\r\n    \"Type\":null,\r\n    \"ExpiryDateTimeUTC\":null,\r\n    \"Applicability\":null,\r\n    \"TriggerPrice\":null,\r\n    \"BidPrice\":17882.5,\r\n    \"AuditId\":\"8433420-0-0-0-R\",\r\n    \"AutoRollover\":false,\r\n    \"MarketId\":99498,\r\n    \"OfferPrice\":17883.5,\r\n    \"OrderId\":560435116,\r\n    \"Currency\":null,\r\n    \"Quantity\":1,\r\n    \"QuoteId\":null,\r\n    \"LastChangedDateTimeUTC\":null,\r\n    \"PositionMethodId\":1,\r\n    \"TradingAccountId\":\"{{TradingAccountId}}\",\r\n    \"MarketName\":\"Wall Street CFD\",\r\n    \"Status\":null,\r\n    \"isTrade\":true\r\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463989585331,
+					"time": 1464683386569,
 					"name": "UpdateTrade",
 					"description": "This service is used for two functions:\r\nAdd a new closing stop loss and/or take profit limit order attached to an open position.\r\nModify the details for existing closing orders attached to an open position.\r\n\r\nReturn Value\r\nApiTradeOrderResponseDTO\r\n \r\nExample\r\n\r\nThe following request to the Live CIAPI environment adds a stop loss order to an open trade in the Wall Street CFD market.\r\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\r\n\r\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiTradeOrderResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -11008,9 +10761,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					]
 				},
 				{
 					"id": "ab6f87be-5a20-b15b-f8b5-7ac5315e61b0",
@@ -11153,13 +10904,13 @@
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\r\n    UserName : \"{{UserName}}\",\r\n    Session : \"{{Session}}\"\r\n}",
+					"data": "{\r\n    \"UserName\" : \"{{UserName}}\",\r\n    \"Session\" : \"{{Session}}\"\r\n}",
 					"dataMode": "raw",
 					"version": 2,
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464602574484,
+					"time": 1464681385968,
 					"name": "LogOff",
 					"description": "Delete a session.  This call is obsolete but retained for backwards compatibility; please rather POST to /deleteSession\n\nReturn value\nApiLogOffResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -11443,7 +11194,7 @@
 				{
 					"id": "b20fded1-9a0e-7d60-e396-5aadf914a2eb",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/tradingadvisor/managedclients?tradingAccountId=400594476",
+					"url": "{{Url}}/tradingadvisor/managedclients?tradingAccountId={{TradingAccountId}}",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -11452,7 +11203,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463989780674,
+					"time": 1464683438555,
 					"name": "ListManagedClients",
 					"description": "List the clients managed by a Trading Advisor.\n\nReturn Value\nListManagedClientsResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -11682,9 +11433,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "e3690661-be40-32b1-11f3-d0712e948730"
+					]
 				},
 				{
 					"id": "b2885560-f34c-be1f-1d1f-859704c11ff8",
@@ -11822,7 +11571,7 @@
 				{
 					"id": "b6a27c5e-36af-9c38-2925-b6918ee4359b",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/order/tradehistory?TradingAccountId=400594476&MaxResults=20",
+					"url": "{{Url}}/order/tradehistory?TradingAccountId={{TradingAccountId}}&MaxResults=20",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -11831,7 +11580,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463988585738,
+					"time": 1464683338975,
 					"name": "ListTradeHistory",
 					"description": "Queries the trade history for a specified trading account. The result set will contain orders with a status of (3 - Open, 9 - Closed), and includes orders that were a trade / stop / limit order. There's currently no corresponding GetTradeHistory (as with ListOpenPositions).\r\n \r\nNotes on Parameters\r\nClientAccountId - this can be passed in order to retrieve all information on all trading accounts for which it is the parent. TradingAccountId - this can be passed to retrieve information specific to a certain trading account (the child of ClientAccount).\r\nIf neither ClientAccountId nor TradingAccountId is passed, then the information returned by default from the API is ClientAccount.\r\n\r\nReturn Value\r\nListTradeHistoryResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -12061,9 +11810,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					]
 				},
 				{
 					"id": "b7ab8a2a-795d-f833-ac63-6dbb198f0dd9",
@@ -12511,19 +12258,19 @@
 				},
 				{
 					"id": "c615b0ec-2817-808a-5528-3b4a99ac96bf",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/pricealert/delete/:alertId",
 					"preRequestScript": null,
 					"pathVariables": {
 						"alertId": "41679"
 					},
 					"method": "POST",
-					"data": "{\n    AlertId : 0,\n    MarketId : 99500,\n    Criterion : 1,\n    Direction : 1,\n    FillRate : 10.0,\n    EmailAddress : \"test@gmail.com\",\n    Expiry : 1,\n    ExpiryDate : null,\n    Comment : \"comment\",\n    NotificationMethod : 2\n}",
+					"data": "{\n    \"AlertId\" : 0,\n    \"MarketId\" : 99500,\n    \"Criterion\" : 1,\n    \"Direction\" : 1,\n    \"FillRate\" : 10.0,\n    \"EmailAddress\" : \"test@gmail.com\",\n    \"Expiry\" : 1,\n    \"ExpiryDate\" : null,\n    \"Comment\" : \"comment\",\n    \"NotificationMethod\" : 2\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464605715712,
+					"time": 1464682117667,
 					"name": "Delete",
 					"description": "Return value\nbool",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -12935,17 +12682,17 @@
 				},
 				{
 					"id": "cc39caa8-3bfe-4721-110f-8fdda351dfb9",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/tradingadvisor/allocationprofile/delete",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    Id : 123456\n}",
+					"data": "{\n    \"Id\" : 123456\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463990080942,
+					"time": 1464682338458,
 					"name": "DeleteAllocationProfile",
 					"description": "Delete a Trading Advisor allocation profile.\n\nReturn Value\nDeleteAllocationProfileResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -13070,9 +12817,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "e3690661-be40-32b1-11f3-d0712e948730"
+					]
 				},
 				{
 					"id": "cc5bd69e-e0a1-619a-cd39-3c10712f9c09",
@@ -13880,12 +13625,12 @@
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\r\n\"NewPassword\":\"password\",\r\n\"UserName\":\"{{UserName}}\",\r\n\"Password\":\"password\"\r\n}",
+					"data": "{\r\n    \"NewPassword\" : \"password\",\r\n    \"UserName\" : \"{{UserName}}\",\r\n    \"Password\" : \"password\"\r\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463747356114,
+					"time": 1464681339254,
 					"name": "ChangePassword",
 					"description": "Change a user's password.\n\nThe following request to the Live CIAPI environment changes the DM123456 account password from \"allsystemsgo\" to \"openthedoor\".\n\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiSaveAccountInformationResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -13994,14 +13739,12 @@
 							"requestId": "676c3968-ff11-b7d0-2544-4b1e8a2ad888",
 							"collection": "dea0b202-f2bf-aaf7-04ff-a4abca3e39bf"
 						}
-					],
-					"owner": "601052",
-					"folder": "ddba1d55-6ed9-ac6a-c141-334ac43bc48a"
+					]
 				},
 				{
 					"id": "dc3e236f-3a8f-8686-4fa9-d5622029c555",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/order/openpositions?TradingAccountId=400594476",
+					"url": "{{Url}}/order/openpositions?TradingAccountId={{TradingAccountId}}",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -14010,7 +13753,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463988142412,
+					"time": 1464683298957,
 					"name": "ListOpenPositions",
 					"description": "Queries for a specified trading account's trades / open positions.\r\nThis URI is intended to support a grid in a UI. One usage pattern is to subscribe to streaming orders, call this for the initial data to display in the grid, then call the HTTP service GetOpenPosition when you get updates on the order stream to get the updated data in this format.\r\n \r\nNotes on Parameters\r\nClientAccountId - this can be passed in order to retrieve all information on all trading accounts for which it is the parent. TradingAccountId - this can be passed to retrieve information specific to a certain trading account (the child of ClientAccount).\r\nIf neither ClientAccountId nor TradingAccountId is passed, then the information returned by default from the API is ClientAccount.\r\n\r\nReturn Value\r\nListOpenPositionsResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -14129,9 +13872,7 @@
 							},
 							"owner": "601052"
 						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					]
 				},
 				{
 					"id": "e02e16d5-f6b1-6e6e-3bcb-5484cefaf80e",
@@ -14661,7 +14402,7 @@
 				{
 					"id": "e55b9fac-e0dc-ea67-d839-2cd2f403dee9",
 					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
-					"url": "{{Url}}/message/popup?language=en-us&clientAccountId=400428567",
+					"url": "{{Url}}/message/popup?language=en-US&clientAccountId={{ClientAccountId}}",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "GET",
@@ -14670,7 +14411,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464599470472,
+					"time": 1464695886436,
 					"name": "GetMessagePopup",
 					"description": "Return value\nGetMessagePopupResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -14679,76 +14420,75 @@
 							"status": "",
 							"responseCode": {
 								"code": 200,
-								"name": "OK",
-								"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+								"name": "OK"
 							},
-							"time": 175,
+							"time": 119,
 							"headers": [
 								{
 									"name": "Cache-Control",
 									"key": "Cache-Control",
 									"value": "no-cache",
-									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+									"description": ""
 								},
 								{
 									"name": "Connection",
 									"key": "Connection",
 									"value": "keep-alive",
-									"description": "Options that are desired for the connection"
+									"description": ""
 								},
 								{
 									"name": "Content-Length",
 									"key": "Content-Length",
 									"value": "43",
-									"description": "The length of the response body in octets (8-bit bytes)"
+									"description": ""
 								},
 								{
 									"name": "Content-Type",
 									"key": "Content-Type",
 									"value": "application/json; charset=utf-8",
-									"description": "The mime type of this content"
+									"description": ""
 								},
 								{
 									"name": "Date",
 									"key": "Date",
-									"value": "Mon, 30 May 2016 09:10:47 GMT",
-									"description": "The date and time that the message was sent"
+									"value": "Tue, 31 May 2016 08:19:56 GMT",
+									"description": ""
 								},
 								{
 									"name": "Expires",
 									"key": "Expires",
 									"value": "-1",
-									"description": "Gives the date/time after which the response is considered stale"
+									"description": ""
 								},
 								{
 									"name": "Pragma",
 									"key": "Pragma",
 									"value": "no-cache",
-									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
+									"description": ""
 								},
 								{
 									"name": "Server",
 									"key": "Server",
 									"value": "PWS/8.1.36",
-									"description": "A name for the server"
+									"description": ""
 								},
 								{
 									"name": "X-AspNet-Version",
 									"key": "X-AspNet-Version",
 									"value": "4.0.30319",
-									"description": "Custom header"
+									"description": ""
 								},
 								{
 									"name": "X-Powered-By",
 									"key": "X-Powered-By",
 									"value": "ASP.NET",
-									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+									"description": ""
 								},
 								{
 									"name": "X-Px",
 									"key": "X-Px",
 									"value": "ms h0-s1146.p11-fra ( h0-s56.p6-lhr), ms h0-s56.p6-lhr ( origin)",
-									"description": "Custom header"
+									"description": ""
 								}
 							],
 							"cookies": [],
@@ -14765,10 +14505,10 @@
 							"state": {
 								"size": "normal"
 							},
-							"id": "19768963-68bb-d1a1-1e3d-c5ae7e9c8831",
+							"id": "14af2aa7-9a7a-2836-7814-b5abe48b8aac",
 							"name": "GetMessagePopupResponseDTO",
 							"request": {
-								"url": "{{Url}}/message/popup?language=en-us&clientAccountId=400428567",
+								"url": "{{Url}}/message/popup?language=en-us&clientAccountId={{ClientAccountId}}",
 								"headers": [
 									{
 										"key": "UserName",
@@ -14790,17 +14530,17 @@
 				},
 				{
 					"id": "e7f36050-f9cb-f726-5860-deaf49ac0a76",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/news/headlines",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    \"MaxResults\":10,\n    \"Source\":\"dj\",\n    \"MarketId\":99498\n}",
+					"data": "{\n    \"MaxResults\" : 10,\n    \"Source\" : \"dj\",\n    \"MarketId\" : 99498\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464599963171,
+					"time": 1464681924555,
 					"name": "ListNewsHeadlines",
 					"description": "Get a list of current news headlines matching the request parameters. The list of news headlines can be filtered by various criteria such as market, or geographic region.\n\nReturn Value\nListNewsHeadlinesResponseDTO\n \nExample\n\nThe following request to the Live CIAPI environment requests the most recent 10 news headlines from the dj source for the Wall Street CFD market (ID: 99498).\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ListNewsHeadlinesResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -14926,17 +14666,17 @@
 				},
 				{
 					"id": "ebf4d465-ee8c-11ee-ba4c-463cb0e6f4ec",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/clientpreference/overriddensettings/save",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n   Settings : {\n        PriceTolerance : {\n            IsDirty : true,\n            Value : null\n        },\n        MarginFactorPercentage : {\n            IsDirty : true,\n            Value : null\n        }\n   }\n}",
+					"data": "{\n   \"Settings\" : {\n        \"PriceTolerance\" : {\n            \"IsDirty\" : true,\n            \"Value\" : null\n        },\n        \"MarginFactorPercentage\" : {\n            \"IsDirty\" : true,\n            \"Value\" : null\n        }\n   }\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464596833391,
+					"time": 1464682013493,
 					"name": "SaveOverriddenSettings",
 					"description": "Save client preferences.\r\n\r\nReturn Value\r\nApiClientPreferencesOverriddenSettingsSaveResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -15353,7 +15093,7 @@
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463751318809,
+					"time": 1464682577360,
 					"name": "ListMarketInformation",
 					"description": "Retrieve the Market Information for the markets in the specified list of market IDs.\n\nThe following request to the Live CIAPI environment requests the market information for the markets in the following list:\nUK 100 DFT (400616113)\nUK 100 CFD (99500)\nGBP/USD DFT (400616150)\nEUR/USD CFD (154290)\n \nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiTradeOrderResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -15462,9 +15202,7 @@
 							"requestId": "e5a4f088-1a21-20cc-dc4e-84eed8668d3c",
 							"collection": "dea0b202-f2bf-aaf7-04ff-a4abca3e39bf"
 						}
-					],
-					"owner": "601052",
-					"folder": "bde9609c-47b9-34a8-0097-0465583c6a40"
+					]
 				},
 				{
 					"id": "f599ec62-3b1d-7608-ea09-84a2c148a5ff",
@@ -15984,17 +15722,17 @@
 				},
 				{
 					"id": "faaa433c-1037-734e-81f9-a083dc63a8bb",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/clientpreference/getlist",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    Key : [\n        \"MARKET_QUANTITIES\",\n        \"CONNECTION_STATUS_DISPLAY_WARNING\"\n    ]\n}",
+					"data": "{\n    \"Key\" : [\n        \"MARKET_QUANTITIES\",\n        \"CONNECTION_STATUS_DISPLAY_WARNING\"\n    ]\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1464596489928,
+					"time": 1464681974178,
 					"name": "GetList",
 					"description": "Get client preferences\r\n\r\nReturn Value\r\nGetClientPreferencesResponseDTO",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
@@ -16265,144 +16003,21 @@
 				},
 				{
 					"id": "fc64f73e-00ee-e468-0b1d-9965d403eeca",
-					"headers": "UserName: {{UserName}}\nSession: {{Session}}\n",
+					"headers": "UserName: {{UserName}}\nSession: {{Session}}\nContent-Type: application/json\n",
 					"url": "{{Url}}/order/cancel",
 					"preRequestScript": null,
 					"pathVariables": {},
 					"method": "POST",
-					"data": "{\n    \"OrderId\":560435116,\n    \"TradingAccountId\":400594476\n}",
+					"data": "{\n    \"OrderId\" : 560435116,\n    \"TradingAccountId\" : \"{{TradingAccountId}}\"\n}",
 					"dataMode": "raw",
 					"tests": null,
 					"currentHelper": "normal",
 					"helperAttributes": {},
-					"time": 1463987448095,
+					"time": 1464683178282,
 					"name": "CancelOrder",
 					"description": "Cancel the specified order - the order can be a resting entry order or an attached closing order to an open position.\n\nReturn Value\nApiTradeOrderResponseDTO\n \nExample\n\nThe following request to the Live CIAPI environment cancels the entry order with order ID 12345 for the trading account ABCD890.\nNote: the authentication UserName and Session token are not shown in the example for the purposes of clarity, but they are required in the actual query string.\n\nA successful request results in an HTTP 200 code in the response header, and the response body is the ApiTradeOrderResponseDTO in JSON format.",
 					"collectionId": "80168ee4-3e22-8efb-ba1a-d4f9975b9ae0",
-					"responses": [
-						{
-							"status": "",
-							"responseCode": {
-								"code": 400,
-								"name": "Bad Request",
-								"detail": "The request cannot be fulfilled due to bad syntax."
-							},
-							"time": 77,
-							"headers": [
-								{
-									"name": "Access-Control-Allow-Origin",
-									"key": "Access-Control-Allow-Origin",
-									"value": "*",
-									"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-								},
-								{
-									"name": "Cache-Control",
-									"key": "Cache-Control",
-									"value": "no-cache",
-									"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
-								},
-								{
-									"name": "Connection",
-									"key": "Connection",
-									"value": "keep-alive",
-									"description": "Options that are desired for the connection"
-								},
-								{
-									"name": "Content-Length",
-									"key": "Content-Length",
-									"value": "129",
-									"description": "The length of the response body in octets (8-bit bytes)"
-								},
-								{
-									"name": "Content-Type",
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8",
-									"description": "The mime type of this content"
-								},
-								{
-									"name": "Date",
-									"key": "Date",
-									"value": "Mon, 23 May 2016 07:10:48 GMT",
-									"description": "The date and time that the message was sent"
-								},
-								{
-									"name": "Expires",
-									"key": "Expires",
-									"value": "-1",
-									"description": "Gives the date/time after which the response is considered stale"
-								},
-								{
-									"name": "Pragma",
-									"key": "Pragma",
-									"value": "no-cache",
-									"description": "Implementation-specific headers that may have various effects anywhere along the request-response chain."
-								},
-								{
-									"name": "Server",
-									"key": "Server",
-									"value": "PWS/8.1.36",
-									"description": "A name for the server"
-								},
-								{
-									"name": "X-AspNet-Version",
-									"key": "X-AspNet-Version",
-									"value": "4.0.30319",
-									"description": "Custom header"
-								},
-								{
-									"name": "X-Powered-By",
-									"key": "X-Powered-By",
-									"value": "ASP.NET",
-									"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-								},
-								{
-									"name": "X-Px",
-									"key": "X-Px",
-									"value": "nc h0-s1146.p11-fra ( h0-s56.p6-lhr), nc h0-s56.p6-lhr ( origin)",
-									"description": "Custom header"
-								}
-							],
-							"cookies": [],
-							"mime": "",
-							"text": "{\"HttpStatus\":400,\"ErrorMessage\":\"Cannot cancel order that does not have a status of 'Pending' or 'Accepted'.\",\"ErrorCode\":60108}",
-							"language": "javascript",
-							"rawDataType": "text",
-							"previewType": "html",
-							"searchResultScrolledTo": -1,
-							"forceNoPretty": false,
-							"write": true,
-							"empty": false,
-							"failed": false,
-							"state": {
-								"size": "normal"
-							},
-							"id": "e1f806ba-0688-eeae-a7de-24c9f3d52b97",
-							"name": "ApiTradeOrderResponseDTO",
-							"request": {
-								"url": "{{Url}}/order/cancel",
-								"headers": [
-									{
-										"key": "UserName",
-										"value": "{{UserName}}",
-										"type": "text",
-										"enabled": true
-									},
-									{
-										"key": "Session",
-										"value": "{{Session}}",
-										"type": "text",
-										"enabled": true
-									}
-								],
-								"data": "{\n    \"OrderId\":560435116,\n    \"TradingAccountId\":400594476\n}",
-								"method": "POST",
-								"dataMode": "params"
-							},
-							"owner": "601052"
-						}
-					],
-					"owner": "601052",
-					"folder": "6c4f7481-5d92-8b31-cc88-8ad32c90e0d6"
+					"responses": []
 				},
 				{
 					"id": "ff0b2944-1654-3026-7aa5-05063e09997f",
@@ -16441,7 +16056,7 @@
 				}
 			],
 			"team": null,
-			"timestamp": 1464602084944
+			"timestamp": 1464681152751
 		},
 		{
 			"id": "ad2a1da9-fc48-5a29-17cf-8333abeb6271",
@@ -16456,7 +16071,21 @@
 				}
 			],
 			"team": null,
-			"timestamp": 1464602084999
+			"timestamp": 1464681152848
+		},
+		{
+			"id": "d2a0f609-26e0-e55c-e13b-52a162b2d1ca",
+			"name": "WebServices",
+			"values": [
+				{
+					"key": "WsMessageTranslation",
+					"value": "http://localhost:17821",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"team": null,
+			"timestamp": 1464683567357
 		},
 		{
 			"id": "6033ddc7-4f8c-547d-1905-6469e1eed521",
@@ -16471,7 +16100,7 @@
 				},
 				{
 					"key": "Session",
-					"value": "5100ae71-d002-40f1-b316-7e9998336c2d",
+					"value": "1f82ba48-de3a-4f8a-a047-3c77fc87e234",
 					"type": "text",
 					"enabled": true,
 					"hovered": false
@@ -16496,10 +16125,17 @@
 					"value": "400784260",
 					"enabled": true,
 					"hovered": false
+				},
+				{
+					"key": "TradingAccountId",
+					"type": "text",
+					"value": "400594476",
+					"enabled": true,
+					"hovered": false
 				}
 			],
 			"team": null,
-			"timestamp": 1464606408486
+			"timestamp": 1464684546090
 		}
 	],
 	"headerPresets": [
@@ -16536,22 +16172,5 @@
 			"timestamp": 1463554437848
 		}
 	],
-	"globals": [
-		{
-			"key": "Session",
-			"type": "text",
-			"value": "5100ae71-d002-40f1-b316-7e9998336c2d",
-			"enabled": true,
-			"overridden": true,
-			"hovered": false
-		},
-		{
-			"key": "UserName",
-			"type": "text",
-			"value": "10263668",
-			"enabled": true,
-			"overridden": true,
-			"hovered": false
-		}
-	]
+	"globals": []
 }
